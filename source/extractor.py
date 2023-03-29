@@ -30,6 +30,23 @@ def splitQuestions(text):
             with open(f'data/output/question{i}.txt', 'w') as file:
                 print(question, file=file)
 
+def destructQuestion(question):
+    '''
+    Estrutura do json:
+    {
+    'Texto guia': 'some text',
+    'fonte': '(comphania das letras.. 2019)',
+    'pergunta':'De acordo com o texto o autor...',
+    'alternativas': {
+        'a': 'ele quis dizer x',
+        'b': 'ele quis dizer y'
+    },
+    'resposta': 'a'
+    }
+    
+    '''
+    pass
+
 if __name__ == '__main__':
     path = "./data/input/f12022Q_X.pdf"
     #extrair o texto completo e salvar ele
