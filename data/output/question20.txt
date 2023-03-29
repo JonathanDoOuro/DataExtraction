@@ -1,0 +1,24 @@
+ 
+ 
+Considere a matriz  
+𝐴=�1𝑘
+3𝑘2� 
+ e seja 𝐴=𝐴+𝐴
+𝑇, onde 𝐴𝑇 é a transposta da matriz 𝐴. 
+ 
+Sobre o sistema  
+𝐴�𝑥
+𝑦�=�20212022� 
+é correto afirmar que:               
+  
+ 
+ 
+ 6 a) se 𝑘 =0, o sistema não tem solução.  
+ 
+b) se 𝑘 =−1, o sistema tem infinitas soluções.  
+ 
+c) se 𝑘 =−1, o sistema não tem solução.  
+ d) se 𝑘 =3, o sistema tem infinitas soluções.  
+ 
+ 
+

@@ -1,0 +1,26 @@
+ 
+ Vacinar -se é um ato necessário para proteção individual e 
+coletiva. Até o momento, quatro vacinas contra o novo coronavírus (SARS -CoV-2) receberam autorização da 
+Agência Nacional de Vigilância Sanitária (Anvisa) para uso 
+no Brasil e podem apresentar biotecnologia distinta para 
+promover a resposta imune do organismo.  
+ 
+Assinale a alternativa que apresenta corretamente a relação entre o princípio tecnológico da vacina e a resposta imune induzida no organismo vacinado.   
+ 
+a) O DNA sintético induz a produção da proteína spike  do 
+SARS- CoV-2, o que estimula a produção de antígenos 
+pelo sistema imune.  
+ 
+b) O adenovírus, como um vetor viral replicante, carrega 
+o gene da proteína spike  do SARS- CoV-2 e induz a 
+produção de anticorpos pelo sistema imune.  
+ c) A partícula viral ativa do SARS -CoV-2 possui no 
+capsídeo a proteína spike, que induz a produção de 
+antígenos pelo sistema imune.  
+ 
+d) O RNAm sintético fornece instruções ao organismo 
+para a produção da proteína spike  do SARS -CoV-2, o 
+que estimula a produção de anticorpos pelo sistema 
+imune.  
+  
+

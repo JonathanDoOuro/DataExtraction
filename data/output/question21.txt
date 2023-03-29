@@ -1,0 +1,23 @@
+ 
+ Pedra- papel -tesoura, também chamado jankenpon ou 
+jokempô, é um jogo recreativo para duas pessoas. Nesse 
+jogo, os participantes usam as mãos para representar os 
+símbolos de pedra, papel e tesoura, conforme mostrado 
+nos emojis  a seguir:  
+  
+Pedra:  
+👊  Papel:  
+✋  Tesoura:  
+✌ 
+  Pelas regras do jogo, o participante que escolher “pedra” ganha do que escolher tesoura; o participante que escolher 
+tesoura ganha do que escolher papel; por fim, o que 
+escolher papel ganha do que escolher pedra. Se ambos escolherem os mesmos símbolos, eles empatam.  
+ Admitindo que os participantes escolhem os símbolos com igual probabilidade, qual a chance de acontecer pelo menos um empate em três partidas?  
+a) 16/27. 
+ b) 17/27. 
+ c) 18/27. 
+ 
+d) 19/27. 
+ 
+ 
+

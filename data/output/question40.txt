@@ -1,0 +1,53 @@
+ 
+ 
+O sistema PSA ( Pressure Swing Adsorption) é uma 
+alternativa à produção de oxigênio para hospitais ou 
+indústrias distantes de fornecedores. Esse sistema é também uma opção para os casos em que a produção por destilação criogênica não supre a demanda. O funcionamento do PSA se baseia na adsorção s eletiva do oxigênio ou do nitrogênio. O ar pressurizado é forçado a passar por colunas contendo substâncias sólidas. Tais substâncias adsorvem seletivamente ou o oxigênio ou o 
+nitrogênio. Quando o sólido fica saturado, promove- se uma 
+despressurização do si stema e então o gás se dessorve do 
+sólido. Dessa forma, os dois principais gases do ar são 
+separados um do outro. A figura A esquematiza o sistema de funcionamento do PSA e os gráficos 1 e 2 representam 
+isotermas de adsorção (estudo do equilíbrio a uma 
+temperatura constante) de N
+2 e O 2 para dois adsorventes 
+distintos. O gráfico 1 diz respeito a um complexo do metal 
+cobalto denominado CoBTTri , enquanto o gráfico 2 diz 
+respeito a um zeólito representado pela fórmula NaX.  
+ 
+Gráfico 1  
+ Figura A   
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Gráfico 2  
+ 
+ 
+Considerando as figuras, é correto afirmar que a separação a que se refere o texto seria possível utilizando- se 
+ 
+a) apenas o material NaX. O oxigênio seria obtido na 
+pressurização do sistema.  
+ 
+b) qualquer um dos dois materiais. O oxigênio seria obtido na despressurização do sistema apenas no 
+caso do CoBTTri.  
+ c) apenas o material CoBTTri. O oxigênio seria obtido na pressurização do sistema.  
+ 
+d) qualquer um dos dois materiais. O oxigênio seria 
+obtido na despressurização do sistema apenas no 
+caso do NaX.  0,0 0,2 0,4 0,6 0,8 1,00,00,10,20,30,40,5 
+  
+ O2Quantidade adsorvida (mmol g-1)
+Pressão (bar) N2NaX
+0,0 0,2 0,4 0,6 0,8 1,0012345 
+   O2Quantidade adsorvida (mmol g-1)
+Pressão (bar) N2CoBTTri  
+ 
+ 
+ 13 

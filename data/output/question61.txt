@@ -1,0 +1,28 @@
+ 
+ 
+A figura a seguir mostra a temperatura da tigela de uma 
+panela de arroz elétrica em função do tempo de cozimento. 
+Ligando- se a panela,  uma resistência elétrica aumenta a 
+temperatura da tigela contendo arroz e água  até que a 
+água entre em ebulição. Depo is que toda a água é 
+consumida ─ por evaporação e por absorção pelo arroz  ─, 
+a temperatura da tigela volta a subir, o que é detectado por 
+um sensor , e a panela é então desligada. A potência 
+elétrica dissipada pela resistência elétrica, na forma de 
+calor, é 400 W,P=  constante durante todo o cozimento. 
+Quanto vale a energia elétrica dissipada desde o início do 
+processo até que toda a água seja consumida? 
+ 
+   
+ 
+ 
+ 20 
+ 
+a) 13,3 kJ.  
+ 
+b) 240 kJ.  c) 720 kJ.  
+ d) 
+2000 kJ.  
+ 
+ 
+

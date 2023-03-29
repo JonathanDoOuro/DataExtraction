@@ -1,0 +1,25 @@
+ 
+ 
+A viagem desde o Columbia até a superfície da Lua foi realizada no Módulo Lunar Eagle, formado por dois estágios: um usado na descida e outro, na subida. A 
+massa seca do estágio de subida,  ou seja, sem contar a 
+massa do combustível  (quase totalmente consumido na 
+viagem  de volta),  era 
+2500  kg.m  Considere que o 
+módulo da aceleração gravitacional seja aproximadamente 
+constante e dado por =2
+orb1, 4  m / s gg  desde a 
+superfície lunar até a órbita do Columbia, que se situava a 
+uma al titude =110 km.h  Qual é a variação da energia 
+potencial gravitacional do estágio de subida (massa seca 
+que reencontra o Columbia) na viagem de volta?  
+ 
+a) 53,85 10 J.×  
+ 
+b) 82,75 10 J.×  
+ 
+c) 83,85 10 J.×  
+ 
+d) 92,75 10 J.×  
+ 
+ 
+

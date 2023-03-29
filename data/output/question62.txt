@@ -1,0 +1,26 @@
+ 
+ 
+A autoclave, um equipamento de esterilização de objetos 
+por meio de vapor de água em alta temperatura e pressão, 
+foi inventada por  Charles Chamberland, a pedido de Louis 
+Pasteur. A figura a seguir  mostra a curva da pressão 
+máxima de vapor da água em função da temperatura. Para 
+temperaturas e pressões d o lado esquerdo da curva, a 
+água encontra- se na fase líquida;  do lado direito, a água 
+está na fase de vapor. Nos pontos sobre a curva, as fases 
+líquida e de vapor coexistem. A pressão de funcionamento 
+de uma determinada autoclave é =3,0 atm.p  Se toda a 
+água está na fase de vapor, o que se pode dizer sobre a 
+sua temperatura ?θ 
+ 
+Dado: 1 ,0atm 100 kPa.=  
+ 
+a) θ pode ter qualquer valor maior que 0100 C.  
+ 
+b) θ pode ter qualquer valor maior que 0100 C  e menor 
+que 0133 C.  
+ 
+c) θ pode ter qualquer valor menor que 0100 C  ou 
+maior que 0133 C.  
+ 
+d) θ pode ter qualquer valor maior que 0133 C.  
