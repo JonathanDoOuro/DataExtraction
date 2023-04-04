@@ -45,17 +45,29 @@ def destructQuestion(question):
     }
     
     '''
+    pattern = r'\([^\(\)]+, [^\.]+\. [^:]+: [^\,]+, [0-9]{4}\.  p\. [0-9]+\.\)'
+    
+    split_text = re.split(pattern, question, maxsplit=1)
+    before_pattern = split_text[0]
+
+    print(before_pattern)
+    print(split_text[1])
     pass
 
 if __name__ == '__main__':
     path = "./data/input/f12022Q_X.pdf"
     #extrair o texto completo e salvar ele
-    text = extract_text_from_pdf(path)
+    """text = extract_text_from_pdf(path)
     with open(f'data/output/completeText.txt', 'w') as file:
         print(text, file=file)
 
     #separa as questões e salva em arquivos diferentes
-    splitQuestions(text)
+    splitQuestions(text)"""
+
+    with open('data/output/question10.txt') as arquivo:
+        string = arquivo.read()
+
+    destructQuestion(string)
 
 
 
