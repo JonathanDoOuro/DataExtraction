@@ -35,7 +35,6 @@ def destructQuestion(question):
     Estrutura do json:
     {
     'Texto guia': 'some text',
-    'fonte': '(comphania das letras.. 2019)',
     'pergunta':'De acordo com o texto o autor...',
     'alternativas': {
         'a': 'ele quis dizer x',
@@ -64,7 +63,7 @@ if __name__ == '__main__':
     #separa as questões e salva em arquivos diferentes
     splitQuestions(text)"""
 
-    with open('data/output/question10.txt') as arquivo:
+    with open('data/output/text/question10.txt') as arquivo:
         string = arquivo.read()
 
     destructQuestion(string)
