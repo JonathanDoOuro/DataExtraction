@@ -3,11 +3,8 @@ import time
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTImage, LTTextBoxHorizontal, LTTextBox, LTText, LTFigure
 
-
-
 #fonte de dados
-fontes = ['enem', 'unicamp']
-fonte = fontes[0]
+fonte = 'enem'
 path = 'data/input/2022_PV_impresso_D1_CD1.pdf'
 
 if fonte == 'enem':
@@ -19,7 +16,6 @@ elif fonte == 'unicamp':
 tem_imagem = dict()
 
 pages = extract_pages(path)
-
 
 #transforma o pdf em uma lista de elementos
 allElements = []
@@ -53,4 +49,4 @@ for k, v in tem_imagem.items():
     if v == False:
         naotem +=1
 
-print(naotem)
+print(tem_imagem)
