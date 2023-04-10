@@ -18,13 +18,9 @@ def verificarImagens(path, fonte):
 
     #transforma o pdf em uma lista de elementos
     allElements = []
-    tempo_inicial = time.time()
-    print("teste")
     for page in pages:
         for element in page:
             allElements.append(element)
-    tempo_final = time.time()
-    print(f"tempo: {tempo_final - tempo_inicial} segundos")
 
     elementos = allElements
 
@@ -75,44 +71,31 @@ def splitQuestions(text, consultaImagem):
                     print(question, file=file)
 
 def destructQuestion(question):
-    '''
-    Estrutura do json:
-    {
-    'Texto guia': 'some text',
-    'pergunta':'De acordo com o texto o autor...',
-    'alternativas': {
-        'a': 'ele quis dizer x',
-        'b': 'ele quis dizer y'
-    },
-    'resposta': 'a'
-    }
-    
-    '''
-    pattern = r'\([^\(\)]+, [^\.]+\. [^:]+: [^\,]+, [0-9]{4}\.  p\. [0-9]+\.\)'
-    
-    split_text = re.split(pattern, question, maxsplit=1)
-    before_pattern = split_text[0]
+    #pattern = r'\([^\(\)]+, [^\.]+\. [^:]+: [^\,]+, [0-9]{4}\.  p\. [0-9]+\.\)'
+    pattern = r"\s*a\)\s*"
 
+    split_text = re.split(pattern, question, maxsplit=1)
+    before_pattern = split_text[1]
     print(before_pattern)
-    print(split_text[1])
+
 
 if __name__ == '__main__':
     path = "./data/input/f12022Q_X.pdf"
     #extrair o texto completo e salvar ele
-    text = extract_text_from_pdf(path)
-    with open(f'data/output/completeText.txt', 'w') as file:
-        print(text, file=file)
+    #text = extract_text_from_pdf(path)
+    #with open(f'data/output/completeText.txt', 'w') as file:
+        #print(text, file=file)
 
-    consultaImagem = verificarImagens(path, 'unicamp')
+    #dicionatio indicando se uma questão possui imagem
+    #consultaImagem = verificarImagens(path, 'unicamp')
+
     #separa as questões e salva em arquivos diferentes
-    splitQuestions(text, consultaImagem)
+    #splitQuestions(text, consultaImagem)
 
-
-
-
-
-
-
+    #processa cada questão, serando sua estrutura
+    with open("data/output/text/question1.txt", "r") as question:
+        string = question.read()
+        destructQuestion(string)
 
 
 
