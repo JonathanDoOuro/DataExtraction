@@ -14,7 +14,7 @@ with fitz.open('data/input/f12022Q_X.pdf') as pdf:
             
             img = pdf.extract_image(image[0])
             
-            name = f"image{i+1}_{j+1}.{img['ext']}"
+            name = f"data/output/images/image{i+1}_{j+1}.{img['ext']}"
             # Save the image to a file
             with open(name, 'wb') as f:
                f.write(img['image'])

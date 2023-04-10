@@ -1,5 +1,4 @@
 import PyPDF2 as pd
-import cv2
 
 # Open the PDF file in read-binary mode
 with open('./data/input/f12022Q_X.pdf', 'rb') as pdf_file:
