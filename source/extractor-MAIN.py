@@ -67,7 +67,7 @@ def splitQuestions(text, consultaImagem):
             
             if (rawQuestion != None):
                 question = rawQuestion.group(0)
-                with open(f'data/output/text/question{i}.txt', 'w') as file:
+                with open(f'data/output/2023/question{i}.txt', 'w') as file:
                     print(question, file=file)
 
 def destructTexto(texto):
@@ -108,22 +108,27 @@ def destructQuestion(question):
 
 
 if __name__ == '__main__':
-    path = "./data/input/f12022Q_X.pdf"
+    path = "data/input/f12023Q_Z.pdf"
     #extrair o texto completo e salvar ele
-    #text = extract_text_from_pdf(path)
-    #with open(f'data/output/completeText.txt', 'w') as file:
-        #print(text, file=file)
+    text = extract_text_from_pdf(path)
+    with open(f'data/output/completeText3.txt', 'w') as file:
+        print(text, file=file)
 
     #dicionatio indicando se uma questão possui imagem
-    #consultaImagem = verificarImagens(path, 'unicamp')
+    consultaImagem = verificarImagens(path, 'unicamp')
 
+    naoTemImagem = 0
+    for x in consultaImagem.values():
+        if x == False:
+            naoTemImagem +=1
+    print(naoTemImagem)
     #separa as questões e salva em arquivos diferentes
-    #splitQuestions(text, consultaImagem)
+    splitQuestions(text, consultaImagem)
 
     #processa cada questão, serando sua estrutura
-    with open("data/output/text/question3.txt", "r") as question:
+    """with open("data/output/text/question3.txt", "r") as question:
         string = question.read()
-        destructQuestion(string)
+        destructQuestion(string)"""
 
 
 
