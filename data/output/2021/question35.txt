@@ -1,0 +1,27 @@
+ 
+ Um estudo recente avaliou como determinados plásticos se degradam na água do mar quando expostos à luz ultravioleta. Os plásticos estudados foram: NPG (plásticos diversos do Giro do Pacífico Norte), EPS (poliestireno expandido), PP (polipropileno) e PE (polietileno).  Considerando que somente 2% do plástico despejado no mar está à deriva, esse estudo tentou descobrir para onde vão os microplásticos no ambiente marinho. Um dos resultados do estudo é mostrado nos gráficos abaixo. Nesses gráficos, observam-se as produções de carbono orgânico dissolvido (DOC) por grama de carbono na amostra de plástico utilizado. O DOC foi identificado como o maior subproduto da fotodegradação de plásticos. 
+  
+ 
+(Adaptado de L. Zhu e outros.  Journal of Hazardous Materials  383, 2020, 
+121065.) 
+ 
+Os resultados mostram que 
+ 
+a) para os quatro plásticos, a velocidade de degradação 
+aumenta com o tempo de exposição; após 50 dias, a 
+maior degradação foi a do PP. 
+ 
+b) para três plásticos, a velocidade de degradação 
+aumenta com o tempo de exposição; após 50 dias, a 
+maior degradação foi a do EPS. 
+ 
+c) para apenas um plástico, a velocidade de degradação 
+não aumenta com o tempo de exposição; após 50 dias, 
+a maior degradação foi a do PP. 
+ 
+d) duas velocidades de degradação aumentam com o 
+tempo e duas permanecem constantes; após 50 dias, 
+a maior degradação foi a do EPS. 
+ 
+ 
+

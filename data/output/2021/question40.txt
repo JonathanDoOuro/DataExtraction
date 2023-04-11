@@ -1,0 +1,21 @@
+ 
+ 
+Se θ∈ ሺ0, π/2 ሻ, a expressão 
+ 
+cosሺ𝜃ሻ൅s e n ሺ𝜃ሻ
+senሺ𝜃ሻ൅cosሺ𝜃ሻെs e n ሺ𝜃ሻ
+cosሺ𝜃ሻ
+cosሺ𝜃ሻ൅s e n ሺ𝜃ሻ
+cosሺ𝜃ሻ൅cosሺ𝜃ሻെs e n ሺ𝜃ሻ
+senሺ𝜃ሻ 
+ 
+é equivalente a  
+a) cos
+ଶሺθሻെs e nଶሺθሻ. 
+ 
+b) cosሺ2θሻ൅s e n ሺ2θሻ. c) cosሺ2θሻെs e n ሺ2θሻ. 
+ 
+d) 1. 
+ 
+ 
+

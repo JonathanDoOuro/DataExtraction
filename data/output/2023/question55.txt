@@ -1,0 +1,17 @@
+
+Em um sorteio com cartelas numeradas de 0001 a 2000, João 
+decidiu comprar todas as cartelas em que a numeração exibisse 
+os números 2 e 5, e nenhuma a mais. Por exemplo, João com -
+prou as cartelas 1205 e 0025, mas não comprou as cartelas 
+0514 e 2000.
+Considere as afirmações:
+I) João comprou 108 cartelas.
+II) Se ao invés das cartelas com 2 e 5, João tivesse comprado 
+as cartelas com 1 e 5, ele teria comprado menos cartelas.
+III) João comprou 18 cartelas que possuem o número 3.
+Assinale a alternativa correta:
+a) Todas as afirmações são verdadeiras.
+b) Apenas a afirmação I é verdadeira.
+c) Apenas a afirmação II é verdadeira.
+d) Apenas as afirmações I e III são verdadeiras.
+

@@ -1,0 +1,27 @@
+ 
+ 
+As máscaras de proteção N95 e PFF2 se tornaram 
+ferramentas importantes no combate à disseminação do 
+novo coronavírus durante a pandemia da Covid- 19. Essas 
+máscaras possuem fibras compostas de um material com 
+campo elétrico permanente e são capazes de realizar uma 
+filtragem eletrostática das partículas ou gotículas dispersas 
+no ar. Considere um campo elétrico uniforme de módulo  
+2
+04,0 10 V/m E−= ×  em uma região do espaço. A 
+diferença de potencial elétrico entre duas linhas tracejadas 
+paralelas entre si e perpendiculares à direção desse campo 
+elétrico, separadas por uma distância ,dconforme mostra 
+a figura a seguir , é igual a  
+ 
+ 
+ 
+a) 101, 6 1 0  V.−×  
+ 
+b) 72,0 10  V.−×  
+ 
+c) 60,8 10  V.−×  
+ 
+d) 41, 2 1 0  V.−×  
+  
+

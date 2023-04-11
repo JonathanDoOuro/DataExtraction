@@ -1,0 +1,8 @@
+
+Suponha que uma função ƒ( x) satisfaça à propriedade 
+ƒ(x . y) = ƒ( x) + ƒ( y).
+Sabendo que ƒ(7) = 2 e ƒ(17) = 3, o valor de ƒ(2023) é 
+a) 7.
+b) 8.c) 17.
+d) 18.
+

@@ -1,0 +1,14 @@
+ 
+ 
+Considere uma lâmpada UV de potência 100  WP  que 
+funcione por 15  minutost  durante o processo de 
+esterilização de um objeto. A energia elétrica consumida 
+pela lâmpada nesse processo é igual a   
+a) 0,0066 kWh. 
+ 
+b)0,015 kWh. c) 0,025 kWh. 
+ 
+d) 1,5 kWh. 
+ 
+ 
+

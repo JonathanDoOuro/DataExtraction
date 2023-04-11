@@ -1,0 +1,9 @@
+
+Um balão, inicialmente em repouso no solo, decola e sobe em 
+movimento uniformemente variado. Se o balão atinge a altura 
+h = 80 m  após um tempo t = 40 s,  conclui-se que a aceleração 
+vertical  do balão nesse movimento é igual a
+a) 2,0 m/s2.
+b) 4,0 m/s2.c) 0,05 m/s2.
+d) 0,1 m/s2.
+

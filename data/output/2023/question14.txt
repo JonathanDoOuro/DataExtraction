@@ -1,0 +1,24 @@
+
+Um dos princípios da Química Verde, ilustrado por um dos gru -
+pos na TPQVS (texto I), é a economia atômica,  dada pela razão 
+da massa do produto de interesse pela massa total dos reagen -
+tes, sendo que quanto mais próximo de 1 é seu valor, maior é a 
+economia atômica. Considerando as reações de produção dos 
+dois principais biocombustíveis utilizados no contexto brasileiro,
+Síntese do biodiesel:
+C57H104O6 + 3 C2H5OH → 3 C20H38O2 + C3H8O3
+Síntese do etanol:
+C12H22O11 + H2O → 4 C2H5OH + 4 CO2
+pode-se afirmar que há uma maior economia de átomos e 
+a) maior geração de subprodutos (mol de subprodutos/ mol de 
+substrato) na síntese do etanol.
+b) menor geração de subprodutos (mol de subprodutos/ mol 
+de substrato) na síntese do etanol.
+c) maior geração de subprodutos (mol de subprodutos/ mol de 
+substrato) na síntese do biodiesel.
+d) menor geração de subprodutos (mol de subprodutos/ mol 
+de substrato) na síntese do biodiesel.
+Dados de Massa Molar (g/mol): C57H104O6 = 884; C2H5OH = 46; 
+C20H38O2 = 310; C3H8O3 = 92; C12H22O11 = 342; H2O = 18; CO2 
+= 44.
+

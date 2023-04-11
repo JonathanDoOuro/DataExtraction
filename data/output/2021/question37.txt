@@ -1,0 +1,13 @@
+ 
+ 
+Duas impressoras funcionando simultaneamente imprimem certa quantidade de páginas em 36 segundos. Sozinha, uma delas imprime a mesma quantidade de páginas em 90 segundos. Funcionando sozinha, para imprimir a mesma quantidade de páginas, a outra impressora gastaria  
+a) 48 segundos. 
+ 
+b) 54 segundos. 
+ 
+c) 60 segundos. 
+ 
+d) 72 segundos. 
+ 
+ 
+

@@ -1,0 +1,29 @@
+
+Cientistas desvendaram o mecanismo causador da síndrome 
+de Pitt-Hopkins, uma disfunção neuropsiquiátrica que tem ca -
+racterísticas do transtorno do espectro autista. A síndrome de 
+Pitt-Hopkins tem como origem uma mutação no gene TCF4 
+e causa déficit cognitivo, atraso motor profundo, ausência de 
+fala funcional e anormalidades respiratórias. O genoma huma -
+no tem duas cópias de cada gene. A síndrome de Pitt-Hopkins 
+ocorre quando uma das cópias do TCF4 não funciona. Os cien -
+tistas buscam alternativas para inserir uma terceira cópia ou 
+fazer com que a única cópia funcional expresse mais proteína 
+para compensar a cópia defeituosa.
+(Adaptado de  https://agencia.fapesp.br/estudo-abre-novas-possibilidades-de-tratamen -
+to-para-forma-de-autismo/38524/. Acesso em 23/05/2022.)
+Considerando as informações apresentadas e seus conhecimen -
+tos, é correto afirmar que a síndrome é causada em
+a) heterozigose, quando um dos alelos do gene TCF4 não pro -
+duz proteína funcional devido às alterações de bases nitro -
+genadas que modificam a proteína traduzida.
+b) homozigose, quando os dois alelos do gene TCF4 não pro -
+duzem proteína funcional devido à mutação da cromatina 
+que modifica a proteína traduzida.
+c) heterozigose, quando uma das cromátides do gene TCF4 
+não produz proteína funcional devido à mutação da croma -
+tina que modifica a proteína traduzida.
+d) homozigose, quando as duas cromátides do gene TCF4 não 
+produzem proteína funcional devido às alterações das bases 
+nitrogenadas que modificam a proteína traduzida.
+

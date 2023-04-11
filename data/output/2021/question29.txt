@@ -1,0 +1,22 @@
+ 
+ 
+Imagine-se como um dos coautores de um trabalho científico sobre a capacidade de dessalinização de fibras de carbono poroso (PCF). Ao revisar os dados da pesquisa, você observa que os resultados apresentados no 
+gráfico a seguir estão consistentes para MgCl
+2 e CaCl 2, do 
+ponto de vista do conhecimento químico. 
+ 
+ 
+ 
+No entanto, você também observa no gráfico que a 
+apresentação dos dados está  
+a) inconsistente para NaCl, mas consistente para KCl. 
+ 
+b) inconsistente para KCl, mas consistente para NaCl. 
+ 
+c) inconsistente para NaCl e KCl. 
+ 
+d) consistente para NaCl e KCl. 
+ 
+Massas molares em g mol-1: Na = 23; Mg = 24; Cl = 35,5;  
+K = 39; Ca = 40.   
+
