@@ -71,16 +71,20 @@ def splitQuestions(text, consultaImagem):
                     print(question, file=file)
 
 def destructTexto(texto):
-    citacao1 = r"\((?:[A-Z][a-z]+(?: [A-Z][a-z]+)*, ){2}(?:[A-Z][a-z]+(?: [A-Z][a-z]+)*, ){1}\d{4}, p\. \d+\.\)"
-    citacao2 = r"\s*\([^)]*\)\s*"
-    citacao3  = r"\s*\([^)]*\)\s*"
-    citacao4 = r"(.*?) \[(.*?)\], (.*?), (.*?), Disponível em (.*?), Acessado em (.*?)\."
-    citacao5 = r'\(Fonte: ([^\)]+)\. Acessado em ([^\)]+)\)'
+    patterns = [r"\((?:[A-Z][a-z]+(?: [A-Z][a-z]+)*, ){2}(?:[A-Z][a-z]+(?: [A-Z][a-z]+)*, ){1}\d{4}, p\. \d+\.\)",
+                r"\s*\([^)]*\)\s*",
+                r"(.*?) \[(.*?)\], (.*?), (.*?), Disponível em (.*?), Acessado em (.*?)\.",
+                r'\(Fonte: ([^\)]+)\. Acessado em ([^\)]+)\)'
+                ]
     #tentar com varios tipos de citação
-    result = re.split(citacao2, texto)
+    for pattern in patterns:
+        result = re.split(pattern, texto)
+        if(len(result) == 2):
+            newText = result[0]
+            comando = result[1]
+            print(newText)
+            break
     
-    newText = result[0]
-    comando = result[1]
 
 
 def destructAlternatives(alternativas):
@@ -117,7 +121,7 @@ if __name__ == '__main__':
     #splitQuestions(text, consultaImagem)
 
     #processa cada questão, serando sua estrutura
-    with open("data/output/text/question1.txt", "r") as question:
+    with open("data/output/text/question3.txt", "r") as question:
         string = question.read()
         destructQuestion(string)
 
