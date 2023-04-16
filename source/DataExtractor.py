@@ -22,10 +22,10 @@ class DataExtractor:
         output: devolve uma string com todo o texto
         """
         with open(f'{self.inputPath}/{arquivo}','rb') as file:
+            reader = pd.PdfReader(f'{self.inputPath}/{arquivo}')
             #extrair metadados (no mommento é stub)
             self.setMetaData("Unicamp", "2022", "4")
             #le e extrai o texto completo
-            reader = pd.PdfReader(file)
             results = []
             for i in range(0,len(reader.pages)):
                 selected_page = reader.pages[i]
@@ -72,23 +72,20 @@ class DataExtractor:
         """
         Retorna uma lista de questões, cada questão está em uma string
         """
-        #consultaImagem = self.verificarImagem(totalQuestoes)
         listaQuestoes = []
         for i in range(1, totalQuestoes):
-            if(True): #consultaImagem[i] != True
-                ls = [int(x) for x in str(i+1)]
-                li = [int(x) for x in str(i)]
+            ls = [int(x) for x in str(i+1)]
+            li = [int(x) for x in str(i)]
 
-                if (i >= 10):
-                    pattern = f'(?s)((?<=QUESTÃO {i})|(?<=QUESTÃO {li[0]} {li[1]})).*?((?=QUESTÃO {i+1})|(?=QUESTÃO {ls[0]} {ls[1]}))'
-                else:
-                    pattern = f'(?s)(?<=QUESTÃO {i}).*?(?=QUESTÃO {i+1})'
+            if (i >= 10):
+                pattern = f'(?s)((?<=QUESTÃO {i})|(?<=QUESTÃO {li[0]} {li[1]})).*?((?=QUESTÃO {i+1})|(?=QUESTÃO {ls[0]} {ls[1]}))'
+            else:
+                pattern = f'(?s)(?<=QUESTÃO {i}).*?(?=QUESTÃO {i+1})'
 
-                questaoBruta = re.search(pattern, texto)
-                
-                if (questaoBruta != None):
-                    questao = questaoBruta.group(0)
-                    listaQuestoes.append(questao)
+            questaoBruta = re.search(pattern, texto)
+            if (questaoBruta != None):
+                questao = questaoBruta.group(0)
+                listaQuestoes.append(questao)
         return listaQuestoes
     
     def desestruturarQuestao(self, questao):
@@ -98,10 +95,15 @@ class DataExtractor:
         texto = split_text[0]
         perguntas = split_text[1]
         perguntas = 'a) ' + perguntas
+        #salvar questão em um dicionario
         dicionario = dict()
         dicionario["texto"] = texto
         dicionario["alternativas"] = perguntas
-        dicionario["vestibular"] = self.vestibular
+        #metadados da questao
+        dicionario["metadados"] = dict()
+        dicionario["metadados"]["vestibular"] = self.vestibular
+        dicionario["metadados"]["anoDaProva"] = self.data
+        dicionario["metadados"]['numero_alternativas'] = self.quantidade_alternativas
         return dicionario
         
     def questoesJson(self, texto, qtdQuestoes):
@@ -109,6 +111,9 @@ class DataExtractor:
         listaQuestoes = []
         for questao in questoes:
             listaQuestoes.append(self.desestruturarQuestao(questao))
-        jsonLista = json.dumps(listaQuestoes)#.encode('utf-8').decode('unicode_escape')
+        try:    
+            jsonLista = json.dumps(listaQuestoes).encode('utf-8').decode('unicode_escape')
+        except UnicodeDecodeError:
+            pass
 
         return jsonLista

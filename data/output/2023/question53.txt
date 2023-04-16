@@ -1,7 +1,0 @@
-
-Para qual valor de a o sistema de equações lineares
-admite infinitas soluções?
-a) 1.
-b) 2.c) −1.
-d) −2.
-

@@ -1,8 +1,0 @@
-
-A massa total de um balão em um movimento de descida, des -
-de a altura inicial h = 80 m  até o solo, é m = 2000 kg. Qual é o 
-trabalho da força peso sobre o balão durante a descida?
-a) 2,0 × 104 J.
-b) 1,6 × 105  J.c) 2,0 × 105 J.
-d) 1,6 × 106 J.
-

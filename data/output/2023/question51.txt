@@ -1,7 +1,0 @@
-
-Sobre a função inversa de ()fx, é correto afirmar que
-a) 1() ()−= f x fx , para 1≠x  .
-b) 1() 1 / ()−= f x fx , para 1≠±x  .
-c) 1() ()−=− f x fx , para 1≠x .
-d) 1() ( )−= − f x fx , para 1≠x .
-
