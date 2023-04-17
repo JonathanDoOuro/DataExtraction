@@ -111,9 +111,7 @@ class DataExtractor:
         listaQuestoes = []
         for questao in questoes:
             listaQuestoes.append(self.desestruturarQuestao(questao))
-        try:    
-            jsonLista = json.dumps(listaQuestoes).encode('utf-8').decode('unicode_escape')
-        except UnicodeDecodeError:
-            pass
-
+  
+        jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)#.encode('utf-8').decode('unicode_escape')
+        
         return jsonLista
