@@ -68,11 +68,28 @@ class DataExtractor:
                             break
         return tem_imagem
 
+    def listaNumeros(self, separador):
+        out = []
+        for x in separador.split():
+            if(x.isdigit()):
+                out.append(int(x))
+        out.sort()
+        return out
+
     def dividirQuestoes(self, texto, totalQuestoes):
         """
         Retorna uma lista de questões, cada questão está em uma string
         """
+        listaFrasesComuns = [r"USE OS TEXTOS I e II PARA RESPONDER ÀS QUESTÕES \d+(?:,\s*\d+)*(?:\s*E\s*\d+)?",
+                            r"USE O TEXTO A SEGUIR PARA RESPONDER ÀS QUESTÕES \d+(?:,\s*\d+)*(?:\s*E\s*\d+)?",
+                            r"Leia o texto a seguir para responder às questões \d+(?:,\s*\d+)*(?:\s*e\s*\d+)?",
+                            r"Leia os textos a seguir para responder às questões \d+(?:,\s*\d+)*(?:\s*e\s*\d+)?",
+                            r"Texto comum para questões \d+(?:,\s*\d+)*(?:\s*e\s*\d+)?",
+                            r"Leia os textos 1 e 2, a seguir, para responder às questões \d+(?:,\s*\d+)*(?:\s*e\s*\d+)?"]    
+
         listaQuestoes = []
+        textoExtra = ""
+        addTextoExtra = []
         for i in range(1, totalQuestoes):
             ls = [int(x) for x in str(i+1)]
             li = [int(x) for x in str(i)]
@@ -84,8 +101,30 @@ class DataExtractor:
 
             questaoBruta = re.search(pattern, texto)
             if (questaoBruta != None):
+                #texto da questao
                 questao = questaoBruta.group(0)
-                listaQuestoes.append(questao)
+                for frase in listaFrasesComuns:
+                        pattern2 = re.compile(frase)
+                        output = re.search(pattern2, questao)
+                        #se achou um "leia o texto a seguir"
+                        if output != None:
+                            #string do tipo "texto comum bla bla"
+                            separador = output.group(0)
+                            #separa a questao em duas parte: 0: questão+alternativas; 1: texto extra
+                            vetor = questao.split(separador)
+                            #se a questão necessita de texto extra
+                            if(i in addTextoExtra):
+                                vetor[0] = textoExtra + vetor[0]
+                                addTextoExtra.remove(i)
+                            #listaQuestoes.append(vetor[0])
+                            textoExtra = vetor[1]
+                            addTextoExtra.extend(self.listaNumeros(separador))
+                            break
+                if(i in addTextoExtra):
+                    questao = textoExtra + questao
+                    listaQuestoes.append(questao)
+                else:
+                    listaQuestoes.append(questao)
         return listaQuestoes
     
     def desestruturarQuestao(self, questao):
