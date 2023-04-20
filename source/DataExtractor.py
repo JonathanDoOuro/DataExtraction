@@ -11,10 +11,11 @@ class DataExtractor:
     def setInputPath(self, inputPath):
         self.inputPath = inputPath
 
-    def setMetaData(self, vestibular, data, qtd_alternativas):
+    def setMetaData(self, vestibular, data, qtd_alternativas, codigo):
         self.vestibular = vestibular
         self.data = data
         self.quantidade_alternativas = qtd_alternativas
+        self.codigo = codigo
 
     def extrair_texto_do_pdf(self, arquivo):
         """
@@ -143,6 +144,7 @@ class DataExtractor:
         dicionario["metadados"]["vestibular"] = self.vestibular
         dicionario["metadados"]["anoDaProva"] = self.data
         dicionario["metadados"]['numero_alternativas'] = self.quantidade_alternativas
+        dicionario["metadados"]['codigo_prova'] = self.codigo
         return dicionario
         
     def questoesJson(self, texto, qtdQuestoes):
