@@ -1,7 +1,7 @@
 import fitz  # Import PyMuPDF module
 
 # Open the PDF file
-with fitz.open('data/input/f12022Q_X.pdf') as pdf:
+with fitz.open('data/input/enem2022PV_D1_CD1.pdf') as pdf:
     # Iterate over each page
     for i in range(pdf.page_count):
         page = pdf.load_page(i)
