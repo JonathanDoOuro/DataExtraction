@@ -2,6 +2,7 @@ import PyPDF2 as pd
 import  json
 import re
 from pdfminer.high_level import extract_pages
+from pdfminer.high_level import extract_text
 from pdfminer.layout import LTImage, LTTextBoxHorizontal, LTTextBox, LTText, LTFigure
 
 class DataExtractor:
@@ -23,6 +24,7 @@ class DataExtractor:
         input: recebe o nome do arquivo
         output: devolve uma string com todo o texto
         """
+        #text = extract_text(f'{self.inputPath}/{arquivo}')
         with open(f'{self.inputPath}/{arquivo}','rb') as file:
             reader = pd.PdfReader(f'{self.inputPath}/{arquivo}')
             #le e extrai o texto completo
@@ -32,6 +34,8 @@ class DataExtractor:
                 text = selected_page.extract_text()
                 results.append(text)
             return ' '.join(results) # converte a lista em um unico documento
+        #print(text)
+        #return text
     
     def verificarImagens(self, nQuestao):
         """Retorna um dicionario que diz se uma questão tem imagem ou não.
@@ -81,9 +85,12 @@ class DataExtractor:
         if (self.quantidade_questoes > 90):
             inicio = 91
         else:
-            inicio = 11
+            inicio = 1
         for i in range(inicio, self.quantidade_questoes):
-            pattern = f'(?s)(?<=Questão {i})(.*?)(?=Questão {i+1})'
+            if (i < 10):
+                pattern = f'(?s)((?<=Questão 0{i})|(?<=QUESTÃO 0{i}))(.*?)((?=Questão 0{i+1})|(?=QUESTÃO 0{i+1}))'
+            elif (i > 10):
+                pattern = f'(?s)((?<=Questão {i})|(?<=QUESTÃO {i}))(.*?)((?=Questão {i+1})|(?=QUESTÃO {i+1}))'
             questaoBruta = re.search(pattern, texto)
             if (questaoBruta != None):
                 questao = questaoBruta.group(0)
@@ -91,10 +98,18 @@ class DataExtractor:
 
         return listaQuestoes
 
-    def desestruturarQuestaoEnem(self, questao):
-        #main_text, alternatives = re.split(r'\n(?=[A-E]\s)', questao)
-        dicionario = dict()
-        dicionario["texto"] = questao
+    def desestruturarQuestaoEnem(self, questao, index):
+        bruto = re.split(r"\n[A-Z]\s", questao, maxsplit=1)
+        if(len(bruto) >= 2):
+            main_text = bruto[0]
+            choices = bruto[1] 
+            dicionario = dict()
+            dicionario['numero_da_questão'] = index
+            dicionario["texto"] = main_text
+            dicionario["alternativas"] = choices
+        else:
+            dicionario = dict()
+            dicionario['numero_da_questão'] = index
         #dicionario["alternativas"] = alternatives
         return dicionario
 
@@ -188,6 +203,6 @@ class DataExtractor:
             questoes = self.dividirQuestoesEnem(texto=texto)
             listaQuestoes = []
             for questao in questoes:
-                listaQuestoes.append(self.desestruturarQuestaoEnem(questao))
+                listaQuestoes.append(self.desestruturarQuestaoEnem(questao, questoes.index(questao)))
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         return jsonLista

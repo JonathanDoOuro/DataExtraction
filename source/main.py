@@ -55,23 +55,23 @@ if __name__ == "__main__":
 
     random_list = [random.randint(0, len(pasta_input)-1) for _ in range(3)]
 
-    for i in random_list:
-        arquivo = pasta_input[i]
-        print(arquivo)
-        metaData = simpleMetaData(arquivo)
-        extratorQuestoes.setMetaData(vestibular=metaData["vestibular"],
-                                     ano=metaData["data_prova"],
-                                     qtd_alternativas=metaData["qtd_alternativas"],
-                                     codigo=metaData["codigo"],
-                                     qtd_questoes=metaData["qtd_questoes"])
+    #for i in random_list:
+    arquivo = 'enem2013_PV_impresso_D1_CD2.pdf'
+    print(arquivo)
+    metaData = simpleMetaData(arquivo)
+    extratorQuestoes.setMetaData(vestibular=metaData["vestibular"],
+                                    ano=metaData["data_prova"],
+                                    qtd_alternativas=metaData["qtd_alternativas"],
+                                    codigo=metaData["codigo"],
+                                    qtd_questoes=metaData["qtd_questoes"])
 
-        #extrai o texto completo do pdf e retorna uma string
-        texto = extratorQuestoes.extrair_texto_do_pdf(arquivo)
-        #processa o texto e extrai cada questão separadamente
-        questoes = extratorQuestoes.questoesJson(texto)
-        #TO DO: extrair as respostas e salvar nos metadados da questao
-        #       antes de salvar o json
-        
-        #salva as questões em um arquivo json
-        with open(f'{outputPath}/{arquivo}.json', 'w') as file:
-           print(questoes, file=file)
+    #extrai o texto completo do pdf e retorna uma string
+    texto = extratorQuestoes.extrair_texto_do_pdf(arquivo)
+    #processa o texto e extrai cada questão separadamente
+    questoes = extratorQuestoes.questoesJson(texto)
+    #TO DO: extrair as respostas e salvar nos metadados da questao
+    #       antes de salvar o json
+    
+    #salva as questões em um arquivo json
+    with open(f'{outputPath}/{arquivo}.json', 'w') as file:
+        print(questoes, file=file)
