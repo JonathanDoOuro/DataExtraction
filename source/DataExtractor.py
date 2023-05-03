@@ -76,14 +76,13 @@ class DataExtractor:
         out.sort()
         return out
 
-    def dividirQuestoesEnem(self, texto, totalQuestoes):
+    def dividirQuestoesEnem(self, texto):
         listaQuestoes = []
-        print(texto)
-        if (totalQuestoes > 90):
+        if (self.quantidade_questoes > 90):
             inicio = 91
         else:
             inicio = 11
-        for i in range(inicio, totalQuestoes):
+        for i in range(inicio, self.quantidade_questoes):
             pattern = f'(?s)(?<=Questão {i})(.*?)(?=Questão {i+1})'
             questaoBruta = re.search(pattern, texto)
             if (questaoBruta != None):
@@ -99,7 +98,7 @@ class DataExtractor:
         #dicionario["alternativas"] = alternatives
         return dicionario
 
-    def dividirQuestoesUnicamp(self, texto, totalQuestoes):
+    def dividirQuestoesUnicamp(self, texto):
         """
         Retorna uma lista de questões, cada questão está em uma string
         """
@@ -116,7 +115,7 @@ class DataExtractor:
         listaQuestoes = []
         textoExtra = ""
         addTextoExtra = []
-        for i in range(1, totalQuestoes):
+        for i in range(1, self.quantidade_questoes):
             ls = [int(x) for x in str(i+1)]
             li = [int(x) for x in str(i)]
 
@@ -178,15 +177,15 @@ class DataExtractor:
         else:
             return dict()
 
-    def questoesJson(self, texto, qtdQuestoes):
+    def questoesJson(self, texto):
         if(self.vestibular == "unicamp"):
-            questoes = self.dividirQuestoesUnicamp(texto=texto, totalQuestoes=qtdQuestoes)
+            questoes = self.dividirQuestoesUnicamp(texto=texto)
             listaQuestoes = []
             for questao in questoes:
                 listaQuestoes.append(self.desestruturarQuestaoUnicamp(questao))
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)#.encode('utf-8').decode('unicode_escape')
         elif (self.vestibular == "enem"):
-            questoes = self.dividirQuestoesEnem(texto=texto, totalQuestoes=qtdQuestoes)
+            questoes = self.dividirQuestoesEnem(texto=texto)
             listaQuestoes = []
             for questao in questoes:
                 listaQuestoes.append(self.desestruturarQuestaoEnem(questao))
