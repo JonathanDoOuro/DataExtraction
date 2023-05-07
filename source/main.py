@@ -45,7 +45,7 @@ def simpleMetaData(arquivo):
 if __name__ == "__main__":
     #paths:
     inputPath = "data/input"
-    outputPath = "data/output"
+    outputPath = "data/output/analiseSaida"
 
     extratorQuestoes = DataExtractor(outputPath=outputPath)
     extratorQuestoes.setInputPath(inputPath=inputPath)
@@ -53,10 +53,9 @@ if __name__ == "__main__":
     #loop na pasta input
     pasta_input = os.listdir(inputPath)
 
-    random_list = [random.randint(0, len(pasta_input)-1) for _ in range(3)]
 
-    #for i in random_list:
-    arquivo = 'enem2013_PV_impresso_D1_CD2.pdf'
+    #arquivo = 'enem2013_PV_impresso_D1_CD2.pdf'
+    arquivo = "unicamp2015QW.pdf"
     print(arquivo)
     metaData = simpleMetaData(arquivo)
     extratorQuestoes.setMetaData(vestibular=metaData["vestibular"],
@@ -67,11 +66,10 @@ if __name__ == "__main__":
 
     #extrai o texto completo do pdf e retorna uma string
     texto = extratorQuestoes.extrair_texto_do_pdf(arquivo)
+    with open(f'{outputPath}/{arquivo}.txt', 'w') as file:
+        print(texto, file=file)
     #processa o texto e extrai cada questão separadamente
     questoes = extratorQuestoes.questoesJson(texto)
-    #TO DO: extrair as respostas e salvar nos metadados da questao
-    #       antes de salvar o json
-    
     #salva as questões em um arquivo json
     with open(f'{outputPath}/{arquivo}.json', 'w') as file:
         print(questoes, file=file)
