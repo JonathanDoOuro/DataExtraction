@@ -45,7 +45,7 @@ def simpleMetaData(arquivo):
 if __name__ == "__main__":
     #paths:
     inputPath = "data/input"
-    outputPath = "data/output/analiseSaida"
+    outputPath = "data/output/jsonFiles"
 
     extratorQuestoes = DataExtractor(outputPath=outputPath)
     extratorQuestoes.setInputPath(inputPath=inputPath)
@@ -54,22 +54,23 @@ if __name__ == "__main__":
     pasta_input = os.listdir(inputPath)
 
 
-    #arquivo = 'enem2013_PV_impresso_D1_CD2.pdf'
-    arquivo = "unicamp2015QW.pdf"
-    print(arquivo)
-    metaData = simpleMetaData(arquivo)
-    extratorQuestoes.setMetaData(vestibular=metaData["vestibular"],
-                                    ano=metaData["data_prova"],
-                                    qtd_alternativas=metaData["qtd_alternativas"],
-                                    codigo=metaData["codigo"],
-                                    qtd_questoes=metaData["qtd_questoes"])
+    #arquivo = 'enem2019_PV_impresso_D1_CD1.pdf'
+    #arquivo = "unicamp2015QW.pdf"
+    for arquivo in pasta_input:
+        print(arquivo)
+        metaData = simpleMetaData(arquivo)
+        extratorQuestoes.setMetaData(vestibular=metaData["vestibular"],
+                                        ano=metaData["data_prova"],
+                                        qtd_alternativas=metaData["qtd_alternativas"],
+                                        codigo=metaData["codigo"],
+                                        qtd_questoes=metaData["qtd_questoes"])
 
-    #extrai o texto completo do pdf e retorna uma string
-    texto = extratorQuestoes.extrair_texto_do_pdf(arquivo)
-    with open(f'{outputPath}/{arquivo}.txt', 'w') as file:
-        print(texto, file=file)
-    #processa o texto e extrai cada questão separadamente
-    questoes = extratorQuestoes.questoesJson(texto)
-    #salva as questões em um arquivo json
-    with open(f'{outputPath}/{arquivo}.json', 'w') as file:
-        print(questoes, file=file)
+        #extrai o texto completo do pdf e retorna uma string
+        texto = extratorQuestoes.extrair_texto_do_pdf(arquivo)
+        with open(f'{outputPath}/{arquivo}.txt', 'w') as file:
+            print(texto, file=file)
+        #processa o texto e extrai cada questão separadamente
+        questoes = extratorQuestoes.questoesJson(texto)
+        #salva as questões em um arquivo json
+        with open(f'{outputPath}/{arquivo}.json', 'w') as file:
+            print(questoes, file=file)

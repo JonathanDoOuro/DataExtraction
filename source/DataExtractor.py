@@ -90,18 +90,11 @@ class DataExtractor:
 
     def desestruturarAlternativas(self, alternativas):
         if(self.vestibular == "unicamp"):
-            regexAlternativas = re.compile(r'a\) (.+)\nb\) (.+)\nc\) (.+)\nd\) (.+)', re.DOTALL)
-            divididaBruta = re.findall(regexAlternativas, alternativas)
             escolhas = dict()
-            if len(divididaBruta) < 1:
-                print(alternativas)
-                escolhas["A"] = "error"
-            else:
-                dividida = divididaBruta[0]
-                escolhas["A"] = dividida[0]
-                escolhas["B"] = dividida[1]
-                escolhas["C"] = dividida[2]
-                escolhas["D"] = dividida[3]
+            escolhas["A"] = alternativas[0]
+            escolhas["B"] = alternativas[1]
+            escolhas["C"] = alternativas[2]
+            escolhas["D"] = alternativas[3]
         elif(self.vestibular == "enem"):
             escolhas = dict()
             escolhas["A"] = alternativas[0]
@@ -186,27 +179,28 @@ class DataExtractor:
         return listaQuestoes
     
     def desestruturarQuestaoUnicamp(self, questao, index):
-        #primeira etapa: separar o texto das perguntas
-        pattern = r"\s*a\)\s*"
-        split_text = re.split(pattern, questao, maxsplit=1)
-        texto = split_text[0]
-        if(len(split_text) > 1):
-            perguntas = split_text[1]
-            perguntas = 'a) ' + perguntas
-            #salvar questão em um dicionario
+        question_regex = re.compile(r'(.+)\na\) (.+)\nb\) (.+)\nc\) (.+)\nd\) (.+)', re.DOTALL)
+        questaoDividida = re.findall(question_regex, questao)
+        if (questaoDividida):
+            dividida = questaoDividida[0]
+            texto = dividida[0]
+            perguntas = list(dividida[1:])
+            #salva as informações em um dicionario
             dicionario = dict()
             dicionario['numero_da_questão'] = index
             dicionario["texto"] = texto
             dicionario["alternativas"] = self.desestruturarAlternativas(perguntas)
-            #metadados da questao
+            #metadados da questão
             dicionario["metadados"] = dict()
             dicionario["metadados"]["vestibular"] = self.vestibular
             dicionario["metadados"]["ano_prova"] = self.ano
             dicionario["metadados"]['quantidade_alternativas'] = self.quantidade_alternativas
             dicionario["metadados"]['codigo_prova'] = self.codigo
-            return dicionario
         else:
-            return dict()
+            dicionario = dict()
+            dicionario['numero_da_questão'] = index
+            dicionario["erro"] = 'padrão de questão não reconhecido'
+        return dicionario
 
     def questoesJson(self, texto):
         if(self.vestibular == "unicamp"):
