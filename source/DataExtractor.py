@@ -1,8 +1,9 @@
 import PyPDF2 as pd
-import  json
+import json
 import re
+import fitz
 from pdfminer.high_level import extract_pages
-from pdfminer.layout import LTImage, LTTextBoxHorizontal, LTTextBox, LTText, LTFigure
+from pdfminer.layout import LTTextBoxHorizontal, LTFigure
 
 class DataExtractor:
     def __init__(self, outputPath):
@@ -19,19 +20,12 @@ class DataExtractor:
         self.quantidade_questoes = qtd_questoes
 
     def extrair_texto_do_pdf(self, arquivo):
-        """
-        input: recebe o nome do arquivo
-        output: devolve uma string com todo o texto
-        """
-        with open(f'{self.inputPath}/{arquivo}','rb') as file:
-            reader = pd.PdfReader(f'{self.inputPath}/{arquivo}')
-            #le e extrai o texto completo
-            results = []
-            for i in range(0,len(reader.pages)):
-                selected_page = reader.pages[i]
-                text = selected_page.extract_text()
-                results.append(text)
-            return ' '.join(results) # converte a lista em um unico documento
+        doc = fitz.open(f'{self.inputPath}/{arquivo}')  # open document
+        texto = ''
+        for page in doc:  #iterate the document pages
+            text = page.get_text(sort=False)  # get plain text (is in UTF-8)
+            texto += text
+        return texto
     
     def verificarImagens(self, nQuestao):
         """Retorna um dicionario que diz se uma questão tem imagem ou não.
@@ -76,15 +70,17 @@ class DataExtractor:
         out.sort()
         return out
 
-    def dividirQuestoesEnem(self, texto, totalQuestoes):
+    def dividirQuestoesEnem(self, texto):
         listaQuestoes = []
-        print(texto)
-        if (totalQuestoes > 90):
+        if (self.quantidade_questoes > 90):
             inicio = 91
         else:
-            inicio = 11
-        for i in range(inicio, totalQuestoes):
-            pattern = f'(?s)(?<=Questão {i})(.*?)(?=Questão {i+1})'
+            inicio = 1
+        for i in range(inicio, self.quantidade_questoes):
+            if (i < 10):
+                pattern = f'(?s)((?<=Questão 0{i})|(?<=QUESTÃO 0{i}))(.*?)((?=Questão 0{i+1})|(?=QUESTÃO 0{i+1}))'
+            elif (i > 10):
+                pattern = f'(?s)((?<=Questão {i})|(?<=QUESTÃO {i}))(.*?)((?=Questão {i+1})|(?=QUESTÃO {i+1}))'
             questaoBruta = re.search(pattern, texto)
             if (questaoBruta != None):
                 questao = questaoBruta.group(0)
@@ -92,14 +88,48 @@ class DataExtractor:
 
         return listaQuestoes
 
-    def desestruturarQuestaoEnem(self, questao):
-        #main_text, alternatives = re.split(r'\n(?=[A-E]\s)', questao)
-        dicionario = dict()
-        dicionario["texto"] = questao
-        #dicionario["alternativas"] = alternatives
+    def desestruturarAlternativas(self, alternativas):
+        if(self.vestibular == "unicamp"):
+            escolhas = dict()
+            escolhas["A"] = alternativas[0]
+            escolhas["B"] = alternativas[1]
+            escolhas["C"] = alternativas[2]
+            escolhas["D"] = alternativas[3]
+        elif(self.vestibular == "enem"):
+            escolhas = dict()
+            escolhas["A"] = alternativas[0]
+            escolhas["B"] = alternativas[1]
+            escolhas["C"] = alternativas[2]
+            escolhas["D"] = alternativas[3]
+            escolhas["E"] = alternativas[4]
+        return escolhas
+    def desestruturarQuestaoEnem(self, questao, index):
+        #retira info desnecessaria
+        questao = questao.split("*")[0]
+        #separa o texto das alternativas
+        padraoQuestao = re.compile(r'(.+)\nA (.+)\nB (.+)\nC (.+)\nD (.+)\nE (.+)', re.DOTALL)
+        questaoDividida = re.findall(padraoQuestao, questao)
+        if (questaoDividida):
+            texto = questaoDividida[0][0]
+            perguntas = list(questaoDividida[0][1:])
+            #salva as informações em um dicionario
+            dicionario = dict()
+            dicionario['numero_da_questão'] = index
+            dicionario["texto"] = texto
+            dicionario["alternativas"] = self.desestruturarAlternativas(perguntas)
+            #metadados da questão
+            dicionario["metadados"] = dict()
+            dicionario["metadados"]["vestibular"] = self.vestibular
+            dicionario["metadados"]["ano_prova"] = self.ano
+            dicionario["metadados"]['quantidade_alternativas'] = self.quantidade_alternativas
+            dicionario["metadados"]['codigo_prova'] = self.codigo
+        else:
+            dicionario = dict()
+            dicionario['numero_da_questão'] = index
+            dicionario["erro"] = 'padrão de questão não reconhecido'
         return dicionario
 
-    def dividirQuestoesUnicamp(self, texto, totalQuestoes):
+    def dividirQuestoesUnicamp(self, texto):
         """
         Retorna uma lista de questões, cada questão está em uma string
         """
@@ -116,7 +146,7 @@ class DataExtractor:
         listaQuestoes = []
         textoExtra = ""
         addTextoExtra = []
-        for i in range(1, totalQuestoes):
+        for i in range(1, self.quantidade_questoes):
             ls = [int(x) for x in str(i+1)]
             li = [int(x) for x in str(i)]
 
@@ -136,16 +166,8 @@ class DataExtractor:
                         if output != None:
                             #string do tipo "texto comum bla bla"
                             separador = output.group(0)
-                            if (i == 1):    
-                                print(frase)
-                                print(separador)
                             #separa a questao em duas parte: 0: questão+alternativas; 1: texto extra
                             vetor = questao.split(separador)
-                            #se a questão necessita de texto extra
-                            """if(i in addTextoExtra):
-                                vetor[0] = textoExtra + vetor[0]
-                                addTextoExtra.remove(i)"""
-                            #listaQuestoes.append(vetor[0])
                             questao = vetor[0]
                             textoExtra = vetor[1]
                             addTextoExtra.extend(self.listaNumeros(separador))                            
@@ -156,39 +178,41 @@ class DataExtractor:
                     listaQuestoes.append(questao)
         return listaQuestoes
     
-    def desestruturarQuestaoUnicamp(self, questao):
-        #primeira etapa: separar o texto das perguntas
-        pattern = r"\s*a\)\s*"
-        split_text = re.split(pattern, questao, maxsplit=1)
-        texto = split_text[0]
-        if(len(split_text) > 1):
-            perguntas = split_text[1]
-            perguntas = 'a) ' + perguntas
-            #salvar questão em um dicionario
+    def desestruturarQuestaoUnicamp(self, questao, index):
+        question_regex = re.compile(r'(.+)\na\) (.+)\nb\) (.+)\nc\) (.+)\nd\) (.+)', re.DOTALL)
+        questaoDividida = re.findall(question_regex, questao)
+        if (questaoDividida):
+            dividida = questaoDividida[0]
+            texto = dividida[0]
+            perguntas = list(dividida[1:])
+            #salva as informações em um dicionario
             dicionario = dict()
+            dicionario['numero_da_questão'] = index
             dicionario["texto"] = texto
-            dicionario["alternativas"] = perguntas
-            #metadados da questao
+            dicionario["alternativas"] = self.desestruturarAlternativas(perguntas)
+            #metadados da questão
             dicionario["metadados"] = dict()
             dicionario["metadados"]["vestibular"] = self.vestibular
             dicionario["metadados"]["ano_prova"] = self.ano
             dicionario["metadados"]['quantidade_alternativas'] = self.quantidade_alternativas
             dicionario["metadados"]['codigo_prova'] = self.codigo
-            return dicionario
         else:
-            return dict()
+            dicionario = dict()
+            dicionario['numero_da_questão'] = index
+            dicionario["erro"] = 'padrão de questão não reconhecido'
+        return dicionario
 
-    def questoesJson(self, texto, qtdQuestoes):
+    def questoesJson(self, texto):
         if(self.vestibular == "unicamp"):
-            questoes = self.dividirQuestoesUnicamp(texto=texto, totalQuestoes=qtdQuestoes)
+            questoes = self.dividirQuestoesUnicamp(texto=texto)
             listaQuestoes = []
             for questao in questoes:
-                listaQuestoes.append(self.desestruturarQuestaoUnicamp(questao))
-            jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)#.encode('utf-8').decode('unicode_escape')
+                listaQuestoes.append(self.desestruturarQuestaoUnicamp(questao, questoes.index(questao)))
+            jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         elif (self.vestibular == "enem"):
-            questoes = self.dividirQuestoesEnem(texto=texto, totalQuestoes=qtdQuestoes)
+            questoes = self.dividirQuestoesEnem(texto=texto)
             listaQuestoes = []
             for questao in questoes:
-                listaQuestoes.append(self.desestruturarQuestaoEnem(questao))
+                listaQuestoes.append(self.desestruturarQuestaoEnem(questao, questoes.index(questao)))
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         return jsonLista
