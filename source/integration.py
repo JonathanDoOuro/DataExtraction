@@ -1,15 +1,21 @@
 from pymongo import MongoClient
 
-# Create a MongoClient instance
-mongo_uri = "mongodb://root:example@localhost:27017"
-client = MongoClient(mongo_uri)
+class BancoMongo:
 
-# Get a database
-db = client.local
+    def __init__(self, URI):
+        self.mongo_uri = URI
+        self.client = MongoClient(self.mongo_uri)
+        
+    def setURI(self, URI):
+        self.mongo_uri = URI
+        self.client = MongoClient(self.mongo_uri)
 
-# Get a collection
-collection = db.startup_log
+    def setDb(self, db_name: str):
+        #get a database
+        self.db = self.client[db_name]
 
-# Query the collection
-for document in collection.find():
-    print(document)
+    def setCollection(self, collection_name: str):
+        self.collection = self.db[collection_name]
+
+    def saveQuestion(self, question: dict):
+        self.collection.insert_one(question)

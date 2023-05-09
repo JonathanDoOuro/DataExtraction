@@ -1,8 +1,10 @@
 import PyPDF2 as pd
-import  json
+import json
 import re
+from source.integration import BancoMongo
 from pdfminer.high_level import extract_pages
-from pdfminer.layout import LTImage, LTTextBoxHorizontal, LTTextBox, LTText, LTFigure
+from pdfminer.layout import LTTextBoxHorizontal, LTFigure
+
 
 class DataExtractor:
     def __init__(self, outputPath):
@@ -10,6 +12,9 @@ class DataExtractor:
 
     def setInputPath(self, inputPath):
         self.inputPath = inputPath
+
+    def setBancoDados(self, banco: BancoMongo):
+        self.banco = banco
 
     def setMetaData(self, vestibular, ano, qtd_alternativas, codigo, qtd_questoes):
         self.vestibular = vestibular
@@ -184,7 +189,7 @@ class DataExtractor:
             listaQuestoes = []
             for questao in questoes:
                 listaQuestoes.append(self.desestruturarQuestaoUnicamp(questao))
-            jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)#.encode('utf-8').decode('unicode_escape')
+            jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         elif (self.vestibular == "enem"):
             questoes = self.dividirQuestoesEnem(texto=texto, totalQuestoes=qtdQuestoes)
             listaQuestoes = []

@@ -1,6 +1,7 @@
 from DataExtractor import DataExtractor
 import os
 import re
+from integration import BancoMongo
 
 def simpleMetaData(arquivo):
     '''
@@ -36,8 +37,15 @@ if __name__ == "__main__":
     inputPath = "data/input"
     outputPath = "data/output"
 
+    #banco de questoes
+    bancoMongo = BancoMongo("mongodb://root:example@localhost:27017")
+    bancoMongo.setDb("ProjetoQuiz")
+    bancoMongo.setCollection("questoes")
+
+    #extrator de questoes
     extratorQuestoes = DataExtractor(outputPath=outputPath)
     extratorQuestoes.setInputPath(inputPath=inputPath)
+    extratorQuestoes.setBancoDados(bancoMongo)
 
     #loop na pasta input
     pasta_input = os.listdir(inputPath)
