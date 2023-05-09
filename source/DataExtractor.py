@@ -108,6 +108,7 @@ class DataExtractor:
             escolhas["D"] = alternativas[3]
             escolhas["E"] = alternativas[4]
         return escolhas
+    
     def desestruturarQuestaoEnem(self, questao, index):
         #retira info desnecessaria
         questao = questao.split("*")[0]
@@ -207,17 +208,19 @@ class DataExtractor:
             dicionario["erro"] = 'padrão de questão não reconhecido'
         return dicionario
 
-    def questoesJson(self, texto):
+    def questoesJson(self, texto, salvar: bool):
         if(self.vestibular == "unicamp"):
             questoes = self.dividirQuestoesUnicamp(texto=texto)
             listaQuestoes = []
             for questao in questoes:
-                listaQuestoes.append(self.desestruturarQuestaoUnicamp(questao, questoes.index(questao)))
+                questaoDestruturadaUnicamp = self.desestruturarQuestaoUnicamp(questao, questoes.index(questao))
+                listaQuestoes.append(questaoDestruturadaUnicamp)
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         elif (self.vestibular == "enem"):
             questoes = self.dividirQuestoesEnem(texto=texto)
             listaQuestoes = []
             for questao in questoes:
-                listaQuestoes.append(self.desestruturarQuestaoEnem(questao, questoes.index(questao)))
+                questaoDestruturadaEnem = self.desestruturarQuestaoEnem(questao, questoes.index(questao))
+                listaQuestoes.append(questaoDestruturadaEnem)
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         return jsonLista
