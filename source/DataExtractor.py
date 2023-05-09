@@ -208,19 +208,32 @@ class DataExtractor:
             dicionario["erro"] = 'padrão de questão não reconhecido'
         return dicionario
 
-    def questoesJson(self, texto, salvar: bool):
+    def questoes(self, texto, salvar: bool):
         if(self.vestibular == "unicamp"):
             questoes = self.dividirQuestoesUnicamp(texto=texto)
             listaQuestoes = []
-            for questao in questoes:
-                questaoDestruturadaUnicamp = self.desestruturarQuestaoUnicamp(questao, questoes.index(questao))
-                listaQuestoes.append(questaoDestruturadaUnicamp)
+            if (salvar == True):
+                for questao in questoes:
+                    questaoDestruturadaUnicamp = self.desestruturarQuestaoUnicamp(questao, questoes.index(questao))
+                    listaQuestoes.append(questaoDestruturadaUnicamp)
+                    self.banco.saveQuestion(questaoDestruturadaUnicamp)
+            else:
+                for questao in questoes:
+                    questaoDestruturadaUnicamp = self.desestruturarQuestaoUnicamp(questao, questoes.index(questao))
+                    listaQuestoes.append(questaoDestruturadaUnicamp)
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         elif (self.vestibular == "enem"):
             questoes = self.dividirQuestoesEnem(texto=texto)
             listaQuestoes = []
-            for questao in questoes:
-                questaoDestruturadaEnem = self.desestruturarQuestaoEnem(questao, questoes.index(questao))
-                listaQuestoes.append(questaoDestruturadaEnem)
+            if (salvar):
+                for questao in questoes:
+                    questaoDestruturadaEnem = self.desestruturarQuestaoEnem(questao, questoes.index(questao))
+                    listaQuestoes.append(questaoDestruturadaEnem)
+                    self.banco.saveQuestion(questaoDestruturadaEnem)
+            else:
+                for questao in questoes:
+                    questaoDestruturadaEnem = self.desestruturarQuestaoEnem(questao, questoes.index(questao))
+                    listaQuestoes.append(questaoDestruturadaEnem)
+                    
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         return jsonLista

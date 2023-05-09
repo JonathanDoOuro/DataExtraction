@@ -58,7 +58,7 @@ def extrairDados(pasta_input, extratorQuestoes: DataExtractor, outputPath):
         with open(f'{outputPath}/{arquivo}.txt', 'w') as file:
             print(texto, file=file)
         #processa o texto e extrai cada questão separadamente
-        questoes = extratorQuestoes.questoesJson(texto)
+        questoes = extratorQuestoes.questoes(texto=texto, salvar=False)
         #salva as questões em um arquivo json
         with open(f'{outputPath}/{arquivo}.json', 'w') as file:
             print(questoes, file=file)
