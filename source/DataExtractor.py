@@ -1,7 +1,7 @@
 import PyPDF2 as pd
 import json
 import re
-from source.integration import BancoMongo
+from integration import BancoMongo
 import fitz
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextBoxHorizontal, LTFigure
@@ -225,7 +225,7 @@ class DataExtractor:
         elif (self.vestibular == "enem"):
             questoes = self.dividirQuestoesEnem(texto=texto)
             listaQuestoes = []
-            if (salvar):
+            if (salvar == True):
                 for questao in questoes:
                     questaoDestruturadaEnem = self.desestruturarQuestaoEnem(questao, questoes.index(questao))
                     listaQuestoes.append(questaoDestruturadaEnem)

@@ -1,0 +1,2606 @@
+ATENÇÃO: transcreva no espaço apropriado do seu CARTÃO-RESPOSTA,
+com sua caligrafia usual, considerando as letras maiúsculas e minúsculas, a seguinte frase:
+Quero a tua força como era antes. 
+LEIA ATENTAMENTE AS INSTRUÇÕES SEGUINTES:
+1.  Este CADERNO DE QUESTÕES contém 90 questões numeradas de 91 a 180 e uma fOlhA DE RASCUNhO, 
+dispostas da seguinte maneira:
+ 
+a) questões de número 91 a 135, relativas à área de Ciências da Natureza e suas Tecnologias;
+ 
+b) questões de número 136 a 180, relativas à área de Matemática e suas Tecnologias;
+c) fOlhA DE RASCUNhO.
+2.  Confira se a quantidade e a ordem das questões do seu CADERNO DE QUESTÕES estão de acordo com 
+as instruções anteriores. Caso o caderno esteja incompleto, tenha defeito ou apresente qualquer divergência, 
+comunique ao aplicador da sala para que ele tome as providências cabíveis.
+3.  Para cada uma das questões objetivas, são apresentadas 5 opções. Apenas uma responde corretamente à questão.
+4.  O tempo disponível para estas provas é de cinco horas.
+5.  Reserve tempo suficiente para preencher o CARTÃO-RESPOSTA.
+6.  Os rascunhos e as marcações assinaladas no CADERNO DE QUESTÕES e na FOLHA DE RASCUNHO não 
+serão considerados na avaliação.
+7.  Quando terminar as provas, acene para chamar o aplicador e entregue este CADERNO DE QUESTÕES,  
+o CARTÃO-RESPOSTA e a fOlhA DE RASCUNhO.
+8.  Você poderá deixar o local de prova somente após decorridas duas horas do início da aplicação e poderá levar 
+seu CADERNO DE QUESTÕES ao deixar em definitivo a sala de prova nos 30 minutos que antecedem 
+o término das provas.
+2º DIA
+CADERNO
+5
+AMARELO
+EXAME NACIONAL DO ENSINO MÉDIO
+PROVA DE CIÊNCIAS DA NATUREZA E SUAS TECNOLOGIAS
+PROVA DE MATEMÁTICA E SUAS TECNOLOGIAS
+  2ª Aplicação
+*DO0525AM1*
+CN - 2º dia | Caderno 5 - AMARELO - Página 2
+CIÊNCIAS DA NATUREZA
+E SUAS TECNOLOGIAS
+Questões de 91 a 135
+Questão 91 
+Astrônomos medem a velocidade de afastamento de 
+galáxias distantes pela detecção da luz emitida por 
+esses sistemas. A Lei de Hubble afirma que a velocidade 
+de afastamento de uma galáxia (em km
+s ) é proporcional 
+à sua distância até a Terra, medida em megaparsec 
+(Mpc). Nessa lei, a constante de proporcionalidade é a 
+constante de hubble (h0) e seu valor mais aceito é de 
+72 km s
+Mpc
+/
+(
+). O parsec (pc) é uma unidade de distância 
+utilizada em astronomia que vale aproximadamente  
+3 × 1016 m. Observações astronômicas determinaram 
+que a velocidade de afastamento de uma determinada 
+galáxia é de 1 440 km
+s .
+Utilizando a Lei de Hubble, pode-se concluir que a 
+distância até essa galáxia, medida em km, é igual a:
+A 20 × 100
+B 20 × 106
+C 6 × 1020
+D 6 × 1023
+E 6 × 1026
+Questão 92 
+Segundo o pensamento religioso de Padre Cícero 
+Romão Batista (1844-1934), a ação humana do 
+camponês sobre a natureza deveria seguir alguns 
+princípios norteadores, os quais ficaram conhecidos na 
+cultura popular brasileira como “os preceitos ecológicos 
+do Padre Cícero”. Dentre esses preceitos, destaca-se:
+“Não plante em serra acima, nem faça roçado em 
+ladeira muito em pé: deixe o mato protegendo a terra 
+para que a água não a arraste e não se perca a sua 
+riqueza.”
+FIGUEIREDO, J. B. A. Educação ambiental dialógica: as 
+contribuições de Paulo freire e a cultura popular nordestina. 
+Fortaleza: UFC, 2007.
+Comparando o pensamento do Padre Cícero com 
+o atual conhecimento científico, pode-se encontrar 
+elementos de convergência, já que a prática citada 
+contribui primariamente para evitar (o)a
+A erosão.
+B salinização.
+C eutrofização.
+D assoreamento.
+E desertificação.
+Questão 93 
+Nanopartículas de sílica recobertas com antibióticos 
+foram desenvolvidas com sucesso como material 
+bactericida, 
+pois 
+são 
+eficazes 
+contra 
+bactérias 
+sensíveis e resistentes, sem citotoxicidade significativa 
+a células de mamíferos. As nanopartículas livres 
+de antibióticos também foram capazes de matar as 
+bactérias E. coli sensíveis e resistentes ao antibiótico 
+estudado. Os autores sugerem que a interação entre 
+os grupos hidroxil da superfície das nanopartículas e 
+os lipopolissacarídeos da parede celular da bactéria 
+desestabilizaria sua estrutura.
+CAPELETTI, L. B. et al. Tailored Silica – Antibiotic Nanoparticles: 
+Overcoming Bacterial Resistance with Low Cytotoxicity. 
+Langmuir, n. 30, 2014 (adaptado).
+A interação entre a superfície da nanopartícula e o 
+lipopolissacarídeo ocorre por uma ligação
+A de hidrogênio.
+B hidrofóbica.
+C dissulfeto.
+D metálica.
+E iônica.
+*DO0525AM2*
+CN - 2º dia | Caderno 5 - AMARELO - Página  3
+Questão 94 
+Antes da geração do céu, teremos que rever a 
+natureza do fogo, do ar, da água e da terra.
+Primeiro, em relação àquilo a que chamamos água, 
+quando congela, parece-nos estar a olhar para algo 
+que se tornou pedra ou terra, mas quando derrete 
+e se dispersa, esta torna-se bafo e ar; o ar, quando 
+é queimado, torna-se fogo; e, inversamente, o fogo, 
+quando se contrai e se extingue, regressa à forma do 
+ar; o ar, novamente concentrado e contraído, torna-se 
+nuvem e nevoeiro, mas, a partir destes estados, se for 
+ainda mais comprimido, torna-se água corrente, e de 
+água torna-se novamente terra e pedras; e deste modo, 
+como nos parece, dão geração uns aos outros de 
+forma cíclica.
+PlATÃO, Timeu (c. 360 a.C.).
+Buscando compreender a diversidade de formas e 
+substâncias que vemos no mundo, diversas culturas da 
+Antiguidade elaboraram a noção de “quatro elementos” 
+fundamentais, que seriam terra, água, ar e fogo. Essa 
+visão de mundo prevaleceu até o início da Era Moderna, 
+quando foi suplantada diante das descobertas da 
+química e da física.
+PlATÃO. Timeu-Crítias. Coimbra: CECh, 2011.
+Do ponto de vista da ciência moderna, a descrição dos 
+“quatro elementos” feita por Platão corresponde ao 
+conceito de
+A partícula elementar.
+B força fundamental.
+C elemento químico.
+D fase da matéria.
+E lei da natureza.
+Questão 95 
+O vinagre é um produto alimentício resultante da 
+fermentação do vinho que, de acordo com a legislação 
+nacional, deve apresentar um teor mínimo de ácido 
+acético (Ch3COOH) de 4% (v/v). Uma empresa está 
+desenvolvendo um kit para que a inspeção sanitária 
+seja capaz de determinar se alíquotas de 1 mL de 
+amostras de vinagre estão de acordo com a legislação. 
+Esse kit é composto por uma ampola que contém uma 
+solução aquosa de Ca(OH)2 0,1 mol
+L  e um indicador 
+que faz com que a solução fique cor-de-rosa, se estiver 
+básica, e incolor, se estiver neutra ou ácida. Considere 
+a densidade do ácido acético igual a 1,10 g
+cm3 , a massa 
+molar do ácido acético igual a 60 g
+mol  e a massa molar 
+do hidróxido de cálcio igual a 74 g
+mol .
+Qual é o valor mais próximo para o volume de solução 
+de Ca(Oh)2, em ml, que deve estar contido em 
+cada ampola do kit para garantir a determinação da 
+regularidade da amostra testada?
+A 3,7
+B 6,6
+C 7,3
+D 25
+E 36
+Questão 96 
+O nitrogênio é essencial aos seres vivos e pode 
+ser adquirido pelas plantas, através da absorção pelas 
+raízes, e pelos animais, através da alimentação. Sua 
+utilização na agricultura de forma inadequada tem 
+aumentado sua concentração no ambiente, e o excesso, 
+que é transportado para os cursos-d’água, tem causado 
+a eutrofização. Contudo, tal dano ambiental pode ser 
+minimizado pela adoção de práticas sustentáveis, que 
+aprisionam esse elemento no solo, impedindo seu 
+escoamento para rios e lagos.
+O método sustentável visando a incorporação desse 
+elemento na produção, prevenindo tal dano ambiental, 
+é o(a)
+A adição de minhocas na terra.
+B irrigação da terra antes do plantio.
+C reaproveitamento do esterco fresco.
+D descanso do solo sem adição de culturas.
+E fixação biológica nas raízes por bactérias.
+*DO0525AM3*
+CN - 2º dia | Caderno 5 - AMARELO - Página 4
+Questão 97 
+Em regiões desérticas, a obtenção de água potável 
+não pode depender apenas da precipitação. Nesse 
+sentido, portanto, sistemas para dessalinização da água 
+do mar têm sido uma solução. Alguns desses sistemas 
+consistem basicamente de duas câmaras (uma contendo 
+água doce e outra contendo água salgada) separadas 
+por uma membrana semipermeável. Aplicando-se 
+pressão na câmara com água salgada, a água pura é 
+forçada a passar através da membrana para a câmara 
+contendo água doce.
+O processo descrito para a purificação da água 
+é denominado
+A filtração.
+B adsorção.
+C destilação.
+D troca iônica.
+E osmose reversa.
+Questão 98 
+Um laudo de análise de laboratório apontou que 
+amostras de leite de uma usina de beneficiamento 
+estavam em desacordo com os padrões estabelecidos 
+pela legislação. Foi observado que a concentração de 
+sacarose era maior do que a permitida.
+Qual teste listado permite detectar a irregularidade 
+descrita?
+A Medida da turbidez.
+B Determinação da cor.
+C Determinação do pH.
+D Medida da densidade.
+E Medida da condutividade.
+Questão 99 
+Observe o esquema que ilustra duas situações no 
+ambiente marinho.
+Disponível em: www.teachoceanscience.net. 
+Acesso em: 7 jul. 2015 (adaptado).
+Qual é o processo responsável pela diminuição da 
+concentração de oxigênio no lado B do esquema?
+A Lixiviação.
+B Eutrofização.
+C Volatilização.
+D Fermentação.
+E Bioacumulação.
+*DO0525AM4*
+CN - 2º dia | Caderno 5 - AMARELO - Página  5
+Questão 100 
+Um estudante leu em um site da internet que os 
+povos antigos determinavam a duração das estações 
+do ano observando a variação do tamanho da sombra 
+de uma haste vertical projetada no solo. Isso ocorria 
+porque, se registrarmos o tamanho da menor sombra 
+ao longo de um dia (ao meio-dia solar), esse valor 
+varia ao longo do ano, o que permitiu aos antigos usar 
+esse instrumento rudimentar como um calendário solar 
+primitivo. O estudante também leu que, ao longo de um 
+ano (sempre ao meio-dia solar): (I) a sombra é máxima 
+no solstício de inverno; e (II) a sombra é mínima no 
+solstício de verão.
+O estudante, que morava em Macapá (na Linha 
+do Equador), ficou intrigado com essas afirmações e 
+resolveu verificar se elas eram verdadeiras em diferentes 
+regiões do mundo. Contactou seus amigos virtuais 
+em Salvador (Região Tropical) e Porto Alegre (Região 
+Temperada) e pediu que eles registrassem o tamanho 
+da menor sombra de uma haste vertical padronizada, 
+ao longo do dia, durante um ano. Os resultados 
+encontrados estão mostrados esquematicamente no 
+gráfico (SV: Solstício de Verão; SI: Solstício de Inverno; 
+E: Equinócio):
+Inverno
+Primavera
+Verão
+Outono
+Porto Alegre
+Salvador
+Macapá
+Tempo
+SI
+E
+SV
+E
+SI
+Tamanho da sombra
+Qual(is) cidade(s) indicada(s) no texto e no gráfico 
+contradiz(em) a afirmação II?
+A Salvador.
+B Porto Alegre.
+C Macapá e Salvador.
+D Macapá e Porto Alegre.
+E Porto Alegre e Salvador.
+Questão 101 
+O 
+mármore, 
+rocha 
+metamórfica 
+composta 
+principalmente de carbonato de cálcio (CaCO3), é muito 
+utilizada como material de construção e também na 
+produção de esculturas. Entretanto, se peças de mármore 
+são expostas a ambientes externos, particularmente 
+em grandes cidades e zonas industriais, elas sofrem ao 
+longo do tempo um processo de desgaste, caracterizado 
+pela perda de massa da peça.
+Esse processo de deterioração ocorre em função da
+A oxidação do mármore superficial pelo oxigênio.
+B decomposição do mármore pela radiação solar.
+C onda de choque provocada por ruídos externos.
+D abrasão por material particulado presente no ar.
+E acidez da chuva que cai sobre a superfície da peça.
+Questão 102 
+Um dos processos biotecnológicos mais antigos 
+é a utilização de microrganismos para a produção de 
+alimentos. Num desses processos, certos tipos de 
+bactérias anaeróbicas utilizam os açúcares presentes 
+nos alimentos e realizam sua oxidação parcial, gerando 
+como produto final da reação o ácido lático.
+Qual produto destinado ao consumo humano tem sua 
+produção baseada nesse processo?
+A Pão.
+B Vinho.
+C Iogurte.
+D Vinagre.
+E Cachaça.
+*DO0525AM5*
+CN - 2º dia | Caderno 5 - AMARELO - Página 6
+Questão 103 
+O curling é um dos esportes de inverno mais antigos e tradicionais. No jogo, dois times com quatro pessoas 
+têm de deslizar pedras de granito sobre uma área marcada de gelo e tentar colocá-las o mais próximo possível 
+do centro. A pista de curling é feita para ser o mais nivelada possível, para não interferir no decorrer do jogo. Após 
+o lançamento, membros da equipe varrem (com vassouras especiais) o gelo imediatamente à frente da pedra, 
+porém sem tocá-la. Isso é fundamental para o decorrer da partida, pois influi diretamente na distância percorrida 
+e na direção do movimento da pedra. Em um lançamento retilíneo, sem a interferência dos varredores, 
+verifica-se que o módulo da desaceleração da pedra é superior se comparado à desaceleração da mesma pedra 
+lançada com a ação dos varredores.
+Disponível em: http://cbdg.org.br. Acesso em: 29 mar. 2016 (adaptado).
+A menor desaceleração da pedra de granito ocorre porque a ação dos varredores diminui o módulo da
+A força motriz sobre a pedra.
+B força de atrito cinético sobre a pedra.
+C força peso paralela ao movimento da pedra.
+D força de arrasto do ar que atua sobre a pedra.
+E força de reação normal que a superfície exerce sobre a pedra.
+Questão 104 
+Atualmente, uma série de dietas alimentares têm sido divulgadas com os mais diferentes propósitos: para 
+emagrecer, para melhorar a produtividade no trabalho e até mesmo dietas que rejuvenescem o cérebro. No 
+entanto, poucas têm embasamento científico, e o consenso dos nutricionistas é que deve ser priorizada uma dieta 
+balanceada, constituída de frutas e vegetais, uma fonte de carboidrato, uma de ácido graxo insaturado e uma de 
+proteína. O quadro apresenta cinco dietas com supostas fontes de nutrientes.
+Supostas fontes de nutrientes de cinco dietas
+Dieta
+Carboidrato
+Ácido graxo insaturado
+Proteína
+1
+Azeite de oliva 
+Peixes 
+Carne de aves 
+2
+Carne de aves 
+Mel 
+Nozes 
+3
+Nozes 
+Peixes 
+Mel 
+4
+Mel 
+Azeite de oliva 
+Carne de aves 
+5
+Mel 
+Carne de boi 
+Azeite de oliva 
+A dieta que relaciona adequadamente as fontes de carboidrato, ácido graxo insaturado e proteína é a
+A 1.
+B 2.
+C 3.
+D 4.
+E 5.
+*DO0525AM6*
+CN - 2º dia | Caderno 5 - AMARELO - Página  7
+Questão 105 
+Pesquisadores descobriram que uma espécie de 
+abelha sem ferrão nativa do Brasil — a mandaguari 
+(Scaptotrigona depilis) — cultiva um fungo nos ninhos 
+dentro da colmeia. Após observações, verificaram 
+que a sobrevivência das larvas da abelha depende da 
+ingestão de filamentos do fungo, que produz metabólitos 
+secundários com ação antimicrobiana, antitumoral e 
+imunológica, além da alimentação convencional. Por 
+sua vez, o fungo depende da abelha para se reproduzir 
+e garante a sua multiplicação ao longo das gerações.
+MIURA, J. Pequenas agricultoras: abelhas Mandaguari cultivam 
+fungos para alimentar suas larvas. Disponível em:  
+www.embrapa.br. Acesso em: 3 maio 2019 (adaptado).
+O uso de fungicida ocasionaria à colmeia dessa 
+espécie o(a)
+A controle de pragas.
+B acúmulo de resíduos.
+C ampliação de espaço.
+D redução da população.
+E incremento de alimento.
+Questão 106 
+Em um laboratório de química foram encontrados 
+cinco frascos não rotulados, contendo: propanona, 
+água, tolueno, tetracloreto de carbono e etanol. Para 
+identificar os líquidos presentes nos frascos, foram feitos 
+testes de solubilidade e inflamabilidade. Foram obtidos 
+os seguintes resultados:
+- Frascos 1, 3 e 5 contêm líquidos miscíveis entre si;
+- Frascos 2 e 4 contêm líquidos miscíveis entre si;
+- Frascos 3 e 4 contêm líquidos não inflamáveis.
+Com base nesses resultados, pode-se concluir que a 
+água está contida no frasco
+A 1.
+B 2.
+C 3.
+D 4.
+E 5.
+Questão 107 
+A figura mostra, de forma esquemática, uma 
+representação comum em diversos livros e textos sobre 
+eclipses. Apenas analisando essa figura, um estudante 
+pode concluir que os eclipses podem ocorrer duas 
+vezes a cada volta completa da Lua em torno da Terra. 
+Apesar de a figura levar a essa percepção, algumas 
+informações adicionais são necessárias para se concluir 
+que nem o eclipse solar, nem o lunar ocorrem com tal 
+periodicidade.
+A periodicidade dos eclipses ser diferente da possível 
+percepção do estudante ocorre em razão de
+A eclipses noturnos serem imperceptíveis da Terra.
+B planos das órbitas da Terra e da Lua serem 
+diferentes.
+C distância entre a Terra e a Lua variar ao longo da 
+órbita.
+D eclipses serem visíveis apenas em parte da 
+superfície da Terra.
+E o Sol ser uma fonte de luz extensa comparado ao 
+tamanho da lua.
+Raios solares
+(Sol distante)
+LUA
+TERRA
+*DO0525AM7*
+CN - 2º dia | Caderno 5 - AMARELO - Página 8
+Questão 108 
+Um pesquisador observou, em uma árvore, um ninho de uma espécie de falcão. Apenas um filhote apresentava 
+uma coloração típica de penas de ambos os pais. Foram coletadas amostras de DNA dos pais e filhotes para 
+caracterização genética dos alelos responsáveis pela coloração das penas. O perfil de bandas obtido para cada 
+indivíduo do ninho para os lócus 1 e 2, onde se localizam os genes dessa característica, está representado 
+na figura.
+Padrões de bandas em gel das moléculas de DNA dos indivíduos
+CARVALHO, C. S.; CARVALHO, M. A.; COLLEVATTI, R. G. Identificando o sistema de acasalamento em aves.  
+Genética na Escola, n. 1, 2013 (adaptado).
+Dos filhotes, qual apresenta a coloração típica de penas dos pais?
+A 1
+B 2
+C 3
+D 4
+E 5
+Pais
+filhotes
+1
+2
+3
+4
+5
+Lócus 1
+Alelo A
+Alelo B
+Alelo C
+Alelo D
+Pais
+filhotes
+1
+2
+3
+4
+5
+Lócus 2
+Alelo E
+Alelo f
+Alelo G
+Alelo h
+*DO0525AM8*
+CN - 2º dia | Caderno 5 - AMARELO - Página  9
+Questão 109 
+Um foguete viaja pelo espaço sideral com os propulsores desligados. A velocidade inicial v tem módulo constante 
+e direção perpendicular à ação dos propulsores, conforme indicado na figura. O piloto aciona os propulsores para 
+alterar a direção do movimento quando o foguete passa pelo ponto A e os desliga quando o módulo de sua velocidade 
+final é superior a 2 |
+|
+v , o que ocorre antes de passar pelo ponto B. Considere as interações desprezíveis.
+A
+B
+v
+Propulsores
+A representação gráfica da trajetória seguida pelo foguete, antes e depois de passar pelo ponto B, é:
+A
+A
+B
+v
+D
+A
+B
+v
+B
+A
+B
+v
+E
+A
+B
+v
+C
+A
+B
+v
+*DO0525AM9*
+CN - 2º dia | Caderno 5 - AMARELO - Página 10
+Questão 110 
+Algumas moedas utilizam cobre metálico em sua 
+composição. Esse metal, ao ser exposto ao ar úmido, na 
+presença de CO2, sofre oxidação formando o zinabre, 
+um carbonato básico de fórmula Cu2(Oh)2CO3, que é 
+tóxico ao homem e, portanto, caracteriza-se como um 
+poluente do meio ambiente. Com o objetivo de reduzir 
+a contaminação com o zinabre, diminuir o custo de 
+fabricação e aumentar a durabilidade das moedas, é 
+comum utilizar ligas resultantes da associação do cobre 
+com outro elemento metálico.
+A propriedade que o metal associado ao cobre deve 
+apresentar para impedir a formação de zinabre nas 
+moedas é, em relação ao cobre,
+A maior caráter ácido.
+B maior número de oxidação.
+C menor potencial de redução.
+D menor capacidade de reação.
+E menor número de elétrons na camada de valência.
+Questão 111 
+Algumas espécies de orquídeas apresentam flores 
+que mimetizam vespas fêmeas, de forma que vespas 
+machos são atraídas na tentativa de acasalamento. Ao 
+chegarem às flores, os machos frequentemente entram 
+em contato com o pólen da flor, sem prejuízo de suas 
+atividades. Contudo, como não conseguem se acasalar, 
+esses machos procuram novas fêmeas, podendo 
+encontrar novas flores e polinizá-las.
+Essa interação ecológica pode ser classificada como
+A comensalismo.
+B amensalismo.
+C mutualismo.
+D parasitismo.
+E simbiose.
+Questão 112 
+Na perfuração de uma jazida petrolífera, a pressão 
+dos gases faz com que o petróleo jorre. Ao se reduzir 
+a pressão, o petróleo bruto para de jorrar e tem de ser 
+bombeado. No entanto, junto com o petróleo também se 
+encontram componentes mais densos, tais como água 
+salgada, areia e argila, que devem ser removidos na 
+primeira etapa do beneficiamento do petróleo.
+A primeira etapa desse beneficiamento é a
+A decantação.
+B evaporação.
+C destilação.
+D floculação.
+E filtração.
+Questão 113 
+O ácido ricinoleico, um ácido graxo funcionalizado, 
+cuja nomenclatura oficial é ácido D-(−)-12-hidroxi-
+octadec-cis-9-enoico, é obtido da hidrólise ácida do 
+óleo de mamona. As aplicações do ácido ricinoleico na 
+indústria são inúmeras, podendo ser empregado desde 
+a fabricação de cosméticos até a síntese de alguns 
+polímeros.
+Para uma amostra de solução desse ácido, o uso de um 
+polarímetro permite determinar o ângulo de
+A refração.
+B reflexão.
+C difração.
+D giro levógiro.
+E giro destrógiro.
+*DO0525AM10*
+CN - 2º dia | Caderno 5 - AMARELO - Página  11
+Questão 114 
+A  figura mostra a curva de saturação da hemoglobina e da mioglobina em função da pressão parcial de oxigênio e 
+reflete a afinidade de cada proteína pelo oxigênio. Embora ambas sejam hemoproteínas ligantes de oxigênio, 
+a hemoglobina transporta oxigênio dos pulmões para os tecidos pela corrente sanguínea, e a mioglobina se liga ao 
+oxigênio dentro das células musculares.
+Pressão parcial de O2
+Saturação
+0,5
+1,0
+Disponível em: http://divingphysiology.files.wordpress.com. Acesso em: 28 fev. 2012 (adaptado).
+De que forma a oxigenação dos tecidos será afetada em indivíduos sem o gene da mioglobina?
+A A concentração de oxigênio no sangue diminuirá.
+B A capacidade de produção de hemoglobina diminuirá.
+C A distribuição do oxigênio por todo o organismo será homogênea.
+D A transferência do oxigênio do sangue para o tecido muscular será prejudicada.
+E A hemoglobina do tecido muscular apresentará maior afinidade que a presente no sangue.
+Questão 115 
+Em uma residência com aquecimento central, um reservatório é alimentado com água fria, que é aquecida na 
+base do reservatório e, a seguir, distribuída para as torneiras. De modo a obter a melhor eficiência de aquecimento 
+com menor consumo energético, foram feitos alguns testes com diferentes configurações, modificando-se as 
+posições de entrada de água fria e de saída de água quente no reservatório, conforme a figura. Em todos os testes, 
+as vazões de entrada e saída foram mantidas iguais e constantes.
+A configuração mais eficiente para a instalação dos pontos de entrada e saída de água no reservatório é, 
+respectivamente, nas posições
+A 1 e 4.
+B 1 e 6.
+C 2 e 5.
+D 3 e 4.
+E 3 e 5.
+*DO0525AM11*
+CN - 2º dia | Caderno 5 - AMARELO - Página 12
+Questão 116 
+O 2-BHA é um fenol usado como antioxidante para 
+retardar a rancificação em alimentos e cosméticos que 
+contêm ácidos graxos insaturados. Esse composto 
+caracteriza-se por apresentar uma cadeia carbônica 
+aromática 
+mononuclear, 
+apresentando 
+o 
+grupo 
+substituinte terc-butil na posição orto e o grupo metóxi 
+na posição para.
+A fórmula estrutural do fenol descrito é
+A
+CH2CH(CH3)2
+H3CO
+HO
+B
+C(CH3)3
+H3CO
+HO
+C
+C(CH3)3
+H2COH
+HO
+D
+C(CH3)3
+H3CO
+HO
+E
+C(CH3)3
+H3CO
+HO
+Questão 117 
+A ação de uma nova droga antitumoral sobre o 
+citoesqueleto foi investigada. O pesquisador comparou 
+o efeito da droga na velocidade de deslocamento celular 
+e na integridade de filamentos do córtex celular e de 
+flagelos, conforme apresentado na figura.
+O pesquisador concluiu que a droga age sobre os
+A microtúbulos apenas.
+B filamentos de actina apenas.
+C filamentos intermediários apenas.
+D filamentos de actina e microtúbulos.
+E filamentos de actina e filamentos intermediários.
+Questão 118 
+Uma das formas de se obter energia elétrica é usar 
+uma lente convergente circular para concentrar os raios 
+de sol em um único ponto, aquecendo um dispositivo 
+localizado nesse ponto a uma temperatura elevada. Com 
+a transformação da energia luminosa em energia térmica, 
+pode ser criado vapor-d’água que moverá uma turbina e 
+gerará energia elétrica. Para projetar um sistema de 
+geração de energia elétrica, a fim de alimentar um 
+chuveiro elétrico de 2 000 W de potência, sabe-se que, 
+neste local, a energia recebida do Sol é 1 000 W
+m2 . 
+Esse sistema apresenta taxa de eficiência de 
+conversão em energia elétrica de 50% da energia 
+solar incidente. Considere � = 1,8.
+Qual deve ser, em metro, o raio da lente para que esse 
+sistema satisfaça aos requisitos do projeto?
+A 0,28
+B 0,32
+C 0,40
+D 0,80
+E 1,11
+*DO0525AM12*
+CN - 2º dia | Caderno 5 - AMARELO - Página  13
+Questão 119 
+Na busca por ouro, os garimpeiros se confundem 
+facilmente entre o ouro verdadeiro e o chamado ouro 
+de tolo, que tem em sua composição 90% de um 
+minério chamado pirita (feS2). Apesar do engano, a 
+pirita não é descartada, pois é utilizada na produção do 
+ácido sulfúrico, que ocorre com rendimento global de 
+90%, conforme as equações químicas apresentadas. 
+Considere as massas molares: feS2 (120 
+g
+mol),
+O2 (32 
+g
+mol), fe2O3 (160 
+g
+mol), SO2 (64 
+g
+mol), 
+SO3 (80 
+g
+mol), h2O (18 
+g
+mol), h2SO4 (98 
+g
+mol).
+4 FeS2 + 11 O2 → 2 fe2O3 + 8 SO2
+2 SO2 + O2 → 2 SO3
+SO3 + h2O → h2SO4
+Qual é o valor mais próximo da massa de ácido sulfúrico, 
+em quilograma, que será produzida a partir de 2,0 kg de 
+ouro de tolo?
+A 0,33
+B 0,41
+C 2,6
+D 2,9
+E 3,3
+Questão 120 
+O etanol é um combustível renovável obtido da  
+cana-de-açúcar e é menos poluente do que os 
+combustíveis fósseis, como a gasolina e o diesel. O etanol 
+tem densidade 0,8 g
+cm3 , massa molar 46 g
+mol  e calor de 
+combustão aproximado de −1 300 kJ
+mol . Com o grande 
+aumento da frota de veículos, tem sido incentivada a 
+produção de carros bicombustíveis econômicos, que 
+são capazes de render até 20 km
+L  em rodovias, para 
+diminuir a emissão de poluentes atmosféricos.
+O valor correspondente à energia consumida para que 
+o motorista de um carro econômico, movido a álcool, 
+percorra 400 km na condição de máximo rendimento é 
+mais próximo de
+A 565 MJ.
+B 452 MJ.
+C 520 kJ.
+D 390 kJ.
+E 348 kJ.
+Questão 121 
+A principal explicação para a grande variedade 
+de espécies na Amazônia é a teoria do refúgio. 
+Nos últimos 100 000 anos, o planeta sofreu vários 
+períodos de glaciação, em que as florestas enfrentaram 
+fases de seca. Dessa forma, as matas expandiram-se e 
+depois reduziram-se. Nos períodos de seca prolongados, 
+cada núcleo de floresta ficava isolado do outro. Então, 
+os grupos de animais dessas áreas isoladas passaram 
+por processos de diferenciação genética, muitas vezes 
+se transformando em espécies ou subespécies diferentes 
+das originais e das que ficaram em outros refúgios.
+Disponível em: http://ambientes.ambientebrasil.com.br. 
+Acesso em: 22 abr. 2015.
+O principal processo evolutivo relacionado ao texto é a
+A anagênese.
+B coevolução.
+C evolução alopátrica.
+D evolução simpátrica.
+E convergência adaptativa.
+Questão 122 
+O gás hidrogênio é considerado um ótimo 
+combustível — o único produto da combustão 
+desse gás é o vapor de água, como mostrado na 
+equação química.
+2 h2 (g) + O2 (g) → 2 h2O (g)
+Um cilindro contém 1 kg de hidrogênio e todo 
+esse gás foi queimado. Nessa reação, são rompidas e 
+formadas ligações químicas que envolvem as energias 
+listadas no quadro.
+Ligação química
+Energia de ligação
+ ( kJ
+mol)
+H−H
+437 
+H−O
+463 
+O=O
+494 
+Massas molares ( g
+mol): h2 = 2; O2 = 32; H2O = 18.
+Qual é a variação da entalpia, em quilojoule, da reação 
+de combustão do hidrogênio contido no cilindro?
+A −242 000
+B −121 000
+C −2 500
+D +110 500
+E +234 000
+*DO0525AM13*
+CN - 2º dia | Caderno 5 - AMARELO - Página 14
+Questão 123 
+As algas são uma opção sustentável na produção 
+de biocombustível, pois possuem estrutura simples e se 
+reproduzem mais rapidamente que os vegetais, além da 
+grande capacidade de absorverem dióxido de carbono. 
+Esses organismos não são constituídos por tecidos 
+heterogêneos, entretanto, assim como os vegetais, 
+possuem parede celular.
+Algas podem substituir metade do petróleo e inaugurar 
+química verde (Agência Fapesp, 16/08/2010).  
+Disponível em: www.inovacaotecnologica.com.br.  
+Acesso em: 1 ago. 2012 (adaptado).
+Para obtenção de biocombustível a partir de algas e 
+vegetais, é necessário utilizar no processo a enzima
+A amilase.
+B maltase.
+C celulase.
+D fosfatase.
+E quitinase.
+Questão 124 
+Em 2014, iniciou-se em São Paulo uma séria 
+crise hídrica que também afetou o setor energético, 
+agravada pelo aumento do uso de ar-condicionado e 
+ventiladores. Com isso, intensifica-se a discussão sobre 
+a matriz energética adotada nas diversas regiões do 
+país. Sendo assim, há necessidade de se buscarem 
+fontes alternativas de energia renovável que impliquem 
+menores impactos ambientais.
+Considerando essas informações, qual fonte poderia ser 
+utilizada?
+A Urânio enriquecido.
+B Carvão mineral.
+C Gás natural.
+D Óleo diesel.
+E Biomassa.
+Questão 125 
+Laboratórios de química geram como subprodutos 
+substâncias ou misturas que, quando não têm mais 
+utilidade nesses locais, são consideradas resíduos 
+químicos. Para o descarte na rede de esgoto, o resíduo 
+deve ser neutro, livre de solventes inflamáveis e 
+elementos tóxicos como Pb, Cr e Hg. Uma possibilidade 
+é fazer uma mistura de dois resíduos para obter um 
+material que apresente as características necessárias 
+para o descarte. Considere que um laboratório disponha 
+de frascos de volumes iguais cheios dos resíduos, 
+listados no quadro.
+Tipos de resíduos
+I - Solução de H2CrO4 0,1 mol
+L  
+II - Solução de NaOH 0,2 mol
+L  
+III - Solução de HCl 0,1 mol
+L  
+IV - Solução de H2SO4 0,1 mol
+L  
+V - Solução de CH3COOh 0,2 mol
+L  
+VI - Solução de NaHCO3 0,1 mol
+L  
+Qual combinação de resíduos poderá ser descartada na 
+rede de esgotos?
+A I e II
+B II e III
+C II e IV
+D V e VI
+E IV e VI
+Questão 126 
+Recentemente um grupo de biólogos descobriu um 
+animal que vive em uma região extremamente árida no 
+território brasileiro. Fizeram a coleta do sangue e da urina 
+desse animal e observaram que sua urina apresenta 
+uma concentração hipertônica em relação ao sangue.
+Que adaptação desse animal lhe permite viver na 
+região citada?
+A Diminuição da transpiração.
+B Eliminação de fezes hidratadas.
+C Predominância de hábitos diurnos.
+D Eliminação de muita água na urina.
+E Excreção de amônia como produto nitrogenado.
+*DO0525AM14*
+CN - 2º dia | Caderno 5 - AMARELO - Página  15
+Questão 127 
+Em uma atividade prática, um professor propôs o 
+seguinte experimento:
+Materiais: copo plástico pequeno, leite e suco  
+de limão.
+Procedimento: coloque leite até a metade do copo 
+plástico e, em seguida, adicione lentamente 20 gotas  
+de limão.
+Levando-se em consideração a faixa de pH do suco 
+de limão, a composição biomolecular do leite e os 
+resultados que os alunos observariam na realização 
+do experimento, qual processo digestório estaria sendo 
+simulado?
+A Ação da bile sobre as gorduras no duodeno.
+B Ação do suco pancreático sobre as gorduras.
+C Ação da saliva sobre os carboidratos na boca.
+D Ação do suco entérico sobre as proteínas no íleo.
+E Ação do suco gástrico sobre as proteínas no estômago.
+Questão 128 
+O processo de calagem consiste na diminuição da 
+acidez do solo usando compostos inorgânicos, sendo o 
+mais usado o calcário dolomítico, que é constituído de 
+carbonato de cálcio (CaCO3) e carbonato de magnésio 
+(MgCO3). Além de aumentarem o ph do solo, esses 
+compostos são fontes de cálcio e magnésio, nutrientes 
+importantes para os vegetais.
+Os compostos contidos no calcário dolomítico elevam o 
+ph do solo, pois
+A são óxidos inorgânicos.
+B são fontes de oxigênio.
+C o ânion reage com a água.
+D são substâncias anfóteras.
+E os cátions reagem com a água.
+Questão 129 
+O mangue é composto por três tipos de árvores 
+(Rhizophora mangle — mangue-bravo ou vermelho, 
+Avicennia schaueriana — mangue-seriba, e Laguncularia 
+racemosa — mangue-branco). Uma característica 
+morfológica comum aos três tipos de árvores encontradas 
+no mangue está relacionada à pouca disponibilidade de 
+oxigênio encontrado em seu solo.
+AlVES, J. R. P. (Org.). Manguezais: educar para proteger. 
+Rio de Janeiro: Femar; Semads, 2001 (adaptado).
+A característica morfológica de valor adaptativo 
+referenciada no texto é a
+A ausência de frutos.
+B ausência de estômatos.
+C presença de folhas largas.
+D presença de raízes-escoras.
+E presença de pneumatóforos.
+Questão 130 
+Disponível em: www.repositorio.uniceub.br.  
+Acesso em: 3 maio 2019 (adaptado).
+A sequência de etapas indicadas na figura representa o 
+processo conhecido como
+A mutação.
+B clonagem.
+C crossing-over.
+D terapia gênica.
+E transformação genética.
+1. Coleta e cultivo in vitro das células do paciente;
+2. Transdução com vetor carregando o gene terapêutico;
+3. Seleção e expansão das células com gene terapêutico;
+4. Reintrodução das células modificadas no paciente.
+1
+2
+3
+4
+*DO0525AM15*
+CN - 2º dia | Caderno 5 - AMARELO - Página 16
+Questão 131 
+Nos municípios onde foi detectada a resistência do 
+Aedes aegypti, o larvicida tradicional será substituído 
+por outro com concentração de 10% (v/v) de um novo 
+princípio ativo. A vantagem desse segundo larvicida é 
+que uma pequena quantidade da emulsão apresenta 
+alta capacidade de atuação, o que permitirá a condução 
+de baixo volume de larvicida pelo agente de combate às 
+endemias. Para evitar erros de manipulação, esse novo 
+larvicida será fornecido em frascos plásticos e, para uso 
+em campo, todo o seu conteúdo deve ser diluído em água 
+até o volume final de um litro. O objetivo é obter uma 
+concentração final de 2% em volume do princípio ativo.
+Que volume de larvicida deve conter o frasco plástico?
+A 10 ml
+B 50 mL
+C 100 ml
+D 200 ml
+E 500 mL
+Questão 132 
+Um professor percebeu que seu apontador a 
+laser, de luz monocromática, estava com o brilho 
+pouco intenso. Ele trocou as baterias do apontador e 
+notou que a intensidade luminosa aumentou sem que 
+a cor do laser se alterasse. Sabe-se que a luz é uma 
+onda eletromagnética e apresenta propriedades como 
+amplitude, comprimento de onda, fase, frequência 
+e velocidade.
+Dentre as propriedades de ondas citadas, aquela 
+associada ao aumento do brilho do laser é o(a)
+A amplitude.
+B frequência.
+C fase da onda.
+D velocidade da onda.
+E comprimento de onda.
+Questão 133 
+Antigamente, em lugares com invernos rigorosos, 
+as pessoas acendiam fogueiras dentro de uma sala 
+fechada para se aquecerem do frio. O risco no uso 
+desse recurso ocorria quando as pessoas adormeciam 
+antes de apagarem totalmente a fogueira, o que poderia 
+levá-las a óbito, mesmo sem a ocorrência de incêndio.
+A causa principal desse risco era o(a)
+A produção de fuligem pela fogueira.
+B liberação de calor intenso pela fogueira.
+C consumo de todo o oxigênio pelas pessoas.
+D geração de queimaduras pela emissão de faíscas 
+da lenha.
+E geração de monóxido de carbono pela combustão 
+incompleta da lenha.
+Questão 134 
+Um herbicida de largo espectro foi desenvolvido 
+para utilização em lavouras. Esse herbicida atua inibindo 
+a atividade de uma enzima dos vegetais envolvida na 
+biossíntese de aminoácidos essenciais. Atualmente ele 
+é bastante utilizado em plantações de soja, podendo 
+inclusive inibir a germinação ou o crescimento das 
+plantas cultivadas.
+De que forma é desenvolvida a resistência da soja 
+ao herbicida?
+A Expondo frequentemente uma espécie de soja 
+a altas concentrações do herbicida, levando ao 
+desenvolvimento de resistência.
+B Cultivando a soja com elevadas concentrações de 
+aminoácidos, induzindo a formação de moléculas 
+relacionadas à resistência.
+C Empregando raios X para estimular mutações em 
+uma variedade de soja, produzindo a enzima-alvo 
+resistente ao herbicida.
+D Introduzindo na soja um gene específico de outra 
+espécie, possibilitando a produção da enzima de 
+resistência ao herbicida.
+E Administrando a enzima-alvo nos fertilizantes 
+utilizados na lavoura, promovendo sua absorção 
+pela espécie cultivada.
+Questão 135 
+As fêmeas do mosquito da dengue, Aedes aegypti, 
+têm um olfato extremamente refinado. Além de identificar 
+as coleções de águas para oviposição, elas são capazes 
+de detectar de forma precisa e eficaz a presença humana 
+pela interpretação de moléculas de odor eliminadas 
+durante a sudorese. Após perceber o indivíduo, voam 
+rapidamente em direção à fonte alimentar, iniciando o 
+repasto sanguíneo durante o qual podem transmitir o 
+vírus da dengue. Portanto, o olfato desempenha um 
+papel importante para a sobrevivência dessa espécie.
+GUIDOBALDI, F.; MAY-CONCHA, I. J.; GUERENSTEIN, P. G. 
+Morphology and Physiology of the Olfactory System of  
+Blood-Feeding Insects. Journal of Physiology-Paris, 
+n. 2-3, abr.-jun. 2014 (adaptado).
+Medidas que interferem na localização do hospedeiro 
+pelo vetor por meio dessa modalidade sensorial incluem a
+A colocação de telas nas janelas.
+B eliminação de locais de oviposição.
+C instalação de borrifadores de água em locais abertos.
+D conscientização para a necessidade de banhos 
+diários.
+E utilização de cremes ou pomadas com princípios 
+ativos.
+*DO0525AM16*
+MT - 2º dia | Caderno 5 - AMARELO - Página 17
+MATEMÁTICA E SUAS TECNOLOGIAS
+Questões de 136 a 180
+Questão 136 
+O boliche é um esporte cujo objetivo é derrubar, com 
+uma bola, uma série de pinos alinhados em uma pista. 
+A professora de matemática organizou um jogo de 
+boliche em que os pinos são garrafas que possuem 
+rótulos com números, conforme mostra o esquema.
+6,8
+9
+12
+34% 0,75
+3
+4
+6
+8
+75%
+3,4
+4
+3
+4,3
+O aluno marca pontos de acordo com a soma das 
+quantidades expressas nos rótulos das garrafas que 
+são derrubadas. Se dois ou mais rótulos representam 
+a mesma quantidade, apenas um deles entra na 
+contagem dos pontos. Um aluno marcou 7,55 pontos em 
+uma jogada. Uma das garrafas que ele derrubou tinha o 
+rótulo 6,8.
+A quantidade máxima de garrafas que ele derrubou para 
+obter essa pontuação é igual a
+A 2.
+B 3.
+C 4.
+D 5.
+E 6.
+Questão 137 
+As coordenadas usualmente utilizadas na localização 
+de um ponto sobre a superfície terrestre são a latitude 
+e a longitude. Para tal, considera-se que a Terra tem a 
+forma de uma esfera.
+Um meridiano é uma circunferência sobre a 
+superfície da Terra que passa pelos polos Norte e Sul, 
+representados na figura por PN e PS. O comprimento 
+da semicircunferência que une os pontos PN e PS tem 
+comprimento igual a 20 016 km. A linha do Equador 
+também é uma circunferência sobre a superfície da 
+Terra, com raio igual ao da Terra, sendo que o plano 
+que a contém é perpendicular ao que contém qualquer 
+meridiano.
+Seja P um ponto na superfície da Terra, C o centro 
+da Terra e o segmento PC  um raio, conforme mostra a 
+figura. Seja ϕ  o ângulo que o segmento PC  faz com 
+o plano que contém a linha do Equador. A medida em 
+graus de ϕ  é a medida da latitude de P.
+Meridiano
+Equador
+PN
+P
+C
+PS
+Suponha que a partir da linha do Equador um navio 
+viaja subindo em direção ao Polo Norte, percorrendo um 
+meridiano, até um ponto P com 30 graus de latitude.
+Quantos quilômetros são percorridos pelo navio?
+A 1 668
+B 3 336
+C 5 004
+D 6 672
+E 10 008
+*DO0525AM17*
+MT - 2º dia | Caderno 5 - AMARELO - Página 18
+Questão 138 
+Um asteroide batizado de 2013-TV135 passou 
+a aproximadamente 6,7 × 106 quilômetros da Terra.  
+A presença do objeto espacial nas proximidades 
+da Terra foi detectada por astrônomos ucranianos, 
+que alertaram para uma possível volta do asteroide  
+em 2032.
+Disponível em: www1.folha.uol.com.br. Acesso em: 30 out. 2013.
+O valor posicional do algarismo 7, presente na notação 
+científica da distância, em quilômetro, entre o asteroide 
+e a Terra, corresponde a
+A 7 décimos de quilômetro.
+B 7 centenas de quilômetros.
+C 7 dezenas de milhar de quilômetros.
+D 7 centenas de milhar de quilômetros.
+E 7 unidades de milhão de quilômetros.
+Questão 139 
+A ingestão de sódio no Brasil, que já é normalmente 
+alta, tende a atingir os mais elevados índices no 
+inverno, quando cresce o consumo de alimentos 
+calóricos e condimentados. Mas, o sal não é um vilão, 
+ele pode e deve ser consumido diariamente, salvo 
+algumas restrições. Para uma pessoa saudável, o 
+consumo máximo de sal de cozinha (cloreto de sódio) 
+não deve ultrapassar 6 g diárias ou 2,4 g de sódio, 
+considerando que o sal de cozinha é composto por 
+40% de sódio e 60% de cloro.
+Disponível em: http://depoisdos25.com. 
+Acesso em: 31 jul. 2012 (adaptado).
+Considere uma pessoa saudável que, no decorrer de  
+30 dias, consuma 450 g de sal de cozinha.  
+O seu consumo médio diário excede ao consumo 
+máximo recomendado diariamente em
+A 150%
+B 250%
+C 275%
+D 525%
+E 625%
+Questão 140 
+Uma pessoa comprou um aparelho sem fio para 
+transmitir músicas a partir do seu computador para o 
+rádio de seu quarto. Esse aparelho possui quatro chaves 
+seletoras e cada uma pode estar na posição 0 ou 1. 
+Cada escolha das posições dessas chaves corresponde 
+a uma frequência diferente de transmissão.
+A quantidade de frequências diferentes que esse 
+aparelho pode transmitir é determinada por
+A 6.
+B 8.
+C 12.
+D 16.
+E 24.
+Questão 141 
+Um gerente decidiu fazer um estudo financeiro da 
+empresa onde trabalha analisando as receitas anuais 
+dos três últimos anos. Tais receitas são apresentadas 
+no quadro.
+Ano
+Receita (bilhão de reais)
+I
+2,2 
+II
+4,2 
+III
+7,4 
+Estes dados serão utilizados para projetar a receita 
+mínima esperada para o ano atual (ano IV), pois a 
+receita esperada para o ano IV é obtida em função das 
+variações das receitas anuais anteriores, utilizando a 
+seguinte regra: a variação do ano IV para o ano III será 
+igual à variação do ano III para o II adicionada à média 
+aritmética entre essa variação e a variação do ano II 
+para o I.
+O valor da receita mínima esperada, em bilhão de reais, 
+será de
+A 10,0.
+B 12,0.
+C 13,2.
+D 16,8.
+E 20,6.
+*DO0525AM18*
+MT - 2º dia | Caderno 5 - AMARELO - Página 19
+Questão 142 
+Em uma corrida de regularidade, cada corredor recebe um mapa com o trajeto a ser seguido e uma tabela 
+indicando intervalos de tempo e distâncias entre postos de averiguação. O objetivo dos competidores é passar por 
+cada um dos postos de averiguação o mais próximo possível do tempo estabelecido na tabela. Suponha que o 
+tempo previsto para percorrer a distância entre dois postos de verificação consecutivos seja sempre de 5 min 15 s, 
+e que um corredor obteve os seguintes tempos nos quatro primeiros postos.
+1º posto
+2º posto
+3º posto
+Tempo previsto
+5 min 15 s
+10 min 30 s
+15 min 45 s
+Tempo obtido pelo corredor
+5 min 27 s
+10 min 54 s
+16 min 21 s
+4º posto
+...
+Último posto (final do trajeto)
+Tempo previsto
+21 min 00 s
+...
+1 h 55 min 30 s
+Tempo obtido pelo corredor
+21 min 48 s
+...
+ 
+Caso esse corredor consiga manter o mesmo ritmo, seu tempo total de corrida será
+A 1 h 55 min 42 s.
+B 1 h 56 min 30 s.
+C 1 h 59 min 54 s.
+D 2 h 05 min 09 s.
+E 2 h 05 min 21 s.
+Questão 143 
+Um pintor cobra R$ 240,00 por dia de trabalho, que equivale a 8 horas de trabalho num dia. Quando é 
+chamado para um serviço, esse pintor trabalha 8 horas por dia com exceção, talvez, do seu último dia nesse 
+serviço. Nesse último dia, caso trabalhe até 4 horas, ele cobra metade do valor de um dia de trabalho.  
+Caso trabalhe mais de 4 horas, cobra o valor correspondente a um dia de trabalho. Esse pintor gasta 8 horas 
+para pintar uma vez uma área de 40 m2. Um cliente deseja pintar as paredes de sua casa, com uma área total de  
+260 m2. Ele quer que essa área seja pintada o maior número possível de vezes para que a qualidade da pintura 
+seja a melhor possível. O orçamento desse cliente para a pintura é de R$ 4 600,00.
+Quantas vezes, no máximo, as paredes da casa poderão ser pintadas com o orçamento do cliente?
+A 1
+B 2
+C 3
+D 5
+E 6
+Questão 144 
+Alguns modelos de rádios automotivos estão protegidos por um código de segurança. Para ativar o sistema 
+de áudio, deve-se digitar o código secreto composto por quatro algarismos. No primeiro caso de erro na digitação, 
+a pessoa deve esperar 60 segundos para digitar o código novamente. O tempo de espera duplica, em relação 
+ao tempo de espera anterior, a cada digitação errada. Uma pessoa conseguiu ativar o rádio somente na quarta 
+tentativa, sendo de 30 segundos o tempo gasto para digitação do código secreto a cada tentativa. Nos casos da 
+digitação incorreta, ela iniciou a nova tentativa imediatamente após a liberação do sistema de espera.
+O tempo total, em segundo, gasto por essa pessoa para ativar o rádio foi igual a
+A 300.
+B 420.
+C 540.
+D 660.
+E 1 020.
+*DO0525AM19*
+MT - 2º dia | Caderno 5 - AMARELO - Página 20
+Questão 145 
+Os movimentos ondulatórios (periódicos) são 
+representados por equações do tipo �
+�
+�
+�
+Asen wt
+� , 
+que apresentam parâmetros com significados físicos 
+importantes, tais como a frequência w
+T
+� 2� , em que T 
+é o período; A é a amplitude ou deslocamento máximo; 
+θ  é o ângulo de fase 0
+2
+�
+�
+�
+�
+w
+, que mede o 
+deslocamento no eixo horizontal em relação à origem no 
+instante inicial do movimento.
+O gráfico representa um movimento periódico,  
+P = P(t), em centímetro, em que P é a posição da 
+cabeça do pistão do motor de um carro em um 
+instante t, conforme ilustra a figura.
+A expressão algébrica que representa a posição P(t), 
+da cabeça do pistão, em função do tempo t é
+A
+P t
+sen
+t
+( ) �
+�
+�
+4
+2
+B
+P t
+sen
+t
+( ) � �
+�
+�
+4
+2
+C
+P t
+sen
+t
+( ) � �
+�
+�
+4
+4
+D
+P t
+sen
+t
+( ) �
+�
+�
+��
+�
+��
+4
+2
+4
+�
+E
+P t
+sen
+t
+( ) �
+�
+�
+��
+�
+��
+4
+4
+4
+�
+Questão 146 
+A conta de telefone de uma loja foi, nesse mês, de 
+R$ 200,00. O valor da assinatura mensal, já incluso 
+na conta, é de R$ 40,00, o qual dá direito a realizar 
+uma quantidade ilimitada de ligações locais para 
+telefones fixos. As ligações para celulares são tarifadas 
+separadamente. Nessa loja, são feitas somente ligações 
+locais, tanto para telefones fixos quanto para celulares. 
+Para reduzir os custos, o gerente planeja, para o próximo 
+mês, uma conta de telefone com valor de R$ 80,00.
+Para que esse planejamento se cumpra, a redução 
+percentual com gastos em ligações para celulares nessa 
+loja deverá ser de
+A 25%
+B 40%
+C 50%
+D 60%
+E 75%
+Questão 147 
+Uma equipe de cientistas decidiu iniciar uma cultura 
+com exemplares de uma bactéria, em uma lâmina, a fim 
+de determinar o comportamento dessa população. Após 
+alguns dias, os cientistas verificaram os seguintes fatos:
+• a cultura cresceu e ocupou uma área com o 
+formato de um círculo;
+• o raio do círculo formado pela cultura de bactérias 
+aumentou 10% a cada dia;
+• a concentração na cultura era de 1 000 bactérias 
+por 
+milímetro 
+quadrado 
+e 
+não 
+mudou 
+significativamente com o tempo.
+Considere que r representa o raio do círculo no 
+primeiro dia, Q a quantidade de bactérias nessa cultura 
+no decorrer do tempo e d o número de dias transcorridos.
+Qual é a expressão que representa Q em função de r e d ?
+A
+Q
+r
+d
+�
+�
+�
+�
+�
+�
+10
+1 1
+3
+1
+2
+,
+�
+B
+Q
+r
+d
+�
+�
+�
+�
+�
+�
+10
+1 1
+3
+1
+2
+,
+�
+C
+Q
+d
+r
+�
+�
+� �
+�
+�
+10
+1 1
+1
+3
+2
+,
+�
+D
+Q
+r
+d
+�
+�
+�
+�
+�
+2 10
+1 1
+3
+1
+,
+�
+E
+Q
+d
+r
+�
+�
+�
+�
+�
+� �
+2 10
+1 1
+1
+3
+,
+�
+P
+4
+3
+2
+1
+−1
+−2
+−3
+− 4
+0
+π
+π
+2
+π
+3
+2
+π
+2
+π
+5
+2
+π
+3
+π
+7
+2
+π
+4
+t
+*DO0525AM20*
+MT - 2º dia | Caderno 5 - AMARELO - Página 21
+Questão 148 
+Deseja-se comprar determinado produto e, após 
+uma pesquisa de preços, o produto foi encontrado em 
+5 lojas diferentes, a preços variados.
+• Loja 1:  20% de desconto, que equivale a R$ 720,00, 
+mais R$ 70,00 de frete;
+• Loja 2:  20% de desconto, que equivale a R$ 740,00, 
+mais R$ 50,00 de frete;
+• Loja 3:  20% de desconto, que equivale a R$ 760,00, 
+mais R$ 80,00 de frete;
+• Loja 4:  15% de desconto, que equivale a R$ 710,00, 
+mais R$ 10,00 de frete;
+• Loja 5:  15% de desconto, que equivale a R$ 690,00, 
+sem custo de frete.
+O produto foi comprado na loja que apresentou o 
+menor preço total.
+O produto foi adquirido na loja
+A 1.
+B 2.
+C 3.
+D 4.
+E 5.
+Questão 149 
+Para a compra de um repelente eletrônico, uma 
+pessoa fez uma pesquisa nos mercados de seu bairro. 
+Cada tipo de repelente pesquisado traz escrito no rótulo 
+da embalagem as informações quanto à duração, em 
+dia, associada à quantidade de horas de utilização por 
+dia. Essas informações e o preço por unidade foram 
+representados no quadro.
+Tipo
+Duração 
+em dia
+Horas por dia 
+de utilização
+Preço  
+em real
+I
+30 
+12 
+12,00 
+II
+32 
+9 
+9,00 
+III
+40 
+10 
+10,00 
+IV
+44 
+8 
+11,00 
+V
+48 
+8 
+12,00 
+A pessoa comprará aquele que apresentar o menor 
+custo diário, quando ligado durante 8 horas por dia.
+Nessas condições, o repelente eletrônico que essa 
+pessoa comprará é do tipo
+A I.
+B II.
+C III.
+D IV.
+E V.
+Questão 150 
+O modelo predador-presa consiste em descrever a 
+interação entre duas espécies, sendo que uma delas 
+(presa) serve de alimento para a outra (predador).  
+A resposta funcional é a relação entre a taxa de consumo 
+de um predador e a densidade populacional de sua 
+presa. A figura mostra três respostas funcionais (f, g, h), 
+em que a variável independente representa a densidade 
+populacional da presa.
+0
+0
+0,2
+0,4
+0,6
+0,8
+1
+A
+B
+C
+D
+E
+f 
+g 
+h 
+Taxa de consumo de predador
+Densidade populacional de presa
+Disponível em: www.jornallivre.com.br. 
+Acesso em: 1 ago. 2012 (adaptado).
+Qual o maior intervalo em que a resposta funcional f(x) 
+é menor que as respostas funcionais g(x) e h(x), 
+simultaneamente?
+A (0 ; B)
+B (B ; C)
+C (B ; E)
+D (C ; D)
+E (C ; E)
+*DO0525AM21*
+MT - 2º dia | Caderno 5 - AMARELO - Página 22
+Questão 151 
+Na anestesia peridural, como a usada nos partos, 
+o médico anestesista precisa introduzir uma agulha nas 
+costas do paciente, que atravessará várias camadas de 
+tecido até chegar a uma região estreita, chamada espaço 
+epidural, que envolve a medula espinhal. A agulha é 
+usada para injetar um líquido anestésico, e a força que 
+deve ser aplicada à agulha para fazê-la avançar através 
+dos tecidos é variável.
+A figura é um gráfico do módulo F da força (em newton) 
+em função do deslocamento x da ponta da agulha 
+(em milímetro) durante uma anestesia peridural típica.
+Considere que a velocidade de penetração da agulha 
+deva ser a mesma durante a aplicação da anestesia e 
+que a força aplicada à agulha pelo médico anestesista 
+em cada ponto deve ser proporcional à resistência 
+naquele ponto.
+F (N)
+12
+6
+A
+0
+10
+20
+30
+x (mm)
+B
+C
+D
+E
+F
+G H
+I
+HALLIDAY, D.; RESNICK, R. Fundamentos de física. 
+Rio de Janeiro: lTC, 2008.
+Com base nas informações apresentadas, a maior 
+resistência à força aplicada observa-se ao longo 
+do segmento
+A AB.
+B fG.
+C Ef.
+D Gh.
+E hI.
+Questão 152 
+No 
+desenvolvimento 
+de 
+um 
+novo 
+remédio, 
+pesquisadores monitoram a quantidade Q de uma 
+substância circulando na corrente sanguínea de um 
+paciente, ao longo do tempo t. Esses pesquisadores 
+controlam o processo, observando que Q é uma função 
+quadrática de t. Os dados coletados nas duas primeiras 
+horas foram:
+t (hora)
+0
+1
+2
+Q (miligrama)
+1
+4
+6
+Para decidir se devem interromper o processo, 
+evitando riscos ao paciente, os pesquisadores querem 
+saber, antecipadamente, a quantidade da substância 
+que estará circulando na corrente sanguínea desse 
+paciente após uma hora do último dado coletado.
+Nas condições expostas, essa quantidade (em miligrama) 
+será igual a
+A 4.
+B 7.
+C 8.
+D 9.
+E 10.
+Questão 153 
+Um jardineiro cultiva plantas ornamentais e as coloca 
+à venda quando estas atingem 30 centímetros de altura. 
+Esse jardineiro estudou o crescimento de suas plantas, 
+em função do tempo, e deduziu uma fórmula que calcula 
+a altura em função do tempo, a partir do momento em 
+que a planta brota do solo até o momento em que ela 
+atinge sua altura máxima de 40 centímetros. A fórmula é 
+h = 5·log2 (t + 1), em que t é o tempo contado em dia e 
+h, a altura da planta em centímetro.
+A partir do momento em que uma dessas plantas 
+é colocada à venda, em quanto tempo, em dia, ela 
+alcançará sua altura máxima?
+A 63
+B 96
+C 128
+D 192
+E 255
+*DO0525AM22*
+MT - 2º dia | Caderno 5 - AMARELO - Página 23
+Questão 154 
+Uma formiga encontra-se no ponto X, no lado externo de um copo que tem a forma de um cilindro reto. No 
+lado interno, no ponto V, existe um grão de açúcar preso na parede do copo. A formiga segue o caminho XYZWV 
+(sempre sobre a superfície lateral do copo), de tal forma que os trechos ZW e WV são realizados na superfície 
+interna do copo. O caminho XYZWV é mostrado na figura.
+W
+V
+X
+Y
+P
+Z
+Q
+ Sabe-se que: os pontos X, V, W se encontram à mesma distância da borda; o trajeto WV é o mais curto possível; 
+os trajetos XY e ZW são perpendiculares à borda do copo; e os pontos X e V se encontram diametralmente opostos.
+Supondo que o copo é de material recortável, realiza-se um corte pelo segmento unindo P a Q, perpendicular à 
+borda do copo, e recorta-se também sua base, obtendo então uma figura plana. Desconsidere a espessura do copo.
+Considerando apenas a planificação da superfície lateral do copo, a trajetória da formiga é
+A
+Z
+V
+W
+Y
+X
+D
+Z
+W
+V
+Y
+X
+B
+W
+V
+X
+Z
+Y
+E
+W
+V
+X
+Z
+Y
+C
+Z
+V
+W
+Y
+X
+*DO0525AM23*
+MT - 2º dia | Caderno 5 - AMARELO - Página 24
+Questão 155 
+Em um laboratório, cientistas observaram o 
+crescimento de uma população de bactérias submetida 
+a uma dieta magra em fósforo, com generosas porções 
+de arsênico. Descobriu-se que o número de bactérias 
+dessa população, após t horas de observação, poderia 
+ser modelado pela função exponencial N(t) = N0ekt, em 
+que N0 é o número de bactérias no instante do início 
+da observação (t = 0) e representa uma constante real 
+maior que 1, e k é uma constante real positiva.
+Sabe-se que, após uma hora de observação, o 
+número de bactérias foi triplicado.
+Cinco horas após o início da observação, o número de 
+bactérias, em relação ao número inicial dessa cultura, foi
+A 3N0
+B 15N0
+C 243N0
+D 360N0
+E 729N0
+Questão 156 
+No ano de 1751, o matemático Euler conseguiu 
+demonstrar a famosa relação para poliedros convexos 
+que relaciona o número de suas faces (F), arestas (A) e 
+vértices (V): V + F = A + 2. No entanto, na busca dessa 
+demonstração, essa relação foi sendo testada em 
+poliedros convexos e não convexos. Observou-se que 
+alguns poliedros não convexos satisfaziam a relação 
+e outros não. Um exemplo de poliedro não convexo 
+é dado na figura. Todas as faces que não podem ser 
+vistas diretamente são retangulares.
+Qual a relação entre os vértices, as faces e as arestas 
+do poliedro apresentado na figura?
+A V + f = A
+B V + f = A - 1
+C V + f = A + 1
+D V + f = A + 2
+E V + f = A + 3
+Questão 157 
+Uma pessoa fez um depósito inicial de R$ 200,00 
+em um fundo de Investimentos que possui rendimento 
+constante sob juros compostos de 5% ao mês.  
+Esse Fundo possui cinco planos de carência (tempo 
+mínimo necessário de rendimento do Fundo sem 
+movimentação do cliente). Os planos são: 
+• Plano A: carência de 10 meses; 
+• Plano B: carência de 15 meses; 
+• Plano C: carência de 20 meses; 
+• Plano D: carência de 28 meses; 
+• Plano E: carência de 40 meses. 
+O objetivo dessa pessoa é deixar essa aplicação 
+rendendo até que o valor inicialmente aplicado duplique, 
+quando somado aos juros do fundo. Considere as 
+aproximações: log 2 = 0,30 e log 1,05 = 0,02.
+Para que essa pessoa atinja seu objetivo apenas 
+no período de carência, mas com a menor carência 
+possível, deverá optar pelo plano
+A A.
+B B.
+C C.
+D D.
+E E.
+Questão 158 
+Muitos restaurantes servem refrigerantes em copos 
+contendo limão e gelo. Suponha um copo de formato 
+cilíndrico, com as seguintes medidas: diâmetro = 6 cm e 
+altura = 15 cm. Nesse copo, há três cubos de gelo, cujas 
+arestas medem 2 cm cada, e duas rodelas cilíndricas 
+de limão, com 4 cm de diâmetro e 0,5 cm de espessura 
+cada. Considere que, ao colocar o refrigerante no copo, 
+os cubos de gelo e os limões ficarão totalmente imersos. 
+(Use 3 como aproximação para π).
+O volume máximo de refrigerante, em centímetro cúbico, 
+que cabe nesse copo contendo as rodelas de limão e os 
+cubos de gelo com suas dimensões inalteradas, é igual a
+A 107.
+B 234.
+C 369.
+D 391.
+E 405.
+*DO0525AM24*
+MT - 2º dia | Caderno 5 - AMARELO - Página 25
+Questão 159 
+Uma empresa, investindo na segurança, contrata 
+uma firma para instalar mais uma câmera de segurança 
+no teto de uma sala. Para iniciar o serviço, o representante 
+da empresa informa ao instalador que nessa sala já 
+estão instaladas duas câmeras e, a terceira, deverá ser 
+colocada de maneira a ficar equidistante destas. Além 
+disso, ele apresenta outras duas informações:
+(i)  um esboço em um sistema de coordenadas 
+cartesianas, do teto da sala, onde estão inseridas 
+as posições das câmeras 1 e 2, conforme  
+a figura.
+(ii)  
+y
+x
+Largura da sala (m)
+Câmera 2
+Câmera 1
+Comprimento da sala (m)
+4
+3
+2
+1
+1
+0
+2
+3
+4
+cinco relações entre as coordenadas (x ; y) da 
+posição onde a câmera 3 deverá ser instalada.
+R1:
+y = x
+R2:
+y = - 3x + 5
+R3:
+y = - 3x + 10
+R4:
+y
+x
+�
+�
+1
+3
+5
+3
+R5:
+y
+x
+�
+�
+1
+3
+1
+10
+O instalador, após analisar as informações e as 
+cinco relações, faz a opção correta dentre as relações 
+apresentadas para instalar a terceira câmera.
+A relação escolhida pelo instalador foi a
+A R1.
+B R2.
+C R3.
+D R4.
+E R5.
+Questão 160 
+No trapézio isósceles mostrado na figura a seguir,  
+M é o ponto médio do segmento BC, e os pontos P e Q são 
+obtidos dividindo o segmento AD em três partes iguais.
+A
+B
+M
+C
+P
+Q
+D
+Pelos pontos B, M, C, P e Q são traçados segmentos 
+de reta, determinando cinco triângulos internos ao 
+trapézio, conforme a figura.
+A razão entre BC  e AD  que determina áreas iguais 
+para os cinco triângulos mostrados na figura é
+A
+1
+3
+B
+2
+3
+C
+2
+5
+D
+3
+5
+E
+5
+6
+Questão 161 
+Em um município foi realizado um levantamento 
+relativo ao número de médicos, obtendo-se os dados:
+Ano
+Médicos
+1980
+137
+1985
+162
+1995
+212
+2010
+287
+Tendo em vista a crescente demanda por atendimento 
+médico na rede de saúde pública, pretende-se  
+promover a expansão, a longo prazo, do número de 
+médicos desse município, seguindo o comportamento 
+de crescimento linear no período observado no quadro.
+Qual a previsão do número de médicos nesse município 
+para o ano 2040?
+A 387 
+B 424 
+C 437 
+D 574 
+E 711
+*DO0525AM25*
+MT - 2º dia | Caderno 5 - AMARELO - Página 26
+Questão 162 
+O dono de um salão de festas precisa decorar cinco 
+pilastras verticais cilíndricas idênticas, cujo raio da base 
+mede 10 cm. O objetivo é revestir integralmente essas 
+pilastras com faixas de menor comprimento possível, de 
+modo que cada uma tenha seis faixas de cor preta e 
+cinco faixas de cor branca, conforme ilustrado na figura.
+Ele orçou as faixas em cinco lojas que as 
+comercializam na largura e nas cores desejadas, 
+porém, em todas elas, só são vendidas peças inteiras. 
+Os comprimentos e os respectivos preços das peças 
+comercializadas por loja estão apresentados no quadro.
+Loja
+Comprimento da 
+peça (em metro)
+Preço da peça 
+(em real)
+I 
+3 
+11,00 
+II 
+7 
+19,00 
+III 
+10 
+33,00 
+IV 
+14 
+37,00 
+V 
+22 
+61,00 
+O dono do salão de festas decidiu efetuar a compra 
+em uma única loja, optando por aquela em que a compra 
+ficaria mais barata.
+Utilize 3 como valor aproximado para π. 
+A loja na qual o dono do salão de festas deve comprar 
+as peças necessárias para confeccionar as faixas é
+A I.
+B II.
+C III.
+D IV.
+E V.
+Questão 163 
+Considere que a safra nacional de cereais, 
+leguminosas e oleaginosas, em 2012, aponte uma 
+participação por região conforme indicado no gráfico. 
+Em valores absolutos, essas estimativas indicam que 
+as duas regiões maiores produtoras deveriam produzir 
+juntas um total de 119,8 milhões de toneladas em 2012.
+Sul
+37,2%
+Sudeste
+11,4%
+Nordeste
+10,4%
+Norte
+2,7%
+Centro-Oeste
+38,3%
+De acordo com esses dados, a produção estimada, 
+em milhão de tonelada, de cereais, leguminosas e 
+oleaginosas, em 2012, na Região Sudeste do país, 
+foi um valor mais aproximado de
+A 11,4.
+B 13,6.
+C 15,7.
+D 18,1.
+E 35,6.
+Questão 164 
+O projeto de transposição do Rio São Francisco 
+consiste na tentativa de solucionar um problema que 
+há muito afeta as populações do semiárido brasileiro, 
+a seca. O projeto prevê a retirada de 26,4 m³/s de água 
+desse rio. Para tornar mais compreensível a informação 
+do volume de água a ser retirado, deseja-se expressar 
+essa quantidade em litro por minuto.
+Disponível em: www.infoescola.com. Acesso em: 28 out. 2015.
+Com base nas informações, qual expressão representa 
+a quantidade de água retirada, em litro por minuto?
+A
+26 4
+1000
+60
+,
+×
+B
+26 4
+10
+60
+,
+×
+C
+26,4 × 1 × 60 
+D
+26,4 × 10 × 60
+E
+26,4 × 1 000 × 60
+Vista lateral
+da pilastra
+*DO0525AM26*
+MT - 2º dia | Caderno 5 - AMARELO - Página 27
+Questão 165 
+O esquema apresenta a concentração de álcool presente em cada 200 mL de diferentes tipos de bebidas.
+Álcool
+Limites para o consumo de bebidas alcoólicas
+Bebida
+Concentração
+de álcool
+Grama
+de álcool
+Unidade
+de álcool
+Cerveja
+Vinho
+Uísque
+Vodca
+Cachaça
+10
+24
+80
+80
+80
+2,4
+1
+200 mL
+Unidades de álcool e males à saúde
+RISCO
+MULHERES
+HOMENS
+BAIXO
+Menor que 14 unidades por semana
+Menor que 21 unidades por semana
+MÉDIO
+15 a 35 unidades por semana
+22 a 50 unidades por semana
+ALTO
+Mais que 36 unidades por semana
+Mais que 51 unidades por semana
+5%
+12%
+40%
+40%
+40%
+8
+8
+8
+Disponível em: http://g1.globo.com. Acesso em: 30 jul. 2012 (adaptado).
+De acordo com as informações, indique qual o número máximo de taças de vinho, de 300 mL, que podem ser 
+consumidas, semanalmente, por uma mulher que se enquadre no grupo de médio risco.
+A 0
+B 4
+C 7
+D 9
+E 14
+Questão 166 
+Uma empresa de transporte disponibiliza, para embalagem de encomendas, caixas de papelão no formato de 
+paralelepípedo retoretângulo, conforme dimensões no quadro.
+Modelo da caixa
+Comprimento (cm)
+Largura (cm)
+Altura (cm) 
+1 
+12 
+12 
+13 
+2 
+23 
+20 
+25 
+3 
+25 
+25 
+25 
+4 
+26 
+25 
+24 
+5 
+23 
+26 
+26 
+Para embalar uma encomenda, contendo um objeto esférico com 11 cm de raio, essa empresa adota como 
+critério a utilização da caixa, dentre os modelos disponíveis, que comporte, quando fechada e sem deformá-la, a 
+encomenda e que possua a menor área de superfície total.
+Desconsidere a espessura da caixa.
+Nessas condições, qual dos modelos apresentados deverá ser o escolhido pela empresa?
+A 1
+B 2
+C 3
+D 4
+E 5
+*DO0525AM27*
+MT - 2º dia | Caderno 5 - AMARELO - Página 28
+Questão 167 
+Uma empresa divide o balanço anual de vendas de 
+seus produtos em duas partes, calculando o número de 
+vendas dos produtos ao final de cada semestre do ano.  
+Após o balanço do primeiro semestre, foram realizadas 
+ações de marketing para os cinco produtos menos vendidos 
+da empresa. A tabela mostra a evolução das vendas desses 
+produtos, do primeiro para o segundo semestre.
+Produto
+Número de unidades 
+vendidas no 
+primeiro semestre
+Número de unidades 
+vendidas no 
+segundo semestre
+I
+350
+600
+II
+1 000
+1 100
+III
+4 000
+4 500
+IV
+850
+1 200
+V
+2 000
+2 600
+O sucesso de uma ação de marketing de um 
+produto é medido pelo aumento percentual do número 
+de unidades vendidas desse produto, do primeiro para o 
+segundo semestre.
+A ação de marketing mais bem-sucedida foi para o produto
+A I.
+B II.
+C III.
+D IV.
+E V.
+Questão 168 
+Em um trabalho escolar, um aluno fez uma planta 
+do seu bairro, utilizando a escala 1 : 500, sendo que as 
+quadras possuem as mesmas medidas, conforme a figura.
+Ponte
+9 cm
+8 cm
+20 cm
+O professor constatou que o aluno esqueceu de 
+colocar a medida do comprimento da ponte na planta, 
+mas foi informado por ele que ela media 73 m.
+O valor a ser colocado na planta, em centímetro, 
+referente ao comprimento da ponte deve ser
+A 1,46.
+B 6,8.
+C 14,6.
+D 68.
+E 146.
+Questão 169 
+O quadro apresenta a quantidade de um tipo de pão 
+vendido em uma semana em uma padaria.
+Dia da semana
+Número de pães vendidos
+Domingo 
+250 
+Segunda-feira 
+208 
+Terça-feira 
+215 
+Quarta-feira 
+251 
+Quinta-feira 
+187 
+Sexta-feira 
+187 
+Sábado 
+186 
+O dono da padaria decidiu que, na semana 
+seguinte, a produção diária desse tipo de pão seria 
+igual ao número de pães vendidos no dia da semana 
+em que tal quantidade foi a mais próxima da média das  
+quantidades vendidas na semana.
+O dia da semana utilizado como referência para a 
+quantidade de pães a serem produzidos diariamente foi
+A domingo.
+B segunda-feira.
+C terça-feira.
+D quarta-feira.
+E sábado.
+Questão 170 
+Uma pista circular delimitada por duas circunferências 
+concêntricas foi construída. Na circunferência interna dessa 
+pista, de raio 0,3 km, serão colocados aparelhos de ginástica 
+localizados nos pontos P, Q e R, conforme a figura.
+R
+Q
+P
+O segmento RP é um diâmetro dessa circunferência 
+interna, e o ângulo PRQ
+
+ tem medida igual a π
+5  radianos.
+Para uma pessoa ir do ponto P ao ponto Q andando 
+pela circunferência interna no sentido anti-horário, ela 
+percorrerá uma distância, em quilômetro, igual a
+A 0,009π
+B 0,03π
+C 0,06π
+D 0,12π
+E 0,18π
+*DO0525AM28*
+MT - 2º dia | Caderno 5 - AMARELO - Página 29
+Questão 171 
+O quadro apresenta a relação dos jogadores que 
+fizeram parte da seleção brasileira de voleibol masculino 
+nas Olimpíadas de 2012, em Londres, e suas respectivas 
+alturas, em metro.
+Nome
+Altura (m)
+Bruninho
+1,90
+Dante
+2,01
+Giba
+1,92
+leandro Vissoto
+2,11
+lucas
+2,09
+Murilo
+1,90
+Ricardinho
+1,91
+Rodrigão
+2,05
+Serginho
+1,84
+Sidão
+2,03
+Thiago Alves
+1,94
+Wallace
+1,98
+Disponível em: www.cbv.com.br. Acesso em: 31 jul. 2012 (adaptado).
+A mediana das alturas, em metro, desses jogadores é
+A 1,90.
+B 1,91.
+C 1,96.
+D 1,97.
+E 1,98.
+Questão 172 
+A unidade de medida utilizada para anunciar o 
+tamanho das telas de televisores no Brasil é a polegada, 
+que corresponde a 2,54 cm. Diferentemente do que muitos 
+imaginam, dizer que a tela de uma TV tem X polegadas 
+significa que a diagonal do retângulo que representa sua 
+tela mede X polegadas, conforme ilustração.
+A
+C
+X
+O administrador de um museu recebeu uma TV 
+convencional de 20 polegadas, que tem como razão 
+do comprimento (C) pela altura (A) a proporção 4 : 3, e 
+precisa calcular o comprimento (C) dessa TV a fim de 
+colocá-la em uma estante para exposição.
+A tela dessa TV tem medida do comprimento C, em 
+centímetro, igual a
+A 12,00.
+B 16,00.
+C 30,48.
+D 40,64.
+E 50,80.
+Questão 173 
+Uma locadora possui disponíveis 120 veículos da 
+categoria que um cliente pretende locar. Desses, 20% 
+são da cor branca, 40% são da cor cinza, 16 veículos 
+são da cor vermelha e o restante, de outras cores.  
+O cliente não gosta da cor vermelha e ficaria contente 
+com qualquer outra cor, mas o sistema de controle 
+disponibiliza os veículos sem levar em conta a escolha 
+da cor pelo cliente.
+Disponibilizando aleatoriamente, qual é a probabilidade 
+de o cliente ficar contente com a cor do veículo?
+A
+16
+120
+B
+32
+120
+C
+72
+120
+D
+101
+120
+E
+104
+120
+Questão 174 
+Um vidraceiro é contratado para colocar uma porta 
+de vidro que escorregará em uma canaleta de largura 
+interna igual a 1,45 cm, como mostra a figura.
+Largura
+interna
+Espessura
+de vidro
+O vidraceiro precisa de uma placa de vidro de maior 
+espessura possível, tal que deixe uma folga total de 
+pelo menos 0,2 cm, para que o vidro possa escorregar 
+na canaleta, e no máximo 0,5 cm para que o vidro não 
+fique batendo com a interferência do vento após a 
+instalação. Para conseguir essa placa de vidro, esse 
+vidraceiro foi até uma loja e lá encontrou placas de vidro 
+com espessuras iguais a: 0,75 cm; 0,95 cm; 1,05 cm;  
+1,20 cm; 1,40 cm.
+Para atender às restrições especificadas, o vidraceiro 
+deverá comprar a placa de espessura, em centímetro, 
+igual a
+A 0,75.
+B 0,95.
+C 1,05.
+D 1,20.
+E 1,40.
+*DO0525AM29*
+MT - 2º dia | Caderno 5 - AMARELO - Página 30
+Questão 175 
+Uma empresa sorteia prêmios entre os funcionários 
+como reconhecimento pelo tempo trabalhado. A tabela 
+mostra a distribuição de frequência de 20 empregados 
+dessa empresa que têm de 25 a 35 anos trabalhados.  
+A empresa sorteou, entre esses empregados, uma 
+viagem de uma semana, sendo dois deles escolhidos 
+aleatoriamente.
+Tempo de serviço
+Número de empregados
+25
+4
+27
+1
+29
+2
+30
+2
+32
+3
+34
+5
+35
+3
+Qual a probabilidade de que ambos os sorteados tenham 
+34 anos de trabalho?
+A
+1
+20
+B
+1
+19
+C
+1
+16
+D
+2
+20
+E
+5
+20
+Questão 176 
+Para decorar sua casa, uma pessoa comprou um 
+vaso de vidro em forma de um paralelepípedo retangular, 
+cujas medidas internas são: 40 cm de comprimento, 
+35 cm de largura e 60 cm de altura. Em seguida, foi 
+até uma floricultura e escolheu uma planta aquática 
+para colocar nesse vaso. Segundo uma proposta do 
+gerente do local, essa pessoa avaliou a possibilidade 
+de enfeitar o vaso colocando uma certa quantidade de 
+pedrinhas artificiais brancas, de volume igual a 100 cm3 
+cada uma delas, que ficarão totalmente imersas na água 
+que será colocada no vaso. O gerente alertou que seria 
+adequado, em função da planta escolhida, que metade 
+do volume do vaso fosse preenchido com água e que, 
+após as pedrinhas colocadas, a altura da água deveria 
+ficar a 10 cm do topo do vaso, dando um razoável 
+espaço para o crescimento da planta. A pessoa aceitou 
+as sugestões apresentadas, adquirindo, além da planta, 
+uma quantidade mínima de pedrinhas, satisfazendo as 
+indicações do gerente.
+Nas condições apresentadas, a quantidade de pedrinhas 
+compradas foi
+A 140.
+B 280.
+C 350.
+D 420.
+E 700.
+Questão 177 
+Uma empresa especializou-se no aluguel de 
+contêineres que são utilizados como unidades comerciais 
+móveis. O modelo padrão alugado pela empresa tem 
+altura de 2,4 m e as outras duas dimensões (largura e 
+comprimento), 3,0 m e 7,0 m, respectivamente.
+3,0 m
+7,0 m
+2,4 m
+Um cliente solicitou um contêiner com altura padrão, 
+porém, com largura 40% maior e comprimento 20% 
+menor que as correspondentes medidas do modelo 
+padrão. Para atender às necessidades de mercado, a 
+empresa também disponibiliza um estoque de outros 
+modelos de contêineres, conforme o quadro.
+Modelos com 
+altura de 2,4 m
+Largura  
+(em metro)
+Comprimento 
+(em metro)
+ I 
+4,2 
+8,4 
+II 
+4,2 
+5,6 
+III 
+4,2 
+5,8 
+IV 
+5,0 
+5,6 
+V 
+5,0 
+8,4 
+Dos modelos disponíveis, qual atende às necessidades 
+do cliente?
+A I
+B II
+C III
+D IV
+E V
+*DO0525AM30*
+MT - 2º dia | Caderno 5 - AMARELO - Página 31
+Questão 178 
+Um fiscal de certa empresa de ônibus registra o 
+tempo, em minuto, que um motorista novato gasta 
+para completar certo percurso. No Quadro 1 figuram 
+os tempos gastos pelo motorista ao realizar o mesmo 
+percurso sete vezes. O Quadro 2 apresenta uma 
+classificação para a variabilidade do tempo, segundo o 
+valor do desvio padrão.
+Quadro 1
+Tempos 
+(em minuto)
+48 
+54 
+50 
+46 
+44 
+52 
+49 
+Quadro 2
+Variabilidade
+Desvio padrão do 
+tempo (min)
+Extremamente baixa
+0 < σ ≤ 2
+Baixa
+2 < σ ≤ 4
+Moderada
+4 < σ ≤ 6
+Alta
+6 < σ ≤ 8
+Extremamente alta
+σ > 8
+Com base nas informações apresentadas nos quadros, 
+a variabilidade do tempo é
+A extremamente baixa.
+B baixa.
+C moderada.
+D alta.
+E extremamente alta.
+Questão 179 
+Um país decide investir recursos na educação em 
+suas cidades que tenham um alto nível de analfabetismo. 
+Os recursos serão divididos de acordo com a idade média 
+da população que é analfabeta, conforme apresentado 
+no quadro.
+Recurso
+Idade média da população 
+analfabeta (M )
+I
+M < 22
+II
+22 < M < 27
+III
+27 < M < 32
+IV
+32 < M < 37
+V
+M > 37
+Uma cidade desse país possui 60
+100  do total de 
+analfabetos de sua população composto por mulheres. 
+A média de idade das mulheres analfabetas é de  
+30 anos, e a média de idade dos homens analfabetos é 
+de 35 anos.
+Considerando a média de idade da população analfabeta 
+dessa cidade, ela receberá o recurso
+A I.
+B II.
+C III.
+D IV.
+E V.
+Questão 180 
+Para certas molas, a constante elástica (C) depende 
+do diâmetro médio da circunferência da mola (D), do 
+número de espirais úteis (N), do diâmetro (d) do fio 
+de metal do qual é formada a mola e do módulo de 
+elasticidade do material (G). A fórmula evidencia essas 
+relações de dependência.
+C
+G d
+D
+N
+�
+�
+�
+�
+4
+3
+8
+O dono de uma fábrica possui uma mola M1 em um 
+de seus equipamentos, que tem características D1, d1, 
+N1 e G1, com uma constante elástica C1. Essa mola 
+precisa ser substituída por outra, M2, produzida com 
+outro material e com características diferentes, bem 
+como uma nova constante elástica C2, da seguinte 
+maneira: I) D2 = D1
+3 ; II) d2 = 3d1; III) N2 = 9N1. Além 
+disso, a constante de elasticidade G2 do novo material 
+é igual a 4G1.
+O valor da constante C2 em função da constante C1 é
+A
+C2 = 972⋅C1
+B
+C2 = 108⋅C1
+C
+C2 = 4⋅C1
+D
+C
+C
+2
+1
+4
+3
+�
+�
+E
+C
+C
+2
+1
+4
+9
+�
+�
+*DO0525AM31*
+MT - 2º dia | Caderno 5 - AMARELO - Página 32
+*DO0525AM32*
+
