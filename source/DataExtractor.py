@@ -108,6 +108,7 @@ class DataExtractor:
             escolhas["D"] = alternativas[3]
             escolhas["E"] = alternativas[4]
         return escolhas
+    
     def desestruturarQuestaoEnem(self, questao, index):
         #retira info desnecessaria
         questao = questao.split("*")[0]
@@ -207,17 +208,32 @@ class DataExtractor:
             dicionario["erro"] = 'padrão de questão não reconhecido'
         return dicionario
 
-    def questoesJson(self, texto):
+    def questoes(self, texto, salvar: bool):
         if(self.vestibular == "unicamp"):
             questoes = self.dividirQuestoesUnicamp(texto=texto)
             listaQuestoes = []
-            for questao in questoes:
-                listaQuestoes.append(self.desestruturarQuestaoUnicamp(questao, questoes.index(questao)))
+            if (salvar == True):
+                for questao in questoes:
+                    questaoDestruturadaUnicamp = self.desestruturarQuestaoUnicamp(questao, questoes.index(questao))
+                    listaQuestoes.append(questaoDestruturadaUnicamp)
+                    self.banco.saveQuestion(questaoDestruturadaUnicamp)
+            else:
+                for questao in questoes:
+                    questaoDestruturadaUnicamp = self.desestruturarQuestaoUnicamp(questao, questoes.index(questao))
+                    listaQuestoes.append(questaoDestruturadaUnicamp)
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         elif (self.vestibular == "enem"):
             questoes = self.dividirQuestoesEnem(texto=texto)
             listaQuestoes = []
-            for questao in questoes:
-                listaQuestoes.append(self.desestruturarQuestaoEnem(questao, questoes.index(questao)))
+            if (salvar):
+                for questao in questoes:
+                    questaoDestruturadaEnem = self.desestruturarQuestaoEnem(questao, questoes.index(questao))
+                    listaQuestoes.append(questaoDestruturadaEnem)
+                    self.banco.saveQuestion(questaoDestruturadaEnem)
+            else:
+                for questao in questoes:
+                    questaoDestruturadaEnem = self.desestruturarQuestaoEnem(questao, questoes.index(questao))
+                    listaQuestoes.append(questaoDestruturadaEnem)
+                    
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         return jsonLista

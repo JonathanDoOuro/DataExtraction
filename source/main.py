@@ -43,10 +43,30 @@ def simpleMetaData(arquivo):
             "qtd_questoes": numeroQuestoes
             }
 
-if __name__ == "__main__":
-    #paths:
+def extrairDados(pasta_input, extratorQuestoes: DataExtractor, outputPath):
+    for arquivo in pasta_input:
+        print("extraindo: ", arquivo)
+        metaData = simpleMetaData(arquivo)
+        extratorQuestoes.setMetaData(vestibular=metaData["vestibular"],
+                                        ano=metaData["data_prova"],
+                                        qtd_alternativas=metaData["qtd_alternativas"],
+                                        codigo=metaData["codigo"],
+                                        qtd_questoes=metaData["qtd_questoes"])
+        #extrai o texto completo do pdf e retorna uma string
+        texto = extratorQuestoes.extrair_texto_do_pdf(arquivo)
+        #salva o texto extraido
+        with open(f'{outputPath}/{arquivo}.txt', 'w') as file:
+            print(texto, file=file)
+        #processa o texto e extrai cada questão separadamente
+        questoes = extratorQuestoes.questoes(texto=texto, salvar=False)
+        #salva as questões em um arquivo json
+        with open(f'{outputPath}/{arquivo}.json', 'w') as file:
+            print(questoes, file=file)
+
+def main():
+    #paths
     inputPath = "data/input"
-    outputPath = "data/output/jsonFiles"
+    outputPath = "data/output"
 
     #banco de questoes
     bancoMongo = BancoMongo("mongodb://root:example@localhost:27017")
@@ -58,27 +78,11 @@ if __name__ == "__main__":
     extratorQuestoes.setInputPath(inputPath=inputPath)
     extratorQuestoes.setBancoDados(bancoMongo)
 
-    #loop na pasta input
+    #pasta de arquivos do input
     pasta_input = os.listdir(inputPath)
 
+    #extrair pdf e salva em uma pasta o texto completo e as questões
+    extrairDados(pasta_input=pasta_input, extratorQuestoes=extratorQuestoes, outputPath=outputPath)
 
-    #arquivo = 'enem2019_PV_impresso_D1_CD1.pdf'
-    #arquivo = "unicamp2015QW.pdf"
-    for arquivo in pasta_input:
-        print(arquivo)
-        metaData = simpleMetaData(arquivo)
-        extratorQuestoes.setMetaData(vestibular=metaData["vestibular"],
-                                        ano=metaData["data_prova"],
-                                        qtd_alternativas=metaData["qtd_alternativas"],
-                                        codigo=metaData["codigo"],
-                                        qtd_questoes=metaData["qtd_questoes"])
-
-        #extrai o texto completo do pdf e retorna uma string
-        texto = extratorQuestoes.extrair_texto_do_pdf(arquivo)
-        with open(f'{outputPath}/{arquivo}.txt', 'w') as file:
-            print(texto, file=file)
-        #processa o texto e extrai cada questão separadamente
-        questoes = extratorQuestoes.questoesJson(texto)
-        #salva as questões em um arquivo json
-        with open(f'{outputPath}/{arquivo}.json', 'w') as file:
-            print(questoes, file=file)
+if __name__ == "__main__":
+    main()
