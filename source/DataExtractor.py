@@ -1,7 +1,7 @@
 import PyPDF2 as pd
 import json
 import re
-from integration import BancoMongo
+from dbacess import BancoMongo
 import fitz
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextBoxHorizontal, LTFigure

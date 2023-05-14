@@ -1,7 +1,7 @@
 from DataExtractor import DataExtractor
 import os
 import re
-from integration import BancoMongo
+from dbacess import BancoMongo
 
 def simpleMetaData(arquivo):
     '''
