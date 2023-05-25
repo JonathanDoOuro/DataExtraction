@@ -1,7 +1,7 @@
 import fitz
 import tabula
 
-path = f'exemplos/gabarito_2022_DIVULGA.pdf'
+path = f'exemplos/nem2022_GB_impresso_D1_CD1.pdf'
 
 doc = fitz.open(path)  # open document
 texto = ''
@@ -9,12 +9,10 @@ for page in doc:  #iterate the document pages
       text = page.get_text(sort=False)  # get plain text (is in UTF-8)
       texto += text
 
-# with open("exemplos/teste.txt", "w") as file:
-#       file.write(texto)
+print(texto)
 
-page_numbers = "1-3" 
+# read the first page of the PDF file and extract the table
+# df = tabula.read_pdf(path, pages=1)[0]
 
-table = tabula.read_pdf(path, pages=page_numbers)[0]
-
-
-print(table)
+# # print the table
+# print(df)
