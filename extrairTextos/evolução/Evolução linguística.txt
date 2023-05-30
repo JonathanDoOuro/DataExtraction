@@ -1,0 +1,12 @@
+Em linguística, o estudo da evolução linguística (ou mudança linguística) é comumente realizado no âmbito da linguística histórica. 
+Desde o surgimento da linguística enquanto ciência, no século XIX (mesma época que o surgimento da teoria evolutiva) a relação entre mudança linguística e evolução biológica tem sido foco de debates. Como se sabe, a grande descoberta científica deste século, a teoria da evolução por seleção natural, proposta e desenvolvida por Charles Darwin e Alfred Russel Wallace teve grande impacto no mundo científico, ecoando inclusive na linguística. 
+O linguista norte-americano William Croft, em sua obra Explaining language change [1], apresenta três maneiras distintas pelas quais a evolução biológica tem sido relacionada à mudança linguística:  
+O naturalista britânico Charles Darwin reconhecia que a formação de diferentes línguas e de espécies distintas bem como a prova de que ambas têm se desenvolvido por um processo gradual são fatos curiosamente paralelos. Em sua obra The descent of man [2], Darwin elenca quinze semelhanças entre os processos de evolução biológica e evolução linguística:
+Estes são os componentes básicos da teoria de seleção proposta por David Hull
+(cf. Hull 1988:413 apud Croft 2000:22): 
+(1) REPLICADOR - uma entidade que transmite sua estrutura em grande parte intacta em replicações sucessivas;
+(2) INTERADOR - uma entidade que interage como um todo coeso com seu ambiente de tal forma que essa interação causa replicação diferencial;
+(3) SELEÇÃO - um processo em que a extinção diferencial e a proliferação de interadores causam a perpetuação diferencial dos replicadores relevantes;
+(4) LINHAGEM - uma entidade que persiste indefinidamente ao longo do tempo, quer no mesmo estado, quer em um estado alterado, como resultado da replicação.
+
+
