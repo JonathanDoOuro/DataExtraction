@@ -21,9 +21,3 @@ import random
 # for x in data:
 #     print(x)
 #     break
-
-
-    # Imprime o título e o texto da página
-    with open(f'{title}.txt', "w") as file:
-        print("Texto: ", page_text, file=file)
-        print("\n---\n")

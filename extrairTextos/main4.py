@@ -392,8 +392,3 @@ with open("train_dataset.pickle", "wb") as arquivo:
 
 with open("test_dataset.pickle", "wb") as arquivo:
     pickle.dump(test_dataset, arquivo)
-
-
-        with open(f'{keyword}/{title}.txt', "w") as file:
-            print(filtered_text, file=file)
-            print("\n---\n")
