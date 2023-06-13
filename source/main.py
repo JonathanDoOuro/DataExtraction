@@ -54,12 +54,12 @@ def extrairDados(pasta_input, extratorQuestoes: DataExtractor, outputPath):
         #extrai o texto completo do pdf e retorna uma string
         texto = extratorQuestoes.extrair_texto_do_pdf(arquivo)
         #salva o texto extraido
-        with open(f'{outputPath}/{arquivo}.txt', 'w') as file:
+        with open(f'{outputPath}/provasBrutas/{arquivo}.txt', 'w') as file:
             print(texto, file=file)
         #processa o texto e extrai cada questão separadamente
         questoes = extratorQuestoes.questoes(texto=texto, salvar=False)
         #salva as questões em um arquivo json
-        with open(f'{outputPath}/{arquivo}.json', 'w') as file:
+        with open(f'{outputPath}/provasProcessadas/{arquivo}.json', 'w') as file:
             print(questoes, file=file)
 
 def extrairSalvarNoBanco(pasta_input, extratorQuestoes: DataExtractor, outputPath):

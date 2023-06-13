@@ -3,6 +3,7 @@ import json
 import codecs
 import pickle
 import random
+import os
 
 # folder_path = 'data/output'  # Replace with the actual folder path
 
@@ -21,3 +22,17 @@ import random
 # for x in data:
 #     print(x)
 #     break
+
+# arquivos = os.listdir("extrairTextos/topicos")
+
+# print(arquivos)
+
+# for arquivo in arquivos:
+#     with open(f"extrairTextos/topicos/{arquivo}", "rb") as file:
+#         data = pickle.load(file)
+
+#     with open("vizualize.txt", "w") as arquivo2:
+#         print(len(data),": " ,data, file=arquivo2)
+vetor_triplas = [("a", "b", "c"), ("d", "e", "f")]
+
+vetor_a, vetor_b, vetor_c = zip(*vetor_triplas)
