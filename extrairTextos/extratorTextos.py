@@ -1,7 +1,7 @@
 import time
 import requests
 import random
-import pickle
+import re
 import json
 from bs4 import BeautifulSoup
 
@@ -314,6 +314,45 @@ sample_test = ["Manifestações artísticas em contextos diferentes",
 
 keywords = portugues + literatura + matematica + sociologia + geografia + historia + filosofia + biologia + fisica + quimica
 
+
+def filtrar_texto(texto):
+    # Expressão regular para encontrar a expressão matemática
+    pattern = r'\\{0,2}\n*\{\\displaystyle.*?\n*\}'
+
+    # Substitui a expressão matemática encontrada por uma string vazia
+    texto_filtrado = re.sub(pattern, '', texto)
+
+    # Remove espaços e quebras de linha desnecessários
+    texto_filtrado = re.sub(r'\s+', ' ', texto_filtrado).strip()
+
+    return texto_filtrado.replace("\n", "")
+
+def contar_palavras(texto):
+    palavras = re.findall(r'\b[a-zA-Z]{5,}\b', texto)  # Encontra palavras formadas por letras com mais de 4 letras
+    return len(palavras)
+
+def possui_muitos_simbolos(texto, limite_proporcao=0.1):
+    # Remove espaços em branco para contar apenas caracteres
+    texto = texto.replace(" ", "")
+
+    # Conta a quantidade total de caracteres
+    total_caracteres = len(texto)
+
+    # Encontra os caracteres não alfabéticos
+    caracteres_nao_alfabeticos = re.findall(r'[^a-zA-Z]', texto)
+
+    # Conta a quantidade de caracteres não alfabéticos
+    total_nao_alfabeticos = len(caracteres_nao_alfabeticos)
+
+    # Calcula a proporção de caracteres não alfabéticos
+    proporcao_nao_alfabeticos = total_nao_alfabeticos / total_caracteres
+
+    # Verifica se a proporção ultrapassa o limite estabelecido
+    if proporcao_nao_alfabeticos > limite_proporcao:
+        return True
+    else:
+        return False
+
 train_dataset = []
 
 test_dataset = []
@@ -375,10 +414,11 @@ for keyword in random.sample(fisica, 5):
         # Filtra as seções indesejadas e obtém somente o texto principal
         for element in main_content_div:
             if element.name == "p":  # Filtra apenas parágrafos
-                if(i != 3):
-                    train_dataset.append((element.get_text(), title, keyword))
-                elif (i == 3):
-                    test_dataset.append((element.get_text(), title, keyword))
+                if(contar_palavras(element.get_text()) >= 15 and (not possui_muitos_simbolos(element.get_text()))):    
+                    if(i != 3):
+                        train_dataset.append((filtrar_texto(element.get_text()), title, keyword))
+                    elif (i == 3):
+                        test_dataset.append((filtrar_texto(element.get_text()), title, keyword))
         i+=1
     fim = time.time()  # Captura o tempo de término
     tempo_execucao = fim - inicio
@@ -391,3 +431,5 @@ with open("no_train_dataset.json", "w") as file:
 test_dataset_json = json.dumps(test_dataset)
 with open("no_test_dataset.json", "w") as file:
     file.write(test_dataset_json)
+
+print("train: ", len(train_dataset))
