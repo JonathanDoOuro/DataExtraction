@@ -2,6 +2,7 @@ import time
 import requests
 import random
 import pickle
+import json
 from bs4 import BeautifulSoup
 
 # Lista de palavras-chave
@@ -307,9 +308,9 @@ quimica = [
     "Química analítica"
 ]
 
-sample_test = ["homem como ser social", 
+sample_test = ["Manifestações artísticas em contextos diferentes", 
     "grupos sociais",
-    "demografia"]
+    "democracia"]
 
 keywords = portugues + literatura + matematica + sociologia + geografia + historia + filosofia + biologia + fisica + quimica
 
@@ -324,7 +325,7 @@ api_url = "https://pt.wikipedia.org/w/api.php"
 max_pages_per_keyword = 4
 
 # Itera sobre as palavras-chave
-for keyword in keywords:
+for keyword in random.sample(keywords, 50):
     inicio = time.time()
     print("Palavra-chave:", keyword)
 
@@ -372,23 +373,21 @@ for keyword in keywords:
         main_content_div = soup.find("div", class_="mw-parser-output")
 
         # Filtra as seções indesejadas e obtém somente o texto principal
-        filtered_text = ""
         for element in main_content_div:
             if element.name == "p":  # Filtra apenas parágrafos
-                filtered_text += element.get_text()
                 if(i != 3):
-                    train_dataset.append((element.get_text(), title))
+                    train_dataset.append((element.get_text(), title, keyword))
                 elif (i == 3):
-                    test_dataset.append((element.get_text(), title))
+                    test_dataset.append((element.get_text(), title, keyword))
         i+=1
     fim = time.time()  # Captura o tempo de término
     tempo_execucao = fim - inicio
-    texto_pagina = [linha for linha in filtered_text.split("\n") if linha.strip()]
     print("Tempo de execução:", tempo_execucao, "segundos")
 
+train_dataset_json = json.dumps(train_dataset)
+with open("train_dataset.json", "w") as file:
+    file.write(train_dataset_json)
 
-with open("train_dataset.pickle", "wb") as arquivo:
-    pickle.dump(train_dataset, arquivo)
-
-with open("test_dataset.pickle", "wb") as arquivo:
-    pickle.dump(test_dataset, arquivo)
+test_dataset_json = json.dumps(test_dataset)
+with open("test_dataset.json", "w") as file:
+    file.write(test_dataset_json)

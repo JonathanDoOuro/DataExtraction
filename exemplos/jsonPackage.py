@@ -1,14 +1,12 @@
-import json
+from bertopic import BERTopic
+import torch
 
+model_path = "exemplos/supervised_model"
+model = torch.load(model_path, map_location=torch.device('cpu'))
 
-with open("data/output/enem2012_PV_reaplicacao_PPL_D2_CD6.pdf.json", "r") as file:
-    docs = json.load(file)
+texto = """A cultura do Brasil é uma síntese da influência dos vários povos e etnias que formaram o povo brasileiro. Não existe uma cultura brasileira perfeitamente homogênea, e sim um mosaico de diferentes vertentes culturais que formam, juntas, a cultura do Brasil.
+"""
 
-print(len(docs))
- 
-iteravelStrings = list()
+topic, _ = model.transform(texto)
 
-for i in range(len(docs)):
-    iteravelStrings.append(docs[i])
-    print(i)
-    print(docs[i]["texto"])
+print(topic)
