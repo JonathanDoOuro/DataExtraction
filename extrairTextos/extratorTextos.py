@@ -325,7 +325,7 @@ api_url = "https://pt.wikipedia.org/w/api.php"
 max_pages_per_keyword = 4
 
 # Itera sobre as palavras-chave
-for keyword in random.sample(keywords, 50):
+for keyword in random.sample(fisica, 5):
     inicio = time.time()
     print("Palavra-chave:", keyword)
 
@@ -385,9 +385,9 @@ for keyword in random.sample(keywords, 50):
     print("Tempo de execução:", tempo_execucao, "segundos")
 
 train_dataset_json = json.dumps(train_dataset)
-with open("train_dataset.json", "w") as file:
+with open("no_train_dataset.json", "w") as file:
     file.write(train_dataset_json)
 
 test_dataset_json = json.dumps(test_dataset)
-with open("test_dataset.json", "w") as file:
+with open("no_test_dataset.json", "w") as file:
     file.write(test_dataset_json)
