@@ -7,61 +7,6 @@ import string
 import spacy
 import time
 
-def preprocess_text0(textos):
-    # Carrega o modelo do SpaCy para o idioma português
-    nlp = spacy.load("pt_core_news_sm")
-    
-    # Lista para armazenar os textos processados
-    textos_processados = []
-    
-    # Processa cada texto
-    for texto in textos:
-        # Aplica o pipeline do SpaCy para lematização e remoção de stop words
-        doc = nlp(texto)
-        
-        # Lematização das palavras e remoção de stop words
-        palavras_lematizadas = [token.lemma_ for token in doc if not token.is_stop]
-        
-        # Reconstroi o texto a partir das palavras lematizadas
-        texto_processado = ' '.join(palavras_lematizadas)
-        
-        # Adiciona o texto processado à lista de textos processados
-        textos_processados.append(texto_processado)
-    
-    return textos_processados
-
-def preprocess_text1(textos):
-    # Carrega o modelo do SpaCy para o idioma português
-    nlp = spacy.load("pt_core_news_md")
-    
-    # Cria um conjunto de pontuações para verificação eficiente
-    pontuacao = set(string.punctuation)
-    
-    # Lista para armazenar os textos processados
-    textos_processados = []
-    
-    # Processa cada texto
-    for texto in textos:
-        # Converte o texto para minúsculas
-        texto = texto.lower()
-        
-        # Remove pontuações e números
-        texto_processado = ''.join(char for char in texto if char not in pontuacao and not char.isdigit())
-        
-        # Aplica o pipeline do SpaCy para lematização e remoção de stop words
-        doc = nlp(texto_processado)
-        
-        # # Lematização das palavras e remoção de stop words
-        palavras_lematizadas = [token.lemma_ for token in doc if not token.is_stop]
-        
-        #Reconstroi o texto a partir das palavras lematizadas
-        texto_processado = ' '.join(palavras_lematizadas)
-        
-        # Adiciona o texto processado à lista de textos processados
-        textos_processados.append(texto_processado)
-    
-    return textos_processados
-
 def preprocess_text(textos, nlp_model):
     inicio = time.time()
     print(inicio)
