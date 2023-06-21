@@ -3,6 +3,7 @@ import requests
 import random
 import re
 import json
+import pickle
 from bs4 import BeautifulSoup
 
 # Lista de palavras-chave
@@ -362,6 +363,13 @@ api_url = "https://pt.wikipedia.org/w/api.php"
 
 # Número máximo de páginas para cada palavra-chave
 max_pages_per_keyword = 4
+
+with open("extrairTextos/topicos/topicos_biologia.pickle", "rb") as file:
+    biologia2 = pickle.load(file, encoding='utf-8')
+
+biologia.extend(biologia2)
+
+print(len(biologia), len(biologia2))
 
 # Itera sobre as palavras-chave
 for keyword in biologia:
