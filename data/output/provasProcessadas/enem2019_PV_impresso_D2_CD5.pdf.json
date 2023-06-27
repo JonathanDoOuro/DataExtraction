@@ -1,6 +1,6 @@
 [
     {
-        "id": "gdfsgsgd32",
+        "numero_da_questão": 0,
         "enunciado": " \nUma casa tem um cabo elétrico mal dimensionado, \nde resistência igual a 10 Ω, que a conecta à rede elétrica \nde 120 V. Nessa casa, cinco lâmpadas, de resistência \nigual a 200 Ω, estão conectadas ao mesmo circuito que \numa televisão de resistência igual a 50 Ω, conforme \nilustrado no esquema. A televisão funciona apenas com \ntensão entre 90 V e 130 V.\n10 Ω\n200 Ω\n200 Ω\n200 Ω\n200 Ω\n200 Ω\n50 Ω\n120 V\nO número máximo de lâmpadas que podem ser ligadas \nsem que a televisão pare de funcionar é:",
         "alternativas": {
             "A": "1.",
@@ -9,17 +9,11 @@
             "D": "4.",
             "E": "5.\n"
         },
-        "resposta":"A",
-        
         "metadados": {
             "vestibular": "enem",
             "ano_prova": 2019,
             "quantidade_alternativas": 5,
-            "codigo_prova": "_PV_impresso_D2_CD5",
-            "licenca": "creative commons",
-            "area_conhecimento": "geografia",
-            "topico_questao": ["revolução_industrial", ""],
-            "numero_da_questão_na_prova": 0
+            "codigo_prova": "_PV_impresso_D2_CD5"
         }
     },
     {
