@@ -9,7 +9,7 @@ def abrir(arquivo):
     return prova
 
 def processarString(texto):
-    texto = re.sub(r"CH\s-\s\d+º\sdia\s\|\sCaderno\s\d+\s-\s[A-Z]+\s-\sPágina\s\d+\n\d+\n", "", texto)
+    texto = re.sub(r"[A-Z]+\s-\s\d+º\sdia\s\|\sCaderno\s\d+\s-\s[A-Z]+\s-\sPágina\s\d+\s\d+", "", texto)
 
     texto = re.sub(r"\n", " ", texto)
 
@@ -29,7 +29,7 @@ def aplicar_funcao_no_dicionario(dicionario, funcao):
     return novo_dicionario
 
 def salvar(file):
-    with open("data/output/" + "dicionarioAvalicao.json", "w") as arquivo:
+    with open("data/output/" + "dicionarioAvalicao2.json", "w") as arquivo:
         zipado = json.dumps(file)
         arquivo.write(zipado)
 

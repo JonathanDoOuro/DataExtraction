@@ -714,7 +714,7 @@
         }
     },
     {
-        "-------numero_da_questão": 42,
+        "---numero_da_questão": 42,
         "texto": " \nA questão ambiental, uma das principais pautas \ncontemporâneas, \npossibilitou \no \nsurgimento \nde \nconcepções políticas diversas, dentre as quais se destaca \na preservação ambiental, que sugere uma ideia de \nintocabilidade da natureza e impede o seu aproveitamento \neconômico sob qualquer justificativa.\nPORTO-GONÇALVES, C. W. A globalização da natureza e a natureza da \nglobalização. Rio de Janeiro: Civilização Brasileira, 2006 (adaptado).\nConsiderando as atuais concepções políticas sobre a \nquestão ambiental, a dinâmica caracterizada no texto \nquanto à proteção do meio ambiente está baseada na",
         "alternativas": {
             "A": "prática econômica sustentável.",
@@ -748,7 +748,7 @@
         }
     },
     {
-        "numero_da_questão": 44,
+        "---numero_da_questão": 44,
         "texto": " \nA indústria têxtil utiliza grande quantidade de corantes \nno processo de tingimento dos tecidos. O escurecimento \ndas águas dos rios causado pelo despejo desses \ncorantes pode desencadear uma série de problemas no \necossistema aquático. \nConsiderando esse escurecimento das águas, o impacto \nnegativo inicial que ocorre é o(a)",
         "alternativas": {
             "A": "eutrofização.",
@@ -765,7 +765,7 @@
         }
     },
     {
-        "-----numero_da_questão": 45,
+        "---numero_da_questão": 45,
         "texto": " \nMuitos estudos de síntese e endereçamento de \nproteínas utilizam aminoácidos marcados radioativamente \npara acompanhar as proteínas, desde fases iniciais de \nsua produção até seu destino final. Esses ensaios foram \nmuito empregados para estudo e caracterização de \ncélulas secretoras.\nApós esses ensaios de radioatividade, qual gráfico \nrepresenta a evolução temporal da produção de proteínas \ne sua localização em uma célula secretora?",
         "alternativas": {
             "A": " \n5 min                    10 min                   15 min\n100\n90\n80\n70\n60\n50\n40\n30\n20\n10\n0\nTempo\nRadioatividade (%)\nRetículo Endoplasmático\nComplexo Golgiense\nVesículas de Secreção",
@@ -867,7 +867,7 @@
         }
     },
     {
-        "numero_da_questão": 51,
+        "---numero_da_questão": 51,
         "texto": " \nUm importante princípio da biologia, relacionado à \ntransmissão de caracteres e à embriogênese humana, \nfoi quebrado com a descoberta do microquimerismo \nfetal. Microquimerismo é o nome dado ao fenômeno \nbiológico referente a uma pequena população de células \nou DNA presente em um indivíduo, mas derivada de um \norganismo geneticamente distinto. Investigando-se a \npresença do cromossomo Y, foi revelado que diversos \ntecidos de mulheres continham células masculinas. \nA análise do histórico médico revelou uma correlação \nextremamente curiosa: apenas as mulheres que antes \ntiveram filhos homens apresentaram microquimerismo \nmasculino. Essa correlação levou à interpretação de que \nexiste uma troca natural entre células do feto e maternas \ndurante a gravidez.\nMUOTRI, A. Você não é só você: carregamos células maternas na maioria de nossos \nórgãos. Disponível em: http://g1.globo.com. Acesso em: 4 dez. 2012 (adaptado).\nO princípio contestado com essa descoberta, relacionado \nao desenvolvimento do corpo humano, é o de que",
         "alternativas": {
             "A": "o fenótipo das nossas células pode mudar por \ninfluência do meio ambiente.",
@@ -901,7 +901,7 @@
         }
     },
     {
-        "numero_da_questão": 53,
+        "---numero_da_questão": 53,
         "texto": " \nAlgumas raças de cães domésticos não conseguem \ncopular entre si devido à grande diferença em seus \ntamanhos \ncorporais. Ainda \nassim, \ntal \ndificuldade \nreprodutiva não ocasiona a formação de novas espécies \n(especiação).\nEssa especiação não ocorre devido ao(à)",
         "alternativas": {
             "A": "oscilação genética das raças.",
@@ -986,7 +986,7 @@
         }
     },
     {
-        "numero_da_questão": 58,
+        "---numero_da_questão": 58,
         "texto": " \nO nitrogênio é essencial para a vida e o maior \nreservatório global desse elemento, na forma de N2, \né a atmosfera. Os principais responsáveis por sua \nincorporação na matéria orgânica são microrganismos \nfixadores de N2, que ocorrem de forma livre ou simbiontes \ncom plantas.\nADUAN, R. E. et al. Os grandes ciclos biogeoquímicos do planeta. \nPlanaltina: Embrapa, 2004 (adaptado).\nAnimais garantem suas necessidades metabólicas desse \nelemento pela",
         "alternativas": {
             "A": "absorção do gás nitrogênio pela respiração.",
@@ -1071,7 +1071,7 @@
         }
     },
     {
-        "numero_da_questão": 63,
+        "---numero_da_questão": 63,
         "texto": " \nA cariotipagem é um método que analisa células de \num indivíduo para determinar seu padrão cromossômico. \nEssa técnica consiste na montagem fotográfica, em \nsequência, dos pares de cromossomos e permite identificar \num indivíduo normal (46, XX ou 46, XY) ou com alguma \nalteração cromossômica. A investigação do cariótipo \nde uma criança do sexo masculino com alterações \nmorfológicas e comprometimento cognitivo verificou que \nela apresentava fórmula cariotípica 47, XY, +18.\nA alteração cromossômica da criança pode ser \nclassificada como",
         "alternativas": {
             "A": "estrutural, do tipo deleção.",
@@ -1088,7 +1088,7 @@
         }
     },
     {
-        "numero_da_questão": 64,
+        "---numero_da_questão": 64,
         "texto": " \nDurante uma expedição, um grupo de estudantes \nperdeu-se de seu guia. Ao longo do dia em que esse \ngrupo estava perdido, sem água e debaixo de sol, os \nestudantes passaram a sentir cada vez mais sede. \nConsequentemente, o sistema excretor desses indivíduos \nteve um acréscimo em um dos seus processos funcionais.\nNessa situação o sistema excretor dos estudantes",
         "alternativas": {
             "A": "aumentou a filtração glomerular.",
@@ -1122,7 +1122,7 @@
         }
     },
     {
-        "numero_da_questão": 66,
+        "---numero_da_questão": 66,
         "texto": " \nNormalmente, as células do organismo humano \nrealizam a respiração aeróbica, na qual o consumo de uma \nmolécula de glicose gera 38 moléculas de ATP. Contudo, \nem condições anaeróbicas, o consumo de uma molécula \nde glicose pelas células é capaz de gerar apenas duas \nmoléculas de ATP.\n40\n20\n0\n28\n35\n42\n1\n2\n3\n4\n5\nConsumo de glicose\n(unidades arbitrárias)\nConcentração de oxigênio\n(unidades arbitrárias)\n7\n14\n21\nQual curva representa o perfil de consumo de glicose, \npara manutenção da homeostase de uma célula que \ninicialmente está em uma condição anaeróbica e é \nsubmetida a um aumento gradual da concentração \nde oxigênio?",
         "alternativas": {
             "A": "1",
@@ -1173,7 +1173,7 @@
         }
     },
     {
-        "numero_da_questão": 69,
+        "---numero_da_questão": 69,
         "texto": " \nTanto a febre amarela quanto a dengue são doenças \ncausadas por vírus do grupo dos arbovírus, pertencentes \nao gênero Flavivirus, existindo quatro sorotipos para \no vírus causador da dengue. A transmissão de ambas \nacontece por meio da picada de mosquitos, como o \nAedes aegypti. Entretanto, embora compartilhem essas \ncaracterísticas, hoje somente existe vacina, no Brasil, para \na febre amarela e nenhuma vacina efetiva para a dengue.\nMINISTÉRIO DA SAÚDE. Fundação Nacional de Saúde. Dengue: Instruções para pessoal de \ncombate ao vetor. Manual de Normas Técnicas. Disponível em: http://portal.saude.gov.br. \nAcesso em: 7 ago. 2012 (adaptado).\nEsse fato pode ser atribuído à",
         "alternativas": {
             "A": "maior taxa de mutação do vírus da febre amarela do \nque do vírus da dengue.",
@@ -1207,7 +1207,7 @@
         }
     },
     {
-        "numero_da_questão": 71,
+        "----numero_da_questão": 71,
         "texto": " \nA palavra “biotecnologia” surgiu no século XX, \nquando o cientista Herbert Boyer introduziu a informação \nresponsável pela fabricação da insulina humana em uma \nbactéria, para que ela passasse a produzir a substância.\nDisponível em: www.brasil.gov.br. Acesso em: 28 jul. 2012 (adaptado).\nAs bactérias modificadas por Herbert Boyer passaram a \nproduzir insulina humana porque receberam",
         "alternativas": {
             "A": "a sequência de DNA codificante de insulina humana.",
@@ -1275,7 +1275,7 @@
         }
     },
     {
-        "numero_da_questão": 75,
+        "---numero_da_questão": 75,
         "texto": " \nA definição de queimadura é bem ampla, porém, \nbasicamente, é a lesão causada pela ação direta ou \nindireta produzida pela transferência de calor para o \ncorpo. A sua manifestação varia desde bolhas (flictenas) \naté formas mais graves, capazes de desencadear \nrespostas sistêmicas proporcionais à gravidade da lesão \ne sua respectiva extensão. Muitas vezes, os primeiros \nsocorros prestados à vítima, ao invés de ajudar, acabam \nagravando ainda mais a situação do paciente.\nDisponível em: www.bombeiros-bm.rs.gov.br. Acesso em: 28 fev. 2012 (adaptado).\nAo se deparar com um indivíduo que sofreu queimadura \ncom formação de flictena, o procedimento de primeiros \nsocorros que deve ser realizado antes de encaminhar o \npaciente ao hospital é",
         "alternativas": {
             "A": "colocar gelo sobre a flictena para amenizar o ardor.",
@@ -1360,7 +1360,7 @@
         }
     },
     {
-        "numero_da_questão": 80,
+        "----numero_da_questão": 80,
         "texto": " \nOs anfíbios representam o primeiro grupo de \nvertebrados que, evolutivamente, conquistou o ambiente \nterrestre. Apesar disso, a sobrevivência do grupo ainda \npermanece restrita a ambientes úmidos ou aquáticos, \ndevido à manutenção de algumas características \nfisiológicas relacionadas à água.\nUma das características a que o texto se refere é a",
         "alternativas": {
             "A": "reprodução por viviparidade.",
@@ -1428,7 +1428,7 @@
         }
     },
     {
-        "numero_da_questão": 84,
+        "---numero_da_questão": 84,
         "texto": " \nO formato das células de organismos pluricelulares é \nextremamente variado. Existem células discoides, como \né o caso das hemácias, as que lembram uma estrela, \ncomo os neurônios, e ainda algumas alongadas, como as \nmusculares.\nEm um mesmo organismo, a diferenciação dessas células \nocorre por",
         "alternativas": {
             "A": "produzirem mutações específicas.",
@@ -1462,7 +1462,7 @@
         }
     },
     {
-        "numero_da_questão": 86,
+        "---numero_da_questão": 86,
         "texto": " \nEuphorbia milii é uma planta ornamental amplamente disseminada no Brasil e conhecida como coroa-de-cristo. \nO estudo químico do látex dessa espécie forneceu o mais potente produto natural moluscicida, a miliamina L.\nMOREIRA, C. P. S.; ZANI, C. L.; ALVES, T. M. A. Atividade moluscicida do látex de Synadenium carinatum boiss. (Euphorbiaceae) sobre Biomphalaria glabrata \ne isolamento do constituinte majoritário. Revista Eletrônica de Farmácia, n. 3, 2010 (adaptado).\nO uso desse látex em água infestada por hospedeiros intermediários tem potencial para atuar no controle da",
         "alternativas": {
             "A": "dengue.",

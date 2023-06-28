@@ -1,38 +1,28 @@
-import glob
 import json
-import codecs
-import pickle
-import random
-import os
 
-# folder_path = 'data/output'  # Replace with the actual folder path
+with open("data/output/temp.json", "r") as file:
+    temp = json.load(file)
 
-# # Get a list of all JSON files in the folder
-# json_files = glob.glob(folder_path + '/*.json')
+with open("data/output/dicionarioAvalicao2.json", "r") as file:
+    avaliacao = json.load(file)
 
-# # Iterate over each JSON file and open it if it's UTF-8 encoded
-# for file_path in json_files:
-#     with codecs.open(file_path, 'r', encoding='utf-8') as file:
-#         json_data = json.load(file)
-#         print(json_data[1]["texto"])
+dataBio = dict()
+labelsBio = []
+questoesBio = []
+# dataBio["labels"] = []
+# dataBio["questoes"] = []
 
-# with open('vetorTextos.pickle', 'rb') as file:
-#     data = pickle.load(file)
+questoes: list = avaliacao["questoes"]
+labels: list = avaliacao["labels"]
 
-# for x in data:
-#     print(x)
-#     break
+for label in labels:
+    if "---" in label:
+        labelsBio.append(label.replace("---", ""))
+        questoesBio.append(questoes[labels.index(label)])
 
-# arquivos = os.listdir("extrairTextos/topicos")
+dataBio["questoes"] = questoesBio
+dataBio["labels"] = labelsBio
 
-# print(arquivos)
-
-# for arquivo in arquivos:
-#     with open(f"extrairTextos/topicos/{arquivo}", "rb") as file:
-#         data = pickle.load(file)
-
-#     with open("vizualize.txt", "w") as arquivo2:
-#         print(len(data),": " ,data, file=arquivo2)
-vetor_triplas = [("a", "b", "c"), ("d", "e", "f")]
-
-vetor_a, vetor_b, vetor_c = zip(*vetor_triplas)
+with open("data/output/avaliacaoBio.json", "w") as file:
+    x = json.dumps(dataBio)
+    file.write(x)
