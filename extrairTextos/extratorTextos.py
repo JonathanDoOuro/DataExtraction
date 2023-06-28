@@ -309,12 +309,7 @@ quimica = [
     "Química analítica"
 ]
 
-sample_test = ["Manifestações artísticas em contextos diferentes", 
-    "grupos sociais",
-    "democracia"]
-
 keywords = portugues + literatura + matematica + sociologia + geografia + historia + filosofia + biologia + fisica + quimica
-
 
 def filtrar_texto(texto):
     # Expressão regular para encontrar a expressão matemática
@@ -362,14 +357,31 @@ test_dataset = []
 api_url = "https://pt.wikipedia.org/w/api.php"
 
 # Número máximo de páginas para cada palavra-chave
-max_pages_per_keyword = 4
+max_pages_per_keyword = 6
+
+### adiciona novos topicos
+
+def extrair_palavras(vetor_strings):
+    palavras = []
+
+    for string in vetor_strings:
+        palavras.extend(string.split())
+
+    return palavras
+
+with open("data/output/temp.json", "r") as file:
+    temp = json.load(file)
+    topicosBio = []
+    for string in temp["labels"]:
+        if "---" in string:
+            string = string.replace("---","")
+            topicosBio.extend(string.split())
 
 with open("extrairTextos/topicos/topicos_biologia.pickle", "rb") as file:
     biologia2 = pickle.load(file, encoding='utf-8')
 
 biologia.extend(biologia2)
-
-print(len(biologia), len(biologia2))
+biologia.extend(topicosBio)
 
 # Itera sobre as palavras-chave
 for keyword in biologia:
@@ -424,9 +436,9 @@ for keyword in biologia:
         for element in main_content_div:
             if element.name == "p":  # Filtra apenas parágrafos
                 if(contar_palavras(element.get_text()) >= 15 and (not possui_muitos_simbolos(element.get_text()))):    
-                    if(i != 3):
+                    if(i != 6):
                         train_dataset.append((filtrar_texto(element.get_text()), title, keyword))
-                    elif (i == 3):
+                    elif (i == 5):
                         test_dataset.append((filtrar_texto(element.get_text()), title, keyword))
         i+=1
     fim = time.time()  # Captura o tempo de término
@@ -434,11 +446,9 @@ for keyword in biologia:
     print("Tempo de execução:", tempo_execucao, "segundos")
 
 train_dataset_json = json.dumps(train_dataset)
-with open("extrairTextos/DataSetGeral/train_dataset.json", "w") as file:
+with open("extrairTextos/DataSetGeral/biologia_train_dataset.json", "w") as file:
     file.write(train_dataset_json)
 
 test_dataset_json = json.dumps(test_dataset)
-with open("extrairTextos/DataSetGeral/test_dataset.json", "w") as file:
+with open("extrairTextos/DataSetGeral/biologia_test_dataset.json", "w") as file:
     file.write(test_dataset_json)
-
-print("train: ", len(train_dataset))
