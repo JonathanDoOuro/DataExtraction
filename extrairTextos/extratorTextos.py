@@ -447,9 +447,9 @@ for keyword in keywords:
     print("Tempo de execução:", tempo_execucao, "segundos")
 
 train_dataset_json = json.dumps(train_dataset)
-with open("extrairTextos/DataSetGeral/biologia_train_dataset.json", "w") as file:
+with open("extrairTextos/DataSetGeral/train_dataset.json", "w") as file:
     file.write(train_dataset_json)
 
 test_dataset_json = json.dumps(test_dataset)
-with open("extrairTextos/DataSetGeral/biologia_test_dataset.json", "w") as file:
+with open("extrairTextos/DataSetGeral/test_dataset.json", "w") as file:
     file.write(test_dataset_json)
