@@ -369,22 +369,23 @@ def extrair_palavras(vetor_strings):
 
     return palavras
 
-with open("data/output/temp.json", "r") as file:
-    temp = json.load(file)
-    topicosBio = []
-    for string in temp["labels"]:
-        if "---" in string:
-            string = string.replace("---","")
-            topicosBio.extend(string.split())
+with open("data/output/dicionarioAvalicao2.json", "r") as file:
+    avaliacao = json.load(file)
+    topicosNovos = []
+    topicosNovos.extend(extrair_palavras(avaliacao["labels"]))
 
-with open("extrairTextos/topicos/topicos_biologia.pickle", "rb") as file:
-    biologia2 = pickle.load(file, encoding='utf-8')
+with open("extrairTextos/topicos/topicos_keywords.pickle", "rb") as file:
+    topicosGerais = pickle.load(file, encoding='utf-8')
 
-biologia.extend(biologia2)
-biologia.extend(topicosBio)
+keywords.extend(topicosNovos)
+keywords.extend(topicosGerais)
+
+keywords = list(set(keywords))
+
+print(len(keywords))
 
 # Itera sobre as palavras-chave
-for keyword in biologia:
+for keyword in keywords:
     inicio = time.time()
     print("Palavra-chave:", keyword)
 
