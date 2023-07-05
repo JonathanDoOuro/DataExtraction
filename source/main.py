@@ -56,6 +56,8 @@ def extrairDados(pasta_input, extratorQuestoes: DataExtractor, outputPath):
         #salva o texto extraido
         with open(f'{outputPath}/provasBrutas/{arquivo}.txt', 'w') as file:
             print(texto, file=file)
+        # TO-DO: extrair gabarito e passar o extrator de questões
+
         #processa o texto e extrai cada questão separadamente
         questoes = extratorQuestoes.questoes(texto=texto, salvar=False)
         #salva as questões em um arquivo json
