@@ -1,4 +1,5 @@
 from DataExtractor import DataExtractor
+from GabatritoExtractor import GabaritoExtractor
 import os
 import re
 from dbacess import BancoMongo
@@ -42,7 +43,7 @@ def simpleMetaData(arquivo):
             "qtd_questoes": numeroQuestoes
             }
 
-def extrairDados(pasta_input, extratorQuestoes: DataExtractor, outputPath):
+def extrairDados(pasta_input, extratorQuestoes: DataExtractor, outputPath, extratorGabarito: GabaritoExtractor):
     for arquivo in pasta_input:
         print("extraindo: ", arquivo)
         metaData = simpleMetaData(arquivo)
@@ -57,9 +58,9 @@ def extrairDados(pasta_input, extratorQuestoes: DataExtractor, outputPath):
         with open(f'{outputPath}/provasBrutas/{arquivo}.txt', 'w') as file:
             print(texto, file=file)
         # TO-DO: extrair gabarito e passar o extrator de questões
-
+        gabarito = extratorGabarito.gabarito(arquivo)
         #processa o texto e extrai cada questão separadamente
-        questoes = extratorQuestoes.questoes(texto=texto, salvar=False)
+        questoes = extratorQuestoes.questoes(texto=texto, salvar=False, gabarito=gabarito)
         #salva as questões em um arquivo json
         with open(f'{outputPath}/provasProcessadas/{arquivo}.json', 'w') as file:
             print(questoes, file=file)
@@ -80,7 +81,8 @@ def extrairSalvarNoBanco(pasta_input, extratorQuestoes: DataExtractor, outputPat
 
 def main():
     #paths
-    inputPath = "data/input"
+    inputPathGabaritos = "data/input/gabaritos"
+    inputPathprovas = "data/input/provas"
     outputPath = "data/output"
 
     #banco de questoes
@@ -90,14 +92,17 @@ def main():
 
     #extrator de questoes
     extratorQuestoes = DataExtractor(outputPath=outputPath)
-    extratorQuestoes.setInputPath(inputPath=inputPath)
+    extratorQuestoes.setInputPath(inputPath=inputPathprovas)
     extratorQuestoes.setBancoDados(bancoMongo)
 
-    #pasta de arquivos do input
-    pasta_input = os.listdir(inputPath)
+    #pasta de provas
+    pasta_input = os.listdir(inputPathprovas)
+
+    #extrator de gabaritos
+    extratorGabaritos = GabaritoExtractor(outputPath="gabarito/output", inputPath="data/input/gabaritos")
 
     #extrair pdf e salva em uma pasta o texto completo e as questões
-    extrairDados(pasta_input=pasta_input, extratorQuestoes=extratorQuestoes, outputPath=outputPath)
+    extrairDados(pasta_input=pasta_input, extratorQuestoes=extratorQuestoes, outputPath=outputPath, extratorGabarito=extratorGabaritos)
 
 if __name__ == "__main__":
     main()
