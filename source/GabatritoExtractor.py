@@ -11,13 +11,29 @@ class GabaritoExtractor:
     def extrair_texto_do_pdf(self, arquivo):
         doc = fitz.open(f'{self.inputPath}/{arquivo}')  # open document
         texto = ''
-        for page in doc:  #iterate the document pages
-            text = page.get_text(sort=False)  # get plain text (is in UTF-8)
-            texto += text
+
+        for page in doc:
+            # Dividir a página verticalmente
+            width = page.rect.width
+            height = page.rect.height
+            mid_x = width / 2
+
+            # Extrair o texto da metade esquerda
+            left_rect = fitz.Rect(page.rect.tl, (mid_x, page.rect.br.y))
+            left_text = page.get_textbox(left_rect)
+
+            # Extrair o texto da metade direita
+            right_rect = fitz.Rect((mid_x, page.rect.tl.y), page.rect.br)
+            right_text = page.get_textbox(right_rect)
+
+            # Adicionar o texto extraído ao resultado
+            texto += left_text + right_text
+
         return texto
     
     def _extrair_gabarito(self, texto):
-        padrao = r'(\d+)\n([A-Z])\n'
+        #padrao = r'(\d+)\n\s*([A-Z])\n'
+        padrao = r'(\d+)?\s*\n\s*([A-Z])\s*\n'
         matches = re.findall(padrao, texto)
         
         gabarito = {}
