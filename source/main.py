@@ -1,4 +1,4 @@
-from DataExtractor import DataExtractor
+from source.QuestionExtractor import DataExtractor
 from GabatritoExtractor import GabaritoExtractor
 import os
 import re
@@ -57,7 +57,7 @@ def extrairDados(pasta_input, extratorQuestoes: DataExtractor, outputPath, extra
         #salva o texto extraido
         with open(f'{outputPath}/provasBrutas/{arquivo}.txt', 'w') as file:
             print(texto, file=file)
-        # TO-DO: extrair gabarito e passar o extrator de questões
+        # extrai gabarito e passa para o extrator de questões
         gabarito = extratorGabarito.gabarito(arquivo)
         #processa o texto e extrai cada questão separadamente
         questoes = extratorQuestoes.questoes(texto=texto, salvar=False, gabarito=gabarito)

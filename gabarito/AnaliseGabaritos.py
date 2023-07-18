@@ -1,7 +1,7 @@
 import os
 import json
 
-path = "gabarito/output/"
+path = "gabarito/gabaritos/"
 
 arquivos = os.listdir(path)
 
