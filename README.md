@@ -4,7 +4,7 @@
 
 A contribuição principal desse trabalho é um conjunto de dados de questões e um modelo de tópicos, ambos fundamentais no treinamento e no ambiente de produção de um modelo gerador de questões.
 
-Esses dados alimentam modelos generativos de textos que são utilizados no projeto *Quizzing*, uma plataforma onde professores e alunos podem gerar quizzes através de prompts para uma inteligência artificial que gera quizzes baseados nas instruções do usuário.
+Esses dados alimentam modelos generativos de textos utilizados no projeto *Quizzing*, uma plataforma onde professores e alunos podem gerar quizzes através de prompts para uma inteligência artificial que gera quizzes baseados nas instruções do usuário. O projeto *Quizzing* é idealizado por Julio Cesar dos Reis, professor Associado do instituto de computação da UNICAMP. 
 
 ## Dataset de questões
 
