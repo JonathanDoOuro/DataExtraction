@@ -10,7 +10,7 @@ Esses dados alimentam modelos generativos de textos que são utilizados no proje
 
 Para obter o *dataset*, utilizamos bibliotecas de extração de texto como *pyMupdf* e uma técnica de processamento de linguagem natural conhecida como modelagem de tópicos. Primeiro, extraímos o texto bruto das provas de vestibular; em seguida, realizamos um processamento para separar e estruturar as questões em um formato adequado para o modelo gerador de questões consumir.
 
-
+Para ter acesso as questões acesse `data/ouptput/Finais`
 
 ```
 {
