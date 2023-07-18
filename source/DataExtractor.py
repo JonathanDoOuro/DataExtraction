@@ -76,7 +76,7 @@ class DataExtractor:
         return out
 
     def dividirQuestoesEnem(self, texto):
-        listaQuestoes = []
+        listaQuestoes = dict()
         if (self.quantidade_questoes > 90):
             inicio = 91
         else:
@@ -89,7 +89,7 @@ class DataExtractor:
             questaoBruta = re.search(pattern, texto)
             if (questaoBruta != None):
                 questao = questaoBruta.group(0)
-                listaQuestoes.append(questao)
+                listaQuestoes[i] = questao
 
         return listaQuestoes
 
@@ -109,7 +109,7 @@ class DataExtractor:
             escolhas["E"] = alternativas[4]
         return escolhas
     
-    def desestruturarQuestaoEnem(self, questao, index):
+    def desestruturarQuestaoEnem(self, questao, index, resposta):
         #retira info desnecessaria
         questao = questao.split("*")[0]
         #separa o texto das alternativas
@@ -121,8 +121,10 @@ class DataExtractor:
             #salva as informações em um dicionario
             dicionario = dict()
             dicionario['numero_da_questão'] = index
-            dicionario["texto"] = texto
+            dicionario["enunciado"] = texto
             dicionario["alternativas"] = self.desestruturarAlternativas(perguntas)
+            dicionario["resposta"] = resposta
+            dicionario["topicos"] = []
             #metadados da questão
             dicionario["metadados"] = dict()
             dicionario["metadados"]["vestibular"] = self.vestibular
@@ -149,7 +151,7 @@ class DataExtractor:
                             r"Texto comum para questões \d+(?:,\s*\d+)*(?:\s*e\s*\d+)?",
                             r"Leia os textos 1 e 2, a seguir, para responder às questões \d+(?:,\s*\d+)*(?:\s*e\s*\d+)?"]    
 
-        listaQuestoes = []
+        listaQuestoes = dict()
         textoExtra = ""
         addTextoExtra = []
         for i in range(1, self.quantidade_questoes):
@@ -179,12 +181,12 @@ class DataExtractor:
                             addTextoExtra.extend(self.listaNumeros(separador))                            
                 if(i in addTextoExtra):
                     questao = textoExtra + questao
-                    listaQuestoes.append(questao)
+                    listaQuestoes[i] = questao
                 else:
-                    listaQuestoes.append(questao)
+                    listaQuestoes[i] = questao
         return listaQuestoes
     
-    def desestruturarQuestaoUnicamp(self, questao, index):
+    def desestruturarQuestaoUnicamp(self, questao, index, resposta):
         question_regex = re.compile(r'(.+)\na\) (.+)\nb\) (.+)\nc\) (.+)\nd\) (.+)', re.DOTALL)
         questaoDividida = re.findall(question_regex, questao)
         if (questaoDividida):
@@ -196,6 +198,8 @@ class DataExtractor:
             dicionario['numero_da_questão'] = index
             dicionario["texto"] = texto
             dicionario["alternativas"] = self.desestruturarAlternativas(perguntas)
+            dicionario["resposta"] = resposta
+            dicionario["topicos"] = []
             #metadados da questão
             dicionario["metadados"] = dict()
             dicionario["metadados"]["vestibular"] = self.vestibular
@@ -208,7 +212,7 @@ class DataExtractor:
             dicionario["erro"] = 'padrão de questão não reconhecido'
         return dicionario
 
-    def questoes(self, texto, salvar: bool):
+    def questoes(self, texto, salvar: bool, gabarito: dict):
         if(self.vestibular == "unicamp"):
             questoes = self.dividirQuestoesUnicamp(texto=texto)
             listaQuestoes = []
@@ -218,8 +222,12 @@ class DataExtractor:
                     listaQuestoes.append(questaoDestruturadaUnicamp)
                     self.banco.saveQuestion(questaoDestruturadaUnicamp)
             else:
-                for questao in questoes:
-                    questaoDestruturadaUnicamp = self.desestruturarQuestaoUnicamp(questao, questoes.index(questao))
+                for numero, questao in questoes.items():
+                    try:
+                        questaoDestruturadaUnicamp = self.desestruturarQuestaoUnicamp(questao, numero, gabarito[numero])
+                    except KeyError:
+                        questaoDestruturadaUnicamp = self.desestruturarQuestaoUnicamp(questao, numero, "anulada")
+
                     listaQuestoes.append(questaoDestruturadaUnicamp)
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)
         elif (self.vestibular == "enem"):
@@ -231,8 +239,11 @@ class DataExtractor:
                     listaQuestoes.append(questaoDestruturadaEnem)
                     self.banco.saveQuestion(questaoDestruturadaEnem)
             else:
-                for questao in questoes:
-                    questaoDestruturadaEnem = self.desestruturarQuestaoEnem(questao, questoes.index(questao))
+                for numero, questao in questoes.items():
+                    try:    
+                        questaoDestruturadaEnem = self.desestruturarQuestaoEnem(questao, numero, gabarito[numero])
+                    except KeyError:
+                        questaoDestruturadaEnem = self.desestruturarQuestaoEnem(questao, numero, "anulada")
                     listaQuestoes.append(questaoDestruturadaEnem)
                     
             jsonLista = json.dumps(listaQuestoes, ensure_ascii=False)

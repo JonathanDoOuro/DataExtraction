@@ -1,8 +1,9 @@
 import time
 import requests
 import random
-import pickle
+import re
 import json
+import pickle
 from bs4 import BeautifulSoup
 
 # Lista de palavras-chave
@@ -308,11 +309,45 @@ quimica = [
     "Química analítica"
 ]
 
-sample_test = ["Manifestações artísticas em contextos diferentes", 
-    "grupos sociais",
-    "democracia"]
-
 keywords = portugues + literatura + matematica + sociologia + geografia + historia + filosofia + biologia + fisica + quimica
+
+def filtrar_texto(texto):
+    # Expressão regular para encontrar a expressão matemática
+    pattern = r'\\{0,2}\n*\{\\displaystyle.*?\n*\}'
+
+    # Substitui a expressão matemática encontrada por uma string vazia
+    texto_filtrado = re.sub(pattern, '', texto)
+
+    # Remove espaços e quebras de linha desnecessários
+    texto_filtrado = re.sub(r'\s+', ' ', texto_filtrado).strip()
+
+    return texto_filtrado.replace("\n", "")
+
+def contar_palavras(texto):
+    palavras = re.findall(r'\b[a-zA-Z]{5,}\b', texto)  # Encontra palavras formadas por letras com mais de 4 letras
+    return len(palavras)
+
+def possui_muitos_simbolos(texto, limite_proporcao=0.1):
+    # Remove espaços em branco para contar apenas caracteres
+    texto = texto.replace(" ", "")
+
+    # Conta a quantidade total de caracteres
+    total_caracteres = len(texto)
+
+    # Encontra os caracteres não alfabéticos
+    caracteres_nao_alfabeticos = re.findall(r'[^a-zA-Z]', texto)
+
+    # Conta a quantidade de caracteres não alfabéticos
+    total_nao_alfabeticos = len(caracteres_nao_alfabeticos)
+
+    # Calcula a proporção de caracteres não alfabéticos
+    proporcao_nao_alfabeticos = total_nao_alfabeticos / total_caracteres
+
+    # Verifica se a proporção ultrapassa o limite estabelecido
+    if proporcao_nao_alfabeticos > limite_proporcao:
+        return True
+    else:
+        return False
 
 train_dataset = []
 
@@ -322,10 +357,35 @@ test_dataset = []
 api_url = "https://pt.wikipedia.org/w/api.php"
 
 # Número máximo de páginas para cada palavra-chave
-max_pages_per_keyword = 4
+max_pages_per_keyword = 6
+
+### adiciona novos topicos
+
+def extrair_palavras(vetor_strings):
+    palavras = []
+
+    for string in vetor_strings:
+        palavras.extend(string.split())
+
+    return palavras
+
+with open("data/output/dicionarioAvalicao2.json", "r") as file:
+    avaliacao = json.load(file)
+    topicosNovos = []
+    topicosNovos.extend(extrair_palavras(avaliacao["labels"]))
+
+with open("extrairTextos/topicos/topicos_keywords.pickle", "rb") as file:
+    topicosGerais = pickle.load(file, encoding='utf-8')
+
+keywords.extend(topicosNovos)
+keywords.extend(topicosGerais)
+
+keywords = list(set(keywords))
+
+print(len(keywords))
 
 # Itera sobre as palavras-chave
-for keyword in random.sample(fisica, 5):
+for keyword in keywords:
     inicio = time.time()
     print("Palavra-chave:", keyword)
 
@@ -351,6 +411,7 @@ for keyword in random.sample(fisica, 5):
     i = 0
     # Itera sobre os títulos das páginas selecionadas
     for title in random_page_titles:
+        print("           Titulo:", title)
         # Parâmetros da consulta para obter o texto completo da página
         page_params = {
             "action": "parse",
@@ -375,19 +436,20 @@ for keyword in random.sample(fisica, 5):
         # Filtra as seções indesejadas e obtém somente o texto principal
         for element in main_content_div:
             if element.name == "p":  # Filtra apenas parágrafos
-                if(i != 3):
-                    train_dataset.append((element.get_text(), title, keyword))
-                elif (i == 3):
-                    test_dataset.append((element.get_text(), title, keyword))
+                if(contar_palavras(element.get_text()) >= 15 and (not possui_muitos_simbolos(element.get_text()))):    
+                    if(i != 6):
+                        train_dataset.append((filtrar_texto(element.get_text()), title, keyword))
+                    elif (i == 5):
+                        test_dataset.append((filtrar_texto(element.get_text()), title, keyword))
         i+=1
     fim = time.time()  # Captura o tempo de término
     tempo_execucao = fim - inicio
     print("Tempo de execução:", tempo_execucao, "segundos")
 
 train_dataset_json = json.dumps(train_dataset)
-with open("no_train_dataset.json", "w") as file:
+with open("extrairTextos/DataSetGeral/train_dataset.json", "w") as file:
     file.write(train_dataset_json)
 
 test_dataset_json = json.dumps(test_dataset)
-with open("no_test_dataset.json", "w") as file:
+with open("extrairTextos/DataSetGeral/test_dataset.json", "w") as file:
     file.write(test_dataset_json)
