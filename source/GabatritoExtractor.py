@@ -54,21 +54,3 @@ class GabaritoExtractor:
         with open(f'{self.outputPath}/{nome}.json', "w") as file: 
             x = json.dumps(dict)
             file.write(x)
-
-# def main():
-#     inputPath= "gabarito/input"
-#     outputPath = "gabarito/output"
-
-#     extrator = GabaritoExtractor(outputPath=outputPath)
-#     extrator.setInputPath(inputPath=inputPath)
-
-#     listaGabaritos = os.listdir(inputPath)
-
-#     texto = extrator.extrair_texto_do_pdf(listaGabaritos[1])
-
-#     gabarito = extrator.extrair_gabarito(texto)
-
-#     extrator.salvarDicionario("gabaritoTeste", outputPath, gabarito)
-
-# if __name__ == "__main__":
-#     main()

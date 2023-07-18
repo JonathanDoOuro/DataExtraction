@@ -65,20 +65,6 @@ def extrairDados(pasta_input, extratorQuestoes: DataExtractor, outputPath, extra
         with open(f'{outputPath}/provasProcessadas/{arquivo}.json', 'w') as file:
             print(questoes, file=file)
 
-def extrairSalvarNoBanco(pasta_input, extratorQuestoes: DataExtractor, outputPath):
-    for arquivo in pasta_input:
-        print("extraindo: ", arquivo)
-        metaData = simpleMetaData(arquivo)
-        extratorQuestoes.setMetaData(vestibular=metaData["vestibular"],
-                                        ano=metaData["data_prova"],
-                                        qtd_alternativas=metaData["qtd_alternativas"],
-                                        codigo=metaData["codigo"],
-                                        qtd_questoes=metaData["qtd_questoes"])
-        #extrai o texto completo do pdf e retorna uma string
-        texto = extratorQuestoes.extrair_texto_do_pdf(arquivo)
-        #processa o texto e extrai cada questão separadamente
-        extratorQuestoes.questoes(texto=texto, salvar=True)
-
 def main():
     #paths
     inputPathGabaritos = "data/input/gabaritos"
